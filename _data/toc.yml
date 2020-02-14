@@ -1,8 +1,8 @@
-- title: Documentation
+- title: Lesson Plans
   url: docs
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "Introduction"
+      url: "docs/index.html"
       children:
         - title: Features
           url: "docs/getting-started#getting-started"
