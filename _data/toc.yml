@@ -5,7 +5,7 @@
       url: "readme.md"
       children:
         - title: Curriculum Map
-          url: "curriculum_map.md"
+          url: "curriculum_map.html"
         - title: Development
           url: "docs/getting-started#development"
         - title: Customization
