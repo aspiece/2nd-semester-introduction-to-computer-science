@@ -1,49 +1,54 @@
-# 2nd Semester - Introduction To Computer Science
+# Docsy Jekyll Theme
 
-A 2nd semester follow-up to the [TEALS Intro CS course](https://tealsk12.gitbook.io/intro-cs/)
+[![CircleCI](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/vsoch/docsy-jekyll/tree/master)
+<a href="https://jekyll-themes.com/docsy-jekyll/">
+    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+</a>
 
-* GitHub: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science
-* GitBook: https://tealsk12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/
+![https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png](https://raw.githubusercontent.com/vsoch/docsy-jekyll/master/assets/img/docsy-jekyll.png)
 
-## About this curriculum
+This is a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based
+on the Beautiful [Docsy](https://github.com/google/docsy) that renders with Hugo. This version is intended for
+native deployment on GitHub pages. The original [Apache License](https://github.com/vsoch/docsy-jekyll/blob/master/LICENSE) is included.
 
-Welcome to the TEALS Intro to Computer Science Second Semester Curriculum. This curriculum is intended for use by TEALS classrooms teaching Introduction to Computer Science in a yearlong format. We expect that students have completed the content from the [1st semester course](https://tealsk12.gitbook.io/intro-cs/) prior to this curriculum.
+## Changes
 
-## Associated Readings
+The site is intended for purely documentation, so while the front page banner
+is useful for business or similar, this author (@vsoch) preferred to have
+the main site page go directly to the Documentation view. Posts
+are still provided via a feed.
 
-We have included with this curriculum Associated Readings to dive deeper into topics specific to the instruction of this course. These readings have been adapted from "Think Python: How to Think Like a Computer Scientist" by. Allen B. Downey. ([HTML Version](http://greenteapress.com/thinkpython/html/index.html))([PDF Version](http://www.greenteapress.com/thinkpython/thinkpython.pdf)).They are specifically referenced in the lesson plans and the [full document](readings.md) is included.
+## Usage
 
-## Curriculum Orientation
+### 1. Get the code
 
-Check out this 1-hour [Orientation to the Curriculum video](https://www.youtube.com/watch?v=UHgA_7x6-Qo)
+You can clone the repository right to where you want to host the docs:
 
-## Python Versions (2 vs 3)
+```bash
+git clone https://github.com/vsoch/docsy-jekyll.git docs
+cd docs
+```
 
-Python is an evolving language. Python 3 is a major upgrade to the language, released in 2010. There is a lot of existing software written under Python 2 and there is resistance to upgrading to Python 3 due to code breakage and cost. Just as a car part from a 10 year old model car will probably not fit a new model of the same car, Python 2 code probably would not run in a Python 3 environment. In Python 3 there are new features, significant upgrades "underneath" which makes the code run better and/or faster as well as no longer supporting (deprecating) some Python 2 capabilities. When looking at Python code, be careful to note whether it is Python 2 or Python 3.
+### 2. Customize
 
-### This class will use Python 3
+To edit configuration values, customize the [_config.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_config.yml).
+To add pages, write them into the [pages](https://github.com/vsoch/docsy-jekyll/blob/master/pages) folder. 
+You define urls based on the `permalink` attribute in your pages,
+and then add them to the navigation by adding to the content of [_data/toc.myl](https://github.com/vsoch/docsy-jekyll/blob/master/_data/toc.yml).
+The top navigation is controlled by [_data/navigation.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_data/navigation.yml)
 
-For those knowledgeable with Python 2, the following is a list of differences from Python 3 relevant to the 2nd semester intro course.
+### 3. Options
 
-| | Python 2 | Python 3 |
-| ------ | ---------- | --- |
-| Printing to console | print 3.14 | print (3.14) |
-| User input | raw_input()/input() | input () |
-| Integer arithmetic | 3/2 evaluates to 1 | 3/2 evaluates to 1.5 |
-| Not equal to | <> | != |
+Most of the configuration values in the [_config.yml](https://github.com/vsoch/docsy-jekyll/blob/master/_config.yml) are self explanatory,
+and for more details, see the [getting started page](https://vsoch.github.io/docsy-jekyll/docs/getting-started)
+rendered on the site.
 
-## Curriculum Issues
+### 4. Serve
 
-Please open an issue in GitHub if you encounter factual, spelling, or grammatical errors, sequencing problems (topics needed before they are taught), or incomplete/missing materials.
+Depending on how you installed jekyll:
 
-## Giving feedback on the curriculum
-
-TEALS intends for this curriculum to be a starting point for teachers. We'll continue to evolve, adapt the curriculum and associated materials. To participate in this process, we invite TEALS volunteers and classroom teachers using this curriculum to submit edits and suggestions via the [TEALS discussion forum](http://forums.tealsk12.org/) or in this [GitHub repository](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science). If you'd like to suggest changes or additions to the curriculum, please submit a GitHub Pull Request containing your changes. As a best practice, each pull request should contain a singular atomic change.
-
-## Printing GitBook
-
-The 2nd Semester Introduction to Computer Science GitBook can be printed by navigating to [PDF Version](https://pdf.gitbook.cloud/preview?url=https://tealsk12.gitbook.io/intro-cs-2/#).
-
-## Creative Commons Attribution Non-Commercial Share-alike License
-
-[This curriculum is licensed under the Creative Commons Attribution Non-Commercial Share-alike License](http://creativecommons.org/licenses/by-nc-sa/4.0/), which means you may share and adapt this material for non-commercial uses as long as you attribute its original source, and retain these same licensing terms.
+```bash
+jekyll serve
+# or
+bundle exec jekyll serve
+```
