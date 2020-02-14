@@ -2,7 +2,7 @@
   url: docs
   links:
     - title: "Lesson Plans"
-      url: "lesson_plans/getting-started"
+      url: "docs/lesson_plans"
       children:
         - title: Curriculum Map
           url: "docs/gettingstarted"
