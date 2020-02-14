@@ -2,7 +2,7 @@
   url: docs
   links:
     - title: "Introduction"
-      url: "docs/index.html"
+      url: "../readme.md"
       children:
         - title: Curriculum Map
           url: "../curriculum_map.md"
