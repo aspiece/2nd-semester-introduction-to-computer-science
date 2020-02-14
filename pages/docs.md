@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Documentation
+title: Introduction
 permalink: /docs/
 ---
-
-# Documentation
 
 # 2nd Semester - Introduction To Computer Science
 
