@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lesson Plans
-permalink: /lesson_plans/
+permalink: /docs/lesson_plans/
 ---
 
 # 2nd Semester - Introduction to Computer Science Curriculum Map
