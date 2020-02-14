@@ -4,8 +4,8 @@
     - title: "Introduction"
       url: "docs/index.html"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
+        - title: Curriculum Map
+          url: "../curriculum_map.md"
         - title: Development
           url: "docs/getting-started#development"
         - title: Customization
