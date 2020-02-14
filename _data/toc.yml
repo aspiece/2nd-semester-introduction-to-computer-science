@@ -2,10 +2,10 @@
   url: docs
   links:
     - title: "Introduction"
-      url: "../readme.md"
+      url: "readme.md"
       children:
         - title: Curriculum Map
-          url: "../curriculum_map.md"
+          url: "curriculum_map.md"
         - title: Development
           url: "docs/getting-started#development"
         - title: Customization
