@@ -1,3 +1,9 @@
+---
+layout: page
+title: Lesson Plans
+permalink: /lesson_plans/
+---
+
 # 2nd Semester - Introduction to Computer Science Curriculum Map
 
 ## Unit Order Considerations
@@ -153,3 +159,13 @@ As you implement this curriculum into your program, there are some things to con
 [Additional Topics]: cert.md
 [Microsoft Technology Associate (MTA) certification]: https://www.microsoft.com/en-us/learning/exam-98-381.aspx
 [Advanced Placement Computer Science A]: https://tealsk12.gitbook.io/apcsa/
+
+
+<div class="section-index">
+    <hr class="panel-line">
+    {% for post in site.docs  %}        
+    <div class="entry">
+    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+    <p>{{ post.description }}</p>
+    </div>{% endfor %}
+</div>

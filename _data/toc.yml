@@ -1,8 +1,8 @@
 - title: Introduction
   url: docs
   links:
-    - title: "Introduction"
-      url: "docs/getting-started"
+    - title: "Lesson Plans"
+      url: "lesson_plans/getting-started"
       children:
         - title: Curriculum Map
           url: "docs/gettingstarted"
