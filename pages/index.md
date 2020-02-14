@@ -1,41 +1,49 @@
----
-layout: page
-title: Docsy Jekyll Theme
-permalink: /
----
+# 2nd Semester - Introduction To Computer Science
 
-# Welcome to Docsy Jekyll
+A 2nd semester follow-up to the [TEALS Intro CS course](https://tealsk12.gitbook.io/intro-cs/)
 
-This is a starter template for a docsy jekyll theme.
+* GitHub: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science
+* GitBook: https://tealsk12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/
 
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
+## About this curriculum
 
-## Purpose
+Welcome to the TEALS Intro to Computer Science Second Semester Curriculum. This curriculum is intended for use by TEALS classrooms teaching Introduction to Computer Science in a yearlong format. We expect that students have completed the content from the [1st semester course](https://www.gitbook.com/book/teals-introcs/introduction-to-computer-science-principles/details) prior to this curriculum.
 
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I found Docsy, a beautiful Hugo template, but it requires hugo with GoLang
-which doesn't render natively on GitHub pages. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
+## Associated Readings
 
-## Features
+We have included with this curriculum Associated Readings to dive deeper into topics specific to the instruction of this course. These readings have been adapted from "Think Python: How to Think Like a Computer Scientist" by. Allen B. Downey. ([HTML Version](http://greenteapress.com/thinkpython/html/index.html))([PDF Version](http://www.greenteapress.com/thinkpython/thinkpython.pdf)).They are specifically referenced in the lesson plans and the [full document](readings.md) is included.
 
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
+## Curriculum Orientation
 
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+Check out this 1-hour [Orientation to the Curriculum video](https://www.youtube.com/watch?v=UHgA_7x6-Qo)
 
+## Python Versions (2 vs 3)
 
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
+Python is an evolving language. Python 3 is a major upgrade to the language, released in 2010. There is a lot of existing software written under Python 2 and there is resistance to upgrading to Python 3 due to code breakage and cost. Just as a car part from a 10 year old model car will probably not fit a new model of the same car, Python 2 code probably would not run in a Python 3 environment. In Python 3 there are new features, significant upgrades "underneath" which makes the code run better and/or faster as well as no longer supporting (deprecating) some Python 2 capabilities. When looking at Python code, be careful to note whether it is Python 2 or Python 3.
+
+### This class will use Python 3
+
+For those knowledgeable with Python 2, the following is a list of differences from Python 3 relevant to the 2nd semester intro course.
+
+| | Python 2 | Python 3 |
+| ------ | ---------- | --- |
+| Printing to console | print 3.14 | print (3.14) |
+| User input | raw_input()/input() | input () |
+| Integer arithmetic | 3/2 evaluates to 1 | 3/2 evaluates to 1.5 |
+| Not equal to | <> | != |
+
+## Curriculum Issues
+
+Please open an issue in GitHub if you encounter factual, spelling, or grammatical errors, sequencing problems (topics needed before they are taught), or incomplete/missing materials.
+
+## Giving feedback on the curriculum
+
+TEALS intends for this curriculum to be a starting point for teachers. We'll continue to evolve, adapt the curriculum and associated materials. To participate in this process, we invite TEALS volunteers and classroom teachers using this curriculum to submit edits and suggestions via the [TEALS discussion forum](http://forums.tealsk12.org/) or in this [GitHub repository](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science). If you'd like to suggest changes or additions to the curriculum, please submit a GitHub Pull Request containing your changes. As a best practice, each pull request should contain a singular atomic change.
+
+## Printing GitBook
+
+The 2nd Semester Introduction to Computer Science GitBook can be printed by navigating to [PDF Version](https://pdf.gitbook.cloud/preview?url=https://tealsk12.gitbook.io/intro-cs-2/#).
+
+## Creative Commons Attribution Non-Commercial Share-alike License
+
+[This curriculum is licensed under the Creative Commons Attribution Non-Commercial Share-alike License](http://creativecommons.org/licenses/by-nc-sa/4.0/), which means you may share and adapt this material for non-commercial uses as long as you attribute its original source, and retain these same licensing terms.
