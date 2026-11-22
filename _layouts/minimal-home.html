@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #fff; color: #1f2937; line-height: 1.55; }
+    header { background: #173b77; color: white; padding: 16px 20px; }
+    header a { color: white; text-decoration: none; font-weight: 700; }
+    main { max-width: 1080px; margin: auto; padding: 24px 18px 48px; }
+    .hero { background: #eff6ff; padding: 24px; border-radius: 12px; }
+    h1 { font-size: clamp(1.5rem, 4vw, 2.2rem); line-height: 1.2; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn { display: inline-block; background: #1d4ed8; color: white; padding: 10px 14px; border-radius: 8px; text-decoration: none; }
+    .btn-ghost { background: #dbeafe; color: #173b77; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+    .card { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid #cbd5e1; border-radius: 10px; color: inherit; text-decoration: none; }
+    .card:hover, .card:focus { border-color: #1d4ed8; background: #eff6ff; }
+    .card-num { font-size: 0.8rem; font-weight: 700; color: #1d4ed8; }
+    .card strong { font-size: 1.05rem; }
+    .card span:last-child { color: #475569; }
+  </style>
+</head>
+<body>
+<header><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></header>
+<main id="content">{{ content }}</main>
+</body>
+</html>
