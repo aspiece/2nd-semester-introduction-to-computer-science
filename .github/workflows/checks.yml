@@ -1,0 +1,25 @@
+name: Checks
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  links-and-spelling:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: ./_site
+      - name: Check internal links
+        run: python3 scripts/check_links.py _site
+      - name: Check generated pages are up to date
+        run: |
+          python3 scripts/build_pages.py
+          git diff --exit-code pages/glossary.md pages/syllabus.md
+      - name: Spell check lessons
+        run: |
+          pip install codespell
+          codespell --skip="*.docx,*.pdf,*.pptx,*.png,*.json,*.ipynb,*.py,*.txt" -L "ot,te,nd,ba,fo" _docs pages README.md

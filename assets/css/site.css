@@ -78,3 +78,11 @@ a{color:var(--accent)}
 :root[data-theme=dark] .sidebar a.active{color:#0f172a}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]) .sidebar a.active{color:#0f172a}}
 .hero{background:linear-gradient(135deg,#2563eb,#7c3aed)}
+.glossary dt{font-weight:700;margin-top:.8em;font-family:ui-monospace,monospace}.glossary dd{margin:0 0 0 1em;color:var(--muted)}
+.filter-box{width:100%;max-width:360px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--fg)}
+.progress{padding:10px 14px 4px;font-size:13px;color:var(--muted)}
+.progress-bar{height:6px;border-radius:3px;background:var(--border);margin-top:4px;overflow:hidden}.progress-bar span{display:block;height:100%;background:#10b981;width:0;transition:width .3s}
+.sidebar a.done::after{content:" ✓";color:#10b981;font-weight:700}
+.btn-complete{display:block;margin:28px 0 8px;padding:9px 18px;border:1px solid var(--accent);border-radius:8px;background:transparent;color:var(--accent);font-weight:600;cursor:pointer}
+.btn-complete[aria-pressed=true]{background:#10b981;border-color:#10b981;color:#fff}
+@media print{.btn-complete,.progress,.filter-box{display:none}.glossary dt[hidden],.glossary dd[hidden]{display:none}}

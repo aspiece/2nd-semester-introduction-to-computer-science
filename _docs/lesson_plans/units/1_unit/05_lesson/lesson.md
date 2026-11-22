@@ -16,7 +16,7 @@ Students will be able to...
 * Quiz (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard])
 * [Associated Readings 1.3](../../../../readings.md#13)
 * Take the quiz and create a scoring rubric
-* Look through [http://tinyurl.com/TEALS-Python-Errors] web tutorial and [example code] below to
+* Look through [http://tinyurl.com/TEALS-Python-Errors] web tutorial and [example code] to
   prepare students for analyzing and responding to errors
 
 ## Pacing Guide
@@ -71,4 +71,4 @@ Make sure to provide extended time on the quiz for any students who need extra t
 
 [http://tinyurl.com/TEALS-Python-Errors]: http://interactivepython.org/runestone/static/thinkcspy/Debugging/KnowyourerrorMessages.html
 [debugging]: http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
-[example code]: #code-example
+[example code]: code.py

@@ -18,6 +18,14 @@ bundle exec jekyll serve --baseurl ""
 
 Then open http://localhost:4000. Lesson pages live in `_docs/lesson_plans/units/`; the sidebar comes from `_data/toc.yml`, which mirrors `_docs/lesson_plans/SUMMARY.md`. Pushes to `master` deploy through `.github/workflows/pages.yml`.
 
+### Maintenance scripts
+
+* `python3 scripts/build_pages.py` regenerates `pages/glossary.md` and `pages/syllabus.md` from the lesson plans. Run it after changing lesson learning objectives or unit pacing tables.
+* `python3 scripts/check_links.py _site` checks internal links and anchors in a built site.
+* The `Checks` workflow runs these, plus a spell check, on every pull request.
+
+The site also has a glossary (`/glossary/`), a printable syllabus (`/syllabus/`) and a per-browser lesson progress tracker.
+
 ## About this curriculum
 
 Welcome to the TEALS Intro to Computer Science Second Semester Curriculum. This curriculum is intended for use by TEALS classrooms teaching Introduction to Computer Science in a yearlong format. We expect that students have completed the content from the [1st semester course](https://www.gitbook.com/book/teals-introcs/introduction-to-computer-science-principles/details) prior to this curriculum.
