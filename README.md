@@ -26,7 +26,7 @@ This repository is a fork of the TEALS curriculum. Lesson content is unchanged e
 * Old Docsy theme files, demo pages and the CircleCI configuration removed.
 
 **Tooling**
-* `scripts/build_pages.py` and `scripts/check_links.py`, plus a `Checks` workflow for links, generated pages and spelling.
+* `scripts/check_links.py` and a `Checks` workflow for links and spelling.
 
 ## Viewing and developing the site
 
@@ -43,12 +43,10 @@ Then open http://localhost:4000. Lesson pages live in `_docs/lesson_plans/units/
 
 ### Maintenance scripts
 
-* `python3 scripts/build_pages.py` regenerates `pages/glossary.md` and `pages/syllabus.md` from the lesson plans. Run it after changing lesson learning objectives or unit pacing tables.
-* `python3 scripts/build_student.py` regenerates the student view in `student/` from the lesson files. Run it after editing any lesson, do now, lab, project or rubric.
 * `python3 scripts/check_links.py _site` checks internal links and anchors in a built site.
-* The `Checks` workflow runs these, plus a spell check, on every pull request.
+* The `Checks` workflow runs the link checker and a spell check, on every pull request.
 
-Every lesson also has a student view at `/student/<unit>.<lesson>/` (for example `/student/7.01/`) that shows only student material, with a button in each header to switch between teacher and student views.
+Every lesson also has a student view at `/student/<unit>.<lesson>/` (for example `/student/7.01/`) that shows only student material, with a button in each header to switch between teacher and student views. The student pages in `student/` and the glossary and syllabus in `pages/` are ordinary files; edit them directly.
 
 The site also has a glossary (`/glossary/`), a printable syllabus (`/syllabus/`) and a per-browser lesson progress tracker.
 
