@@ -1,0 +1,138 @@
+---
+layout: minimal-home
+title: "Lesson 6.01: Introduction to Dictionaries"
+permalink: /student/lesson-6-01/
+teacher_url: /docs/lesson_plans/units/6_unit/01_lesson/lesson.html
+unit: 6
+prev_url: /student/lesson-5-05/
+prev_title: "5.05"
+next_url: /student/lesson-6-02/
+next_title: "6.02"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **dictionary**, **key**, **value**
+* Create dictionaries of key-value pairs
+* Access items from dictionaries
+
+## Reading
+
+* [Associated Reading - section 6.1]({% endraw %}{{ '/docs/readings.html#61' | relative_url }}{% raw %})
+
+## Do Now
+
+### In your Console
+
+#### Type the following code
+
+```python
+my_dictionary = {
+'cat': 'a domestic feline',
+'dog': 'a domestic canine',
+'chair': 'furniture piece for sitting',
+'car': 'automobile'
+}
+print(my_dictionary)
+print(my_dictionary['dog'])
+print(my_dictionary.get('dog'))
+print('cat' in my_dictionary)
+print('monkey' in my_dictionary)
+```
+
+### In your Notebook
+
+#### Respond to the following
+
+1. Write down what was printed out. What type is `my_dictionary`?
+2. Add a line of code that will print the definition of `'chair'`, then run the code again.
+3. Write down what happens if you use `my_dictionary['kittens']`? What do you think that error means?
+
+## Lab
+
+### Instructions
+
+Write a program that uses a dictionary to offer users the meanings of common internet abbreviations.
+
+The program, `dictionary_lab.py`, prompts the user to enter an internet abbreviation they would like explained.
+If the requested abbreviation is in the program's dictionary (use the `in` keyword with an `if` statement to test this),
+then it prints out the definition. If the abbreviation is not in the dictionary, the program prints an apologetic
+message saying that it could not find a definition.
+
+#### Example Output
+
+```python
+>>> python3 dictionary_lab.py
+
+What word would you like to look up? nbd
+nbd: a phrase meaning no big deal
+
+What word would you like to look up? kittens
+Sorry, kittens is not defined
+
+What would would you like to look up?
+```
+
+### Bonus
+
+Extend the program with any of these features:
+
+The user can
+
+* update the definitions (values) for existing abbreviations in the dictionary
+* add new abbreviations (keys) and provide their definitions (values).
+* delete entries (key, value pairs) from the dictionary.
+* get the entire dictionary printed to the screen.
+
+Lesson 6.01 did not cover all the techniques for manipulating dictionaries that you will need to program these features.
+Search for the necessary information in the [Python tutorial about dictionaries][1] and the
+[advanced Python documentation about dictionaries][2].
+
+[Dictionaries]: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+[Types Mapping]: https://docs.python.org/3/library/stdtypes.html#typesmapping
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="c" markdown="1">
+**1. In `pets = {'cat': 'meows', 'dog': 'barks'}`, what is `'cat'`?**
+
+- A value
+- A list
+- A key
+- A function
+
+<p class="why">In a dictionary, the item on the left of each colon is the key, which you use to look up its value.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**2. What does `pets['dog']` evaluate to?**
+
+- `'barks'`
+- `'dog'`
+- `True`
+- `1`
+
+<p class="why">Indexing with a key returns the value stored under that key.</p>
+</div>
+
+<div class="q" data-answer="b" markdown="1">
+**3. What does `'monkey' in pets` return if there is no `'monkey'` key?**
+
+- An error
+- `False`
+- `None`
+- `'monkey'`
+
+<p class="why">The <code>in</code> keyword checks keys and gives back <code>True</code> or <code>False</code> without causing an error.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/6_unit/01_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/6_unit/01_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
