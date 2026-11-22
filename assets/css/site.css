@@ -67,3 +67,14 @@ a{color:var(--accent)}
 .file-badge{display:inline-block;margin-left:6px;padding:0 6px;border-radius:4px;font-size:11px;font-weight:700;color:#fff;vertical-align:middle;text-transform:uppercase}
 .file-badge.docx,.file-badge.doc{background:#2b579a}.file-badge.pdf{background:#d32f2f}.file-badge.pptx,.file-badge.ppt{background:#d24726}.file-badge.xlsx{background:#217346}.file-badge.zip{background:#6b7280}
 @media print{.pager,.copy-btn{display:none}}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:12px}.crumbs a{color:var(--muted)}.crumbs span{color:var(--fg)}
+.search{position:relative}
+.search-suggest{position:absolute;top:100%;left:0;right:0;margin:4px 0 0;padding:4px;list-style:none;background:var(--bg);border:1px solid var(--border);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.18);z-index:40}
+.search-suggest a{display:block;padding:6px 10px;border-radius:6px;color:var(--fg);text-decoration:none;font-size:14px}.search-suggest a:hover,.search-suggest a:focus{background:var(--panel);color:var(--accent)}
+.callout{margin:1.5em 0;padding:4px 18px 8px;border-left:5px solid var(--c);border-radius:8px;background:color-mix(in srgb,var(--c) 9%,var(--bg))}
+.callout h2{border:0;margin-top:.6em}
+.callout-donow{--c:#f59e0b}.callout-lab{--c:#10b981}.callout-project{--c:#8b5cf6}.callout-notes{--c:#64748b}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+:root[data-theme=dark] .sidebar a.active{color:#0f172a}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .sidebar a.active{color:#0f172a}}
+.hero{background:linear-gradient(135deg,#2563eb,#7c3aed)}

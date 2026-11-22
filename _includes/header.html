@@ -3,6 +3,7 @@
   <a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
   <form class="search" role="search" action="{{ site.baseurl }}/search/" method="get">
     <input type="search" name="q" id="search-box" placeholder="Search lessons  ( / )" aria-label="Search this site" autocomplete="off">
+    <ul class="search-suggest" id="search-suggest" hidden></ul>
   </form>
   <nav class="topnav" aria-label="Main">
     {% for link in site.data.navigation %}<a href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>{% endfor %}
