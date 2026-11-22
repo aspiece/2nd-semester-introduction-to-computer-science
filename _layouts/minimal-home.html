@@ -23,6 +23,13 @@
     .card-num { font-size: 0.8rem; font-weight: 700; color: #1d4ed8; }
     .card strong { font-size: 1.05rem; }
     .card span:last-child { color: #475569; }
+    .quiz .q { border: 1px solid #cbd5e1; border-radius: 10px; padding: 16px; margin: 18px 0; }
+    .quiz ul { list-style: none; padding: 0; }
+    .quiz li { margin: 8px 0; }
+    .quiz-opt { display: block; width: 100%; text-align: left; font: inherit; padding: 10px 12px; border: 1px solid #94a3b8; border-radius: 8px; background: white; color: #1f2937; cursor: pointer; }
+    .quiz-opt.right { background: #dcfce7; border-color: #16a34a; }
+    .quiz-opt.wrong { background: #fee2e2; border-color: #dc2626; }
+    .quiz-opt:disabled { cursor: default; }
   </style>
 </head>
 <body>
@@ -44,5 +51,8 @@
 </nav>
 {% endif %}
 </main>
+{% if page.quiz_enabled %}
+<script src="{{ '/assets/js/lesson-quiz.js' | relative_url }}" defer></script>
+{% endif %}
 </body>
 </html>
