@@ -1,0 +1,126 @@
+---
+layout: minimal-home
+title: "Lesson 3.01: Built-In Functions"
+permalink: /student/lesson-3-01/
+teacher_url: /docs/lesson_plans/units/3_unit/01_lesson/lesson.html
+unit: 3
+prev_url: /student/lesson-2-07/
+prev_title: "2.07"
+next_url: /student/lesson-3-02/
+next_title: "3.02"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **function, arguments, calling, importing, returning**
+* Call the built-in `randint` function, using arguments
+* Utilize code other people have written in the Python documentation
+* Understand the difference between printing and returning
+
+## Reading
+
+* Associated Reading - section 3.1 of Book
+
+## Do Now
+
+### In your Console
+
+#### Type the following code
+
+```python
+import random
+random.randint(0, 3)
+random.randint(0, 3)
+print(random.randint(0, 3))
+print(random.randint(0, 3))
+print(random.randint(0, 3))
+```
+
+### In your Notebook
+
+#### Respond to the following
+
+1. What does randint do?
+2. What do the values `0` and `3` do? Try changing those numbers, rerun the program, and write down what changed.
+3. What is the difference between `random.randint(0,3)` and `print(random.randint(0,3))`?
+
+## Lab
+
+Practice importing random** — Use `randint` with different arguments. Simulate a dice roll, printing out to the user what number they rolled.
+
+Look at the [documentation] of the random library — Experiment with another function (not `randint`) that returns a value.
+
+### Create a program that simulates a [magic 8-ball]
+
+1. Store all of the 8-ball's possible responses (shown below) in a list
+2. Have the program prompt the user to ask the magic 8-ball a question
+3. then return and print a random response.
+
+#### Magic 8-Ball Response Examples
+
+* Outlook is good
+* Ask again later
+* Yes
+* No
+* Most likely no
+* Most likely yes
+* Maybe
+* Outlook is not good
+
+### Video Explanation
+
+  [![Magic 8 Ball](https://img.youtube.com/vi/gMSPH1Cnwwo/0.jpg)](https://www.youtube.com/watch?v=gMSPH1Cnwwo)
+
+### Bonus
+
+Research the math library and create a program that finds the length of the hypotenuse of a right
+triangle given two sides.
+
+[documentation]: https://docs.python.org/3/library/random.html
+[magic 8-ball]:  https://en.wikipedia.org/wiki/Magic_8-Ball
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="c" markdown="1">
+**1. What does `random.randint(0, 3)` do?**
+
+- Always returns 3
+- Prints the numbers 0 through 3
+- Returns a random whole number from 0 to 3, including both ends
+- Returns a random decimal between 0 and 3
+
+<p class="why">It picks a random integer between the two arguments, inclusive, and gives it back to the caller.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**2. What must you do before you can call `random.randint`?**
+
+- Write `import random` first
+- Define `randint` yourself with `def`
+- Nothing, every function is always available
+- Print the arguments
+
+<p class="why">Code from the <code>random</code> library has to be imported before you can use it.</p>
+</div>
+
+<div class="q" data-answer="b" markdown="1">
+**3. If a program contains only the line `random.randint(1, 6)` (no `print`), what do you see when it runs?**
+
+- A random number from 1 to 6
+- Nothing, the value is returned but never displayed
+- An error
+- The text `randint`
+
+<p class="why">A returned value is not shown unless you print it or store it.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/3_unit/01_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/3_unit/01_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
