@@ -5,6 +5,19 @@ A 2nd semester follow-up to the [TEALS Intro CS course](https://tealsk12.gitbook
 * GitHub: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science
 * GitBook: https://tealsk12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/
 
+## Viewing and developing the site
+
+The curriculum is published with Jekyll at https://aspiece.github.io/2nd-semester-introduction-to-computer-science/.
+
+To preview locally:
+
+```bash
+bundle install
+bundle exec jekyll serve --baseurl ""
+```
+
+Then open http://localhost:4000. Lesson pages live in `_docs/lesson_plans/units/`; the sidebar comes from `_data/toc.yml`, which mirrors `_docs/lesson_plans/SUMMARY.md`. Pushes to `master` deploy through `.github/workflows/pages.yml`.
+
 ## About this curriculum
 
 Welcome to the TEALS Intro to Computer Science Second Semester Curriculum. This curriculum is intended for use by TEALS classrooms teaching Introduction to Computer Science in a yearlong format. We expect that students have completed the content from the [1st semester course](https://www.gitbook.com/book/teals-introcs/introduction-to-computer-science-principles/details) prior to this curriculum.
