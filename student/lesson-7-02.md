@@ -1,0 +1,110 @@
+---
+layout: minimal-home
+title: "Lesson 7.02: User-Defined Types, Part 2"
+permalink: /student/lesson-7-02/
+teacher_url: /docs/lesson_plans/units/7_unit/02_lesson/lesson.html
+unit: 7
+prev_url: /student/lesson-7-01/
+prev_title: "7.01"
+next_url: /student/lesson-7-03/
+next_title: "7.03"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **self**, **`__init__`**
+* Create a class with an init method
+* Understand and use the `self` argument
+* Instantiate a class with arguments
+
+## Reading
+
+* [Associated Reading - section 7.2]({% endraw %}{{ '/docs/readings.html#72' | relative_url }}{% raw %})
+
+## Do Now
+
+### In your Console
+
+#### Type the following
+
+```python
+class Pet(object):
+  def __init__(self, name):
+  self.name = name
+
+my_pet = Pet("Peter")
+print(my_pet.name)
+```
+
+### In your Notebook
+
+#### Respond to the following
+
+1. What is the purpose of the `__init__` method?
+2. What if you wanted to initialize all pet objects with a name and a color?
+3. How would you modify the code to create a pet object with a name of "Peter" and a color of "brown"?
+
+## Lab
+
+In this lab, we will create a Pet class that will keep track of the type of animal, color, food, noise and name of a given animal.
+
+### Create a class called Pet that has the following attributes
+
+* Animal (i.e. dog, cat, fish)
+* Color (i.e. spotted, black, tabby, white)
+* Food (i.e. kibbles, tuna, fish flakes)
+* Noise (i.e. meow, woof, bark)
+* Name (i.e. Sparky, Scooby Doo)
+
+### Specifications
+
+1. Make sure to use the `__init__` method to create these attributes.
+2. Create a list of pets.
+3. Create a function that takes in a list of pets and prints out the name and the food attributes.
+4. Test your function with your list of pets.
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="b" markdown="1">
+**1. What is the purpose of the `__init__` method?**
+
+- It prints the object
+- It sets up a new instance, usually by giving it starting attributes
+- It deletes an object when finished
+- It converts an object to a string
+
+<p class="why">Python calls <code>__init__</code> automatically when you create an instance, so it is the place to initialize attributes.</p>
+</div>
+
+<div class="q" data-answer="d" markdown="1">
+**2. In `def __init__(self, name):`, what does `self` refer to?**
+
+- The class itself
+- The name that was passed in
+- The Python interpreter
+- The particular instance being created or used
+
+<p class="why"><code>self</code> lets the method reach the attributes of the specific object it was called on.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**3. Given `__init__(self, name, color)`, which call correctly creates a pet?**
+
+- `Pet("Peter", "brown")`
+- `Pet(self, "Peter", "brown")`
+- `Pet()`
+- `Pet.__init__`
+
+<p class="why">Python supplies <code>self</code> automatically, so you pass only the remaining arguments when instantiating.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/7_unit/02_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/7_unit/02_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
