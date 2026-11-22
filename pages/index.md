@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: /
-layout: page
+layout: minimal-home
 ---
 <section class="hero">
   <h1>2nd Semester Introduction to Computer Science</h1>
