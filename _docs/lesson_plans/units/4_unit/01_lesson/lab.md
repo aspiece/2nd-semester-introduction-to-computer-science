@@ -32,7 +32,7 @@ Example output:
 
 ```python
 >>> python3 de_vowel_lab.py
-Ths sntnc hs n vwls
+This sntnc hs n vwls
 ```
 
 ### Bonus

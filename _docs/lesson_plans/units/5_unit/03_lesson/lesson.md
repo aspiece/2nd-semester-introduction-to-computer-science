@@ -10,7 +10,7 @@ Students will be able to...
 * Define and identify: **modulo**
 * Demonstrate looping and control structures
 * Demonstrate the use of looping concepts in music making via EarSketch
-* Demostrate using control structures to create music
+* Demonstrate using control structures to create music
 
 ## Materials/Preparation
 

@@ -58,7 +58,7 @@ Students will be able to...
 * As class ends, remind students that their spec and implementation plan will be their guides throughout the process.  
 * They should update them each day and keep them with them at all times.
 * Ideally, anytime there is a question about the requirements or scope of the project, the spec should have the answer.  
-* If not, it's a new idea and the spec needs to be updated acordingly.
+* If not, it's a new idea and the spec needs to be updated accordingly.
 
 ## Accommodation/Differentiation
 

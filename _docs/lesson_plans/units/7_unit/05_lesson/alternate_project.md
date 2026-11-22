@@ -177,7 +177,7 @@ Mailing unique to: []
 
 ### Challenge
 
-This section contains additional components you can add to the project. These should only be attemped after the project has been completed.
+This section contains additional components you can add to the project. These should only be attempted after the project has been completed.
 
 * As in previous projects, change the looping code so that all typed information can be done at once, instead of spread over multiple lines
 

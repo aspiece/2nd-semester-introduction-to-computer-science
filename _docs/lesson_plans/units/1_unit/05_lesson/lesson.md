@@ -50,7 +50,7 @@ Students will be able to...
 
 * Remind students that when reading through code we go line by line, as if we are the interpreter.
 
-#### Demonstation
+#### Demonstration
 
 * Run the code, display the stack trace, and have students analyze the error message reported.
 * Explain that, much like in Snap, **debugging** is the process of tracking and fixing errors in your code.
@@ -59,7 +59,7 @@ Students will be able to...
 * Ask student why these errors are caused and how they find/fix this type of error? Suggest using the tab key to indent and the shift-tab to remove an indent as ways to avoid the error.
 * Direct students to work through and complete this web tutorial on [debugging]
 
-### Accomodation/Differentiation
+### Accommodation/Differentiation
 
 Make sure to provide extended time on the quiz for any students who need extra time
 

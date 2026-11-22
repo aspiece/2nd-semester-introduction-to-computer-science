@@ -117,7 +117,7 @@
     * [Project 6b: Buy an Umbrella](units/6_unit/05_lesson/projectb.md)
     * [Project 6: Guess Who](units/6_unit/05_lesson/project.md)
 
-* [Unit 7: Introduction to Object Oriented Programing](units/7_unit/unit7.md)
+* [Unit 7: Introduction to Object Oriented Programming](units/7_unit/unit7.md)
   * [Lesson 7.01: User-Defined Types (Classes)](units/7_unit/01_lesson/lesson.md)
     * [Do Now 7.01](units/7_unit/01_lesson/do_now.md)
     * [Example](units/7_unit/01_lesson/example.md)

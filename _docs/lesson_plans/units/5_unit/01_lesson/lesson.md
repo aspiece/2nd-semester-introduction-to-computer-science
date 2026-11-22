@@ -71,7 +71,7 @@ fitMedia(TECHNO_SYNTHPLUCK_001, 1, 1, 9)
 finish()
 ```
 
-* Have students write in their notebooks an answer to the folloing
+* Have students write in their notebooks an answer to the following
 * What inputs does `fitMedia` take? Press the run button and describe what happened.
 
 ### In their Notebooks,  ensure students have the following terms defined

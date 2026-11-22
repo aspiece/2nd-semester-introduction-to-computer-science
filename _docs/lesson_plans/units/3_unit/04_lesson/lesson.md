@@ -61,7 +61,7 @@ Students will be able to...
 
 #### Global variables: variables defined outside of a function and used in many different functions
 
-* To modify global variables defined outside the function you must declare the varaible with the statement `global name_of_variable`.
+* To modify global variables defined outside the function you must declare the variable with the statement `global name_of_variable`.
 * Any variable created inside of a function is a local variable.
 * Variables in functions include the function parameters, the variables defined in the function and variables declared as global.
 * Local variables of functions can't be accessed from outside when the function call has finished.
