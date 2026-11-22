@@ -36,8 +36,8 @@ title: "Unit 6 - Dictionaries"
 * Append
 * Remove
 
-[6.01 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/6_unit/slidedecks/Intro%20Python%206.01%20TEALS.pptx
-[6.02 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/6_unit/slidedecks/Intro%20Python%206.02%20TEALS.pptx
-[6.03 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/6_unit/slidedecks/Intro%20Python%206.03%20TEALS.pptx
-[6.04 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/6_unit/slidedecks/Intro%20Python%206.04%20TEALS.pptx
-[6.05 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/6_unit/slidedecks/Intro%20Python%206.05%20TEALS.pptx
+[6.01 Slide Deck]: slidedecks/Intro%20Python%206.01%20TEALS.pptx
+[6.02 Slide Deck]: slidedecks/Intro%20Python%206.02%20TEALS.pptx
+[6.03 Slide Deck]: slidedecks/Intro%20Python%206.03%20TEALS.pptx
+[6.04 Slide Deck]: slidedecks/Intro%20Python%206.04%20TEALS.pptx
+[6.05 Slide Deck]: slidedecks/Intro%20Python%206.05%20TEALS.pptx

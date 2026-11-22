@@ -216,4 +216,4 @@ Implement the following
 * call correct player function based on inputs
 * check for the end of the game and end game if necessary
 
-[starter_code]:https://teals-introcs.gitbooks.io/2nd-semester-introduction-to-computer-science-pri/content/units/7_unit/05_lesson/starter_code.py
+[starter_code]:starter_code.py

@@ -80,7 +80,7 @@ Below are some addition topics that will need to be covered in order to prepare 
 [Runestone Academy - Random Module]: https://runestone.academy/runestone/books/published/thinkcspy/PythonModules/Therandommodule.html
 [Runestone Academy - Exceptions]: https://runestone.academy/runestone/books/published/thinkcspy/Exceptions/toctree.html
 [MTA Certification]: https://www.microsoft.com/en-us/learning/exam-98-381.aspx
-[Oxford Slide Deck L2]: /cert_assets/lesson_2.odp
-[Math Example Code]: /cert_assets/math_example.py
-[Random Example Code]: /cert_assets/random_example.py
-[Oxford Slide Deck L4]: /cert_assets/lesson_4.odp
+[Oxford Slide Deck L2]: {{ '/docs/lesson_plans/units/cert_assets/lesson%202.odp' | relative_url }}
+[Math Example Code]: {{ '/docs/lesson_plans/units/cert_assets/math_example.py' | relative_url }}
+[Random Example Code]: {{ '/docs/lesson_plans/units/cert_assets/random_example.py' | relative_url }}
+[Oxford Slide Deck L4]: {{ '/docs/lesson_plans/units/cert_assets/Lesson%204.odp' | relative_url }}

@@ -25,7 +25,7 @@ title: "Unit 8 - Final Project"
 
 ## Grading Scheme/Rubric
 
-[Editable Grading Rubric](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/8_unit/rubric.docx)
+[Editable Grading Rubric](rubric.docx)
 
 | Design Phases | Points |
 | :--- | :--- |

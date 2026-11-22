@@ -37,4 +37,4 @@ isinstance(my_pet, Pet) # returns true
 isinstance(my_pet, Dog) # returns false
 ```
 
-[example]: https://teals-introcs.gitbooks.io/2nd-semester-introduction-to-computer-science-pri/content/units/7_unit/04_lesson/example.py
+[example]: example.py

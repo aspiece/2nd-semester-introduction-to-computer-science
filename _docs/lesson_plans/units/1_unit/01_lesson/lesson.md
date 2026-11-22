@@ -79,8 +79,8 @@ This explains to students how to sign up for the IDE, step-by-step. Make sure to
 
 [Lesson 0.1: The First Day (TEALS Discourse Account Required)](https://forums.tealsk12.org/c/2nd-semester-unit-1/1-01-set-up)
 
-[Python Code]:https://teals-introcs.gitbooks.io/2nd-semester-introduction-to-computer-science-pri/content/units/1_unit/01_lesson/hello_world.py
+[Python Code]:hello_world.py
 
-[Sign Up Guide (Word)]:https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/1_unit/replit_student.docx
+[Sign Up Guide (Word)]:../replit_student.docx
 [Sign Up Guide Teachers]:python_replit_sign_up_teacher.md
-[Sign Up Guide (pdf)]:https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/1_unit/replit_student.pdf
+[Sign Up Guide (pdf)]:../replit_student.pdf
