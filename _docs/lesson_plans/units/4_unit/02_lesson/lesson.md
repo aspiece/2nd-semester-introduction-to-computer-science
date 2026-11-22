@@ -1,3 +1,6 @@
+---
+title: "Lesson 4.02: For Loops Using Range"
+---
 # Lesson 4.02: For Loops Using Range
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lesson 3.05: Project 3"
+---
 # Lesson 3.05: Project 3
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lab 6.01 - Internet Abbreviations"
+---
 # Lab 6.01 - Internet Abbreviations
 
 ## Instructions

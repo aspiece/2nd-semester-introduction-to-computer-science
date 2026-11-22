@@ -1,3 +1,6 @@
+---
+title: "Alternate Project 1: Magic Square"
+---
 # Alternate Project 1: Magic Square
 
 Created by Brian Weinfeld

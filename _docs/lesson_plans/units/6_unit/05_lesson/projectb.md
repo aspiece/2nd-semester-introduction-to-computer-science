@@ -1,3 +1,6 @@
+---
+title: "Project 6: Buy an Umbrella"
+---
 # Project 6: Buy an Umbrella
 
 In this project, you will build a text version of a shopping site

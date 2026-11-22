@@ -1,3 +1,6 @@
+---
+title: "Lesson 5.05: EarSketch Project"
+---
 # Lesson 5.05: EarSketch Project
 
 ## Learning Objectives

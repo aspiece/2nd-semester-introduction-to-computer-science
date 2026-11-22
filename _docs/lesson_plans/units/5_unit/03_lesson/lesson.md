@@ -1,3 +1,6 @@
+---
+title: "Lesson 5.03: Earsketch Control Flow"
+---
 # Lesson 5.03: Earsketch Control Flow
 
 ## Learning Objectives

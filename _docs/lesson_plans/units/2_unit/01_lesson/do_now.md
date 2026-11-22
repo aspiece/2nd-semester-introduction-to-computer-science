@@ -1,3 +1,6 @@
+---
+title: "Do Now 2.01"
+---
 # Do Now 2.01
 
 ## Open up the console

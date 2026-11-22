@@ -1,3 +1,6 @@
+---
+title: "Lab 4.02 - Getting Loopy"
+---
 # Lab 4.02 - Getting Loopy
 
 ## Part 1

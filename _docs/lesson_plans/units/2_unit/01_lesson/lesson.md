@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.01: Data Types & Casting"
+---
 # Lesson 2.01: Data Types & Casting
 
 ## Learning Objectives

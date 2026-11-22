@@ -1,3 +1,6 @@
+---
+title: "Lab 2.01 - Casting"
+---
 # Lab 2.01 - Casting
 
 ## In your notebook

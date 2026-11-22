@@ -1,3 +1,6 @@
+---
+title: "Lab 5.02: EarSketch Music"
+---
 # Lab 5.02: EarSketch Music
 
 ## Beat Strings

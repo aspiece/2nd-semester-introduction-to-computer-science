@@ -1,3 +1,6 @@
+---
+title: "Lesson Plan 1.03: Script Mode and Variables"
+---
 # Lesson Plan 1.03: Script Mode and Variables
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Project- Final Project"
+---
 # Project- Final Project
 
 * [printable project spec]

@@ -1,3 +1,6 @@
+---
+title: "Do Now Supplemental"
+---
 # Do Now Supplemental
 
 ## In your Notebook

@@ -1,3 +1,6 @@
+---
+title: "Lesson Plan 1.04: Variables and User Input"
+---
 # Lesson Plan 1.04: Variables and User Input
 
 ## Learning Objectives

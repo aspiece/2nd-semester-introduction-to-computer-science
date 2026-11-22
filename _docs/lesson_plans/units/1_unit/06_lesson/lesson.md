@@ -1,3 +1,6 @@
+---
+title: "Lesson 1.06: Project"
+---
 # Lesson 1.06: Project
 
 ## Learning Objectives

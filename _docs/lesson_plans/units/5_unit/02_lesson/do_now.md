@@ -1,3 +1,6 @@
+---
+title: "Do Now 5.02"
+---
 # Do Now 5.02
 
 1. Read through and participate in the following lessons in [EarSketch Editor]

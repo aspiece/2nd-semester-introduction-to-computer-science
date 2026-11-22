@@ -1,3 +1,6 @@
+---
+title: "Do Now"
+---
 # Do Now
 
 ## Take out your pitches from last class

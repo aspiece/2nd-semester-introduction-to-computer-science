@@ -1,3 +1,6 @@
+---
+title: "Unit 8 - Final Project"
+---
 # Unit 8 - Final Project
 
 ## Essential Questions

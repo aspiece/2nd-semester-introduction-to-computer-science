@@ -1,3 +1,6 @@
+---
+title: "Additional Topics"
+---
 # Additional Topics
 
 Below are some addition topics that will need to be covered in order to prepare students for the [MTA Certification].

@@ -1,3 +1,6 @@
+---
+title: "Lab 7.04 - Pokemon Child Classes"
+---
 # Lab 7.04 - Pokemon Child Classes
 
 ## Overview

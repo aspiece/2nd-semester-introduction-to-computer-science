@@ -1,3 +1,6 @@
+---
+title: "Rubric - Unit Seven Project"
+---
 # Rubric - Unit Seven Project
 <!-- this project will require a lot of the same skills as the previous projects they have not included them here, as the expectation is they have already been mastered)-->
 

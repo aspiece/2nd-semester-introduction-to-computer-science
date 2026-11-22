@@ -1,3 +1,6 @@
+---
+title: "Lesson 3.03: Return vs Print"
+---
 # Lesson 3.03: Return vs Print
 
 ## Learning Objectives

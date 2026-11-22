@@ -1,3 +1,6 @@
+---
+title: "Do Now 6.05"
+---
 # Do Now 6.05
 
 ## Write down your ranking of these concepts from easiest to hardest

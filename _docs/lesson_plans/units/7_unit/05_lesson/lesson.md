@@ -1,3 +1,6 @@
+---
+title: "Lesson 7.05: Pokemon Project"
+---
 # Lesson 7.05: Pokemon Project
 
 ## Learning Objectives

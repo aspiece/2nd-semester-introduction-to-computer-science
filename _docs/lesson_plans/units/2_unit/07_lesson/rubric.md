@@ -1,3 +1,6 @@
+---
+title: "Rubric - Unit Two Project"
+---
 # Rubric - Unit Two Project
 <!--Currently neither project requires students casting, identifying multiple data types, or creating list of different types-->
 <!-- this project will require a lot of the same skills as the previous projects they have not included them here, as the expectation is they have already been mastered)-->

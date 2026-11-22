@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.06b: Lists Recap"
+---
 # Lesson 2.06b: Lists Recap
 
 ## Learning Objectives

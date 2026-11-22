@@ -1,3 +1,6 @@
+---
+title: "Summary"
+---
 [//]: # (This file is the document that organizing the curriculum navigation)
 
 # Summary

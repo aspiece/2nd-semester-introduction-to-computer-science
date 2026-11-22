@@ -1,3 +1,6 @@
+---
+title: "Lab 5.04 - User-Defined Functions"
+---
 # Lab 5.04 - User-Defined Functions
 
 Create a new EarSketch project that meets the requirements below. Include your name and project description at the top of the file.

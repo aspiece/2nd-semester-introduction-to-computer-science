@@ -1,3 +1,6 @@
+---
+title: "Lesson 3.01: Built-In Functions"
+---
 # Lesson 3.01: Built-In Functions
 
 ## Learning Objectives

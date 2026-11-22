@@ -1,3 +1,6 @@
+---
+title: "Alternate Project 7: Mailing List"
+---
 # Alternate Project 7: Mailing List
 
 Created by Brian Weinfeld

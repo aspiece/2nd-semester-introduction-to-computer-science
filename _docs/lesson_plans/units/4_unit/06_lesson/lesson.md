@@ -1,3 +1,6 @@
+---
+title: "Lesson 4.06: Tic Tac Toe"
+---
 # Lesson 4.06: Tic Tac Toe
 
 ## Learning Objectives

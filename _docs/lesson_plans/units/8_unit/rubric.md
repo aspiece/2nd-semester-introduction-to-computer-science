@@ -1,3 +1,6 @@
+---
+title: "Final Project Grading Rubric"
+---
 # Final Project Grading Rubric
 
 Student Name: _____________________________ Date: __________________

@@ -1,3 +1,6 @@
+---
+title: "Do Now 5.05"
+---
 # Do Now 5.05
 
 1. Begin reading the following lessons in the EarSketch documentation in Unit 3.

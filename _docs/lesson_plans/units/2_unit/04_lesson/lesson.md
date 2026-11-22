@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.04: Lists"
+---
 # Lesson 2.04: Lists
 
 ## Learning Objectives

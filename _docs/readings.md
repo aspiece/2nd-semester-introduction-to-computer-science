@@ -1,3 +1,6 @@
+---
+title: "Associated Readings"
+---
 # Associated Readings
 
 Adapted from **Think Python - How To Think Like A Computer Scientist** by

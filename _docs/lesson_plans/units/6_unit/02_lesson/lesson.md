@@ -1,3 +1,6 @@
+---
+title: "Lesson 6.02: Dictionaries Methods"
+---
 # Lesson 6.02: Dictionaries Methods
 
 ## Learning Objectives

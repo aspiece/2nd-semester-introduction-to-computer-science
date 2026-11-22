@@ -1,3 +1,6 @@
+---
+title: "Lesson 7.04: Inheritance"
+---
 # Lesson 7.04: Inheritance
 
 ## Learning Objectives

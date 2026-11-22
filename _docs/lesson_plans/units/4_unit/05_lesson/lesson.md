@@ -1,3 +1,6 @@
+---
+title: "Lesson 4.05: Debugging and Quiz"
+---
 # Lesson 4.05: Debugging and Quiz
 
 ## Learning Objectives

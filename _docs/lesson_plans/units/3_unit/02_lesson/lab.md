@@ -1,3 +1,6 @@
+---
+title: "Lab 3.02 - Birthday Song & Random Cards"
+---
 # Lab 3.02 - Birthday Song & Random Cards
 
 ## Lab Exercise 1

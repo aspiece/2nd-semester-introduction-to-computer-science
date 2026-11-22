@@ -1,3 +1,6 @@
+---
+title: "Unit 6 - Dictionaries"
+---
 # Unit 6 - Dictionaries
 
 ## Essential Questions

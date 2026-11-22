@@ -1,3 +1,6 @@
+---
+title: "Lesson 1.01: Set Up"
+---
 # Lesson 1.01: Set Up
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Project 3: Oregon Trail"
+---
 # Project 3: Oregon Trail
 
 Using variables, functions, and conditionals in Python, students will create an Oregon Trail game.

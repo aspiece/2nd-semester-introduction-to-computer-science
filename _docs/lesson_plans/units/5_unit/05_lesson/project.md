@@ -1,3 +1,6 @@
+---
+title: "Project 5: EarSketch Song"
+---
 # Project 5: EarSketch Song
 
 ## Overview

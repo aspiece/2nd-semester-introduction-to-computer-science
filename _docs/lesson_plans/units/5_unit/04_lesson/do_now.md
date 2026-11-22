@@ -1,3 +1,6 @@
+---
+title: "Do Now 5.04"
+---
 # Do Now 5.04
 
 1. Begin reading the following lessons of the EarSketch documentation in [Unit 2](http://earsketch.gatech.edu/category/unit-2).

@@ -1,3 +1,6 @@
+---
+title: "Example"
+---
 # Example
 
 ## Read the following code

@@ -1,3 +1,6 @@
+---
+title: "Alternate Project 3: Daily Planner"
+---
 # Alternate Project 3: Daily Planner
 
 Created by Brian Weinfeld

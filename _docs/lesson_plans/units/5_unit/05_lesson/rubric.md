@@ -1,3 +1,6 @@
+---
+title: "Buy an Umbrella Grading Rubric"
+---
 # Buy an Umbrella Grading Rubric
 
 Student Name: _____________________________ Date: __________________

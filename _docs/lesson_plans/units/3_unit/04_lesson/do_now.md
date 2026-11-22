@@ -1,3 +1,6 @@
+---
+title: "Do Now 3.04"
+---
 # Do Now 3.04
 
 ## Quiz Announcement

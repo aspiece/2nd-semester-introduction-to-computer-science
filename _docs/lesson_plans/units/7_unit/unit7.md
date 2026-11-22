@@ -1,3 +1,6 @@
+---
+title: "Unit 7 - Introduction to Object Oriented Programming"
+---
 # Unit 7 - Introduction to Object Oriented Programming
 
 ## Essential Questions
