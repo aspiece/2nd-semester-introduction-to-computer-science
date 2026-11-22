@@ -1,3 +1,6 @@
+---
+title: "Lab 2.06 - Tic-Tac-Toe Revisited"
+---
 # Lab 2.06 - Tic-Tac-Toe Revisited
 
 ## 1. In your Notebook

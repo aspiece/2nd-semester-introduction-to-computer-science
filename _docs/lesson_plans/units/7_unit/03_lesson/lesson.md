@@ -1,3 +1,6 @@
+---
+title: "Lesson 7.03: Methods"
+---
 # Lesson 7.03: Methods
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lesson 8.4 - Project Implementation"
+---
 # Lesson 8.4 - Project Implementation
 
 ## Learning Objectives

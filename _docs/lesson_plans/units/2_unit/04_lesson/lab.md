@@ -1,3 +1,6 @@
+---
+title: "Lab 2.04 - Food Chooser"
+---
 # Lab 2.04 - Food Chooser
 
 ## 1. In your notebook

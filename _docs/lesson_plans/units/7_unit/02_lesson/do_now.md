@@ -1,3 +1,6 @@
+---
+title: "Do Now 7.02"
+---
 # Do Now 7.02
 
 ## In your Console

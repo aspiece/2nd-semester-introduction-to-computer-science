@@ -1,3 +1,6 @@
+---
+title: "Lab 4.04 - Shopping List"
+---
 # Lab 4.04 - Shopping List
 
 ## Part 1

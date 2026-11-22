@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.02: Booleans & Expressions"
+---
 # Lesson 2.02: Booleans & Expressions
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lesson 3.02: User-Defined Functions"
+---
 # Lesson 3.02: User-Defined Functions
 
 ## Learning Objectives

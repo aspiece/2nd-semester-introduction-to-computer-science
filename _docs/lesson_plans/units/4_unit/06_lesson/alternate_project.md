@@ -1,3 +1,6 @@
+---
+title: "Alternate Project 4: Tic-Tac-Toe"
+---
 # Alternate Project 4: Tic-Tac-Toe
 
 Modified by Brian Weinfeld

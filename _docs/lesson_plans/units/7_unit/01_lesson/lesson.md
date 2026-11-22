@@ -1,3 +1,6 @@
+---
+title: "Lesson 7.01: User-Defined Types (Classes)"
+---
 # Lesson 7.01: User-Defined Types (Classes)
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lesson 6.05: Dictionaries Project"
+---
 # Lesson 6.05: Dictionaries Project
 
 ## Learning Objectives

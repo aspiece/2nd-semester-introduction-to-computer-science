@@ -1,3 +1,6 @@
+---
+title: "Lab 3.03 - War (Card Game)"
+---
 # Lab 3.03 - War (Card Game)
 
 Create a program that lets a user play a **simplified** version of the card game ['War'](http://www.pagat.com/war/war.html).  In this version, the users will share a single deck of cards and cards will not be added back to the deck after they have been played.

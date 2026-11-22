@@ -1,3 +1,6 @@
+---
+title: "Unit 1 - Text-based vs. Block-based Programming"
+---
 # Unit 1 - Text-based vs. Block-based Programming
 
 This unit introduces students to a text based coding IDE, Console and starts to transition them away from a block based language and into Python.

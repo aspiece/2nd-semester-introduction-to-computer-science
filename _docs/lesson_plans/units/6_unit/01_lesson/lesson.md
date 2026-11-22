@@ -1,3 +1,6 @@
+---
+title: "Lesson 6.01: Introduction to Dictionaries"
+---
 # Lesson 6.01: Introduction to Dictionaries
 
 ## Learning Objectives

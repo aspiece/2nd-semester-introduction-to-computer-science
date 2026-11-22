@@ -1,3 +1,6 @@
+---
+title: "Lesson 5.02: EarSketch Music"
+---
 # Lesson 5.02: EarSketch Music
 
 ## Learning Objectives

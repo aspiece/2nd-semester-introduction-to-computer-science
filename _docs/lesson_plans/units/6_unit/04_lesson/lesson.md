@@ -1,3 +1,6 @@
+---
+title: "Lesson 6.04: Dictionaries Looping"
+---
 # Lesson 6.04: Dictionaries Looping
 
 ## Learning Objectives

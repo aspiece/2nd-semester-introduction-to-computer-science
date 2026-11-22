@@ -1,3 +1,6 @@
+---
+title: "Lab 1.04 - Magic Genie"
+---
 # Lab 1.04 - Magic Genie
 
 ## Project Objective

@@ -1,3 +1,6 @@
+---
+title: "Lab 2.05 - Tic-Tac-Toe"
+---
 # Lab 2.05 - Tic-Tac-Toe
 
 ## In your Notebook

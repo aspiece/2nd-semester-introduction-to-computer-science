@@ -1,3 +1,6 @@
+---
+title: "Do Now"
+---
 # Do Now
 
 ## In your Notebook

@@ -1,3 +1,6 @@
+---
+title: "Do Now 2.04"
+---
 # Do Now 2.04
 
 ## 1. In your console

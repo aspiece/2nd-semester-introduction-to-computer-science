@@ -1,3 +1,6 @@
+---
+title: "Lab 5.03: Earsketch Control Flow"
+---
 # Lab 5.03: Earsketch Control Flow
 
 1. Write a for loop that repeats the given rhythm every other measure from measures 1 to 8 (e.g. 1, 3, 5, etc.) on track 1.

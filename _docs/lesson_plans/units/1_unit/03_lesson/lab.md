@@ -1,3 +1,6 @@
+---
+title: "Lab 1.03 - Printing & Variables"
+---
 # Lab 1.03 - Printing & Variables
 
 ## Part 1 - Printing Practice

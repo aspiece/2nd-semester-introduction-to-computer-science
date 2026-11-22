@@ -1,3 +1,6 @@
+---
+title: "Lab 4.05 - Debugging Practice"
+---
 # Lab 4.05 - Debugging Practice
 
 ## 1. Read through the following code:

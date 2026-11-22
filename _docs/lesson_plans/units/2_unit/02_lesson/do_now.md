@@ -1,3 +1,6 @@
+---
+title: "Do Now 2.02"
+---
 # Do Now 2.02
 
 ## Part 1

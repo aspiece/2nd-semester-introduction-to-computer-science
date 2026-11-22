@@ -1,3 +1,6 @@
+---
+title: "Project 4: Tic-Tac-Toe"
+---
 # Project 4: Tic-Tac-Toe
 
 Using Python, students will create a Tic-Tac-Toe game. This project has two parts

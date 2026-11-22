@@ -1,3 +1,6 @@
+---
+title: "2nd Semester - Introduction to Computer Science Curriculum Map"
+---
 # 2nd Semester - Introduction to Computer Science Curriculum Map
 
 ## Unit Order Considerations

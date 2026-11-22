@@ -1,3 +1,6 @@
+---
+title: "Unit 3 - Functions"
+---
 # Unit 3 - Functions
 
 ## Essential Questions

@@ -1,3 +1,6 @@
+---
+title: "Lesson 4.04: Nested Lists & Looping"
+---
 # Lesson 4.04: Nested Lists & Looping
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "2nd Semester - Introduction To Computer Science"
+---
 # 2nd Semester - Introduction To Computer Science
 
 A 2nd semester follow-up to the [TEALS Intro CS course](https://tealsk12.gitbook.io/intro-cs/)

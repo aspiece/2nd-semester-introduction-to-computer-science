@@ -1,3 +1,6 @@
+---
+title: "Unit 2 - Data Types, Arguments, Lists and Loops"
+---
 # Unit 2 - Data Types, Arguments, Lists and Loops
 
 ## Essential Questions

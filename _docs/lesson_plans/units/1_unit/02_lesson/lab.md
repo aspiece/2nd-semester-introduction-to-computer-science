@@ -1,3 +1,6 @@
+---
+title: "Lab 1.02 - Using the Interpreter"
+---
 # Lab 1.02 - Using the Interpreter
 
 ## Part 1

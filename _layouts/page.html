@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
-{{ content }}
-{% include toc.html %}
-{% include permalinks.html %}
-{% include tags.html %}
+<div class="shell">
+  <aside class="sidebar" id="sidebar">{% include sidebar.html %}</aside>
+  <div class="scrim" id="scrim" hidden></div>
+  <main id="content" class="content">
+    <article class="prose" id="article">
+      {{ content }}
+    </article>
+    <p class="page-meta">
+      <a href="{{ site.repo }}/edit/{{ site.branch }}/{{ page.path }}">Edit this page</a>
+      <a href="{{ site.repo }}/issues/new?title=Question:%20{{ page.title | uri_escape }}">Report an issue</a>
+    </p>
+    {% include footer.html %}
+  </main>
+  <aside class="toc" aria-label="On this page"><div class="toc-title">On this page</div><ul id="toc-list"></ul></aside>
+</div>

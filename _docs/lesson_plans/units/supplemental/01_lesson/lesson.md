@@ -1,3 +1,6 @@
+---
+title: "Supplement Lesson 01: Binary Day"
+---
 # Supplement Lesson 01: Binary Day
 
 ## Learning Objectives

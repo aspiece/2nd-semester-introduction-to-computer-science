@@ -1,3 +1,6 @@
+---
+title: "Do Now 2.06"
+---
 # Do Now 2.06
 
 ## 1. In your Notebook

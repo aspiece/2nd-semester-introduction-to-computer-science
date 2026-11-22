@@ -1,3 +1,6 @@
+---
+title: "Lesson 3.04: Debugging and Scope"
+---
 # Lesson 3.04: Debugging and Scope
 
 ## Learning Objectives

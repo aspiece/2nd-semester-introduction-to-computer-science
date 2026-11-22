@@ -1,3 +1,6 @@
+---
+title: "Terminal and Cloud 9 Cheat Sheet"
+---
 # Terminal and Cloud 9 Cheat Sheet 
 
 ## Terminal Shortcuts

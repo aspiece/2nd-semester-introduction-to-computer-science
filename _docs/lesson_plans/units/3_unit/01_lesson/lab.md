@@ -1,3 +1,6 @@
+---
+title: "Lab 3.01 - Magic 8-Ball"
+---
 # Lab 3.01 - Magic 8-Ball
 
 Practice importing random** — Use `randint` with different arguments. Simulate a dice roll, printing out to the user what number they rolled.

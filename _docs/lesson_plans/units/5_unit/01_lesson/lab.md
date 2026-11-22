@@ -1,3 +1,6 @@
+---
+title: "Lab 5.01 - Intro to EarSketch"
+---
 # Lab 5.01 - Intro to EarSketch
 
 Create a basic [EarSketch] project using the following requirements:

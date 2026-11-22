@@ -1,3 +1,6 @@
+---
+title: "Do Now 7.04"
+---
 # Do Now 7.04
 
 ## In your Console

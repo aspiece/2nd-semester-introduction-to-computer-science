@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.06: Game Loop"
+---
 # Lesson 2.06: Game Loop
 
 ## Learning Objectives

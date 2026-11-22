@@ -1,3 +1,6 @@
+---
+title: "Lesson 8.3 - Building a Plan"
+---
 # Lesson 8.3 - Building a Plan
 
 ## Learning Objectives

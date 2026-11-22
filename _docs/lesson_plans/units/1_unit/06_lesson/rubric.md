@@ -1,3 +1,6 @@
+---
+title: "Rubric - Unit One Project"
+---
 # Rubric - Unit One Project
 
 ## Student Name: _____________________________ Date: ____________

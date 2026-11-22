@@ -1,3 +1,6 @@
+---
+title: "Python Final Project Ideas"
+---
 # Python Final Project Ideas
 
 ## Racetrack Game

@@ -1,3 +1,6 @@
+---
+title: "Lesson Plan 1.05: Quiz & Debugging"
+---
 # Lesson Plan 1.05: Quiz & Debugging
 
 ## Learning Objectives

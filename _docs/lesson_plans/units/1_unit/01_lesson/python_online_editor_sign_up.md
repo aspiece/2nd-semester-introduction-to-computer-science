@@ -1,3 +1,6 @@
+---
+title: "Python Online Editor Sign Up"
+---
 # Python Online Editor Sign Up
 We will be using the online IDE [Trinket](http://trinket.io) to write python code this semester.  Below are instructions for how to sign up, name a file, create a new file, and run a program.  Refer to this sheet if you are having difficulties.
 

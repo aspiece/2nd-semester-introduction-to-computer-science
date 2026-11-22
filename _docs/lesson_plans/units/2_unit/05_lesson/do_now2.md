@@ -1,3 +1,6 @@
+---
+title: "Do Now 2.06b"
+---
 # Do Now 2.06b
 
 ### Rank the topics below most to least confusing:

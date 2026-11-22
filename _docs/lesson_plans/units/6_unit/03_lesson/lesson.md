@@ -1,3 +1,6 @@
+---
+title: "Lesson 6.03: Dictionaries of Lists"
+---
 # Lesson 6.03: Dictionaries of Lists
 
 ## Learning Objectives

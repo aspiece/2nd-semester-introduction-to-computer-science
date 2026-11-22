@@ -1,0 +1,60 @@
+title: 2nd Semester Intro to Computer Science
+description: A 2nd semester follow-up to the TEALS Intro CS course, taught in Python 3.
+author: TEALSK12
+url: https://aspiece.github.io
+baseurl: /2nd-semester-introduction-to-computer-science
+repo: https://github.com/aspiece/2nd-semester-introduction-to-computer-science
+github_user: aspiece
+github_repo: 2nd-semester-introduction-to-computer-science
+branch: master
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path:output_ext
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - VERSION
+  - book.json
+  - curriculum_map.html
+  - trinket_new.png
+  - Sample_weighted_rubric.md
+  - units
+  - projects
+  - styles
+  - vendor
+  - _docs/lesson_plans/SUMMARY.md

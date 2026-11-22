@@ -1,3 +1,6 @@
+---
+title: "Lab 7.03 - Kangaroo Class"
+---
 # Lab 7.03 - Kangaroo Class
 
 ## Instructions

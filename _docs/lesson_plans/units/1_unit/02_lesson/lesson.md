@@ -1,3 +1,6 @@
+---
+title: "Lesson 1.02: Interactive Mode"
+---
 # Lesson 1.02: Interactive Mode
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Python Online Editor Sign Up"
+---
 # Python Online Editor Sign Up
 
 We will be using the online IDE [repl.it](https://repl.it) to write python code this semester.  Below are instructions for how to sign up, name a Python 3 program, and run a program.  Refer to this sheet if you are having difficulties.

@@ -1,3 +1,6 @@
+---
+title: "Lesson 4.01: Looping Basics"
+---
 # Lesson 4.01: Looping Basics
 
 ## Learning Objectives

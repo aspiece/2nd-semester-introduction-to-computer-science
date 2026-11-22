@@ -1,3 +1,6 @@
+---
+title: "Lesson 5.04: EarSketch User-Defined Functions"
+---
 # Lesson 5.04: EarSketch User-Defined Functions
 
 ## Learning Objectives

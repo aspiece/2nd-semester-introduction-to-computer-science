@@ -1,3 +1,6 @@
+---
+title: "Lab 6.04 - Dictionaries Looping"
+---
 # Lab 6.04 - Dictionaries Looping
 
 In this lab we will use our word-counting code from Lab 6.02 to create a program that determines the top 5 most commonly used words in a passage of text. After processing the passage, it prints the top 5 words and the number of times each occurs.

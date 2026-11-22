@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.07: Project"
+---
 # Lesson 2.07: Project
 
 ## Learning Objectives

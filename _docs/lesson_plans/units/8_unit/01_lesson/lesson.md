@@ -1,3 +1,6 @@
+---
+title: "Lesson 8.1 - Project Planning Summary + Brainstorming and Evaluating"
+---
 # Lesson 8.1 - Project Planning Summary + Brainstorming and Evaluating
 
 ## Learning Objectives

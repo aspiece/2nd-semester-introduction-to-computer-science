@@ -1,3 +1,6 @@
+---
+title: "Lesson 8.2 - Defining Requirements"
+---
 # Lesson 8.2 - Defining Requirements
 
 ## Learning Objectives

@@ -1,3 +1,6 @@
+---
+title: "Lesson 2.03: Conditionals"
+---
 # Lesson 2.03: Conditionals
 
 ## Learning Objectives

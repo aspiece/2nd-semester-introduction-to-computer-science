@@ -1,3 +1,6 @@
+---
+title: "Do Now 3.02"
+---
 # Do Now 3.02
 
 ## In your Console

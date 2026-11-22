@@ -1,3 +1,6 @@
+---
+title: "Lab 3.04 - Aliasing & Scope"
+---
 # Lab 3.04 - Aliasing & Scope
 
 ## In Your Notebook

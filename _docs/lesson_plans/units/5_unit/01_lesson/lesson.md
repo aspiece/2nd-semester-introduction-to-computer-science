@@ -1,3 +1,6 @@
+---
+title: "Lesson 5.01: Earsketch Intro"
+---
 
 # Lesson 5.01: Earsketch Intro
 

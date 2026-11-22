@@ -1,3 +1,6 @@
+---
+title: "Lab 6.03 - Dictionaries Storing Lists"
+---
 # Lab 6.03 - Dictionaries Storing Lists
 
 In this lab your job is to create a week-long to-do list using a

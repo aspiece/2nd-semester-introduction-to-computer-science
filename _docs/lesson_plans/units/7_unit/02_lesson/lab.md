@@ -1,3 +1,6 @@
+---
+title: "Lab 7.02 - Pet Class"
+---
 # Lab 7.02 - Pet Class
 
 In this lab, we will create a Pet class that will keep track of the type of animal, color, food, noise and name of a given animal.

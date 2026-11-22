@@ -1,3 +1,6 @@
+---
+title: "Do Now 7.01"
+---
 # Do Now 7.01
 
 ## Read through the following code
