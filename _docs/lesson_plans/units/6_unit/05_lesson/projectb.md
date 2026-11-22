@@ -473,7 +473,7 @@ vice-versa) one of the values for that attribute.
 
 This is a lengthy project, and writing it entirely from scratch in the
 time available is fairly challenging. We encourage students to use
-[this starter project][1] and extend it as instructed to make a finished
+[this starter project][1] ([printable][Printable starter code], [editable][Editable starter code]) and extend it as instructed to make a finished
 project. Here is a tour of the starter project and a list of parts
 that students must implement.
 
@@ -553,4 +553,6 @@ You may earn bonus points on the project by trying some of these ideas:
   different product line.
 
 [1]: starter_code/main.py
+[Printable starter code]: starter_code.pdf
+[Editable starter code]: starter_code.docx
 [2]: starter_code/inventory.txt
