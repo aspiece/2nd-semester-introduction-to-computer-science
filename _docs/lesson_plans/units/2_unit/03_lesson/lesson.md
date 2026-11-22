@@ -114,5 +114,5 @@ If students are moving quickly, this lesson can move onto lists.
 [Lab - Game Show]:lab.md
 [TEALS Dashboard]:http://www.tealsk12.org/dashboard
 
-[printable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/03_lesson/lab.pdf
-[editable lab document]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/03_lesson/lab.docx
+[printable lab document]: lab.pdf
+[editable lab document]: lab.docx

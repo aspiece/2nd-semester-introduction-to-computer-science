@@ -14,7 +14,7 @@ As you implement this curriculum into your program, there are some things to con
 * **Preparing students to gain a credential such as the [Microsoft Technology Associate (MTA) certification]** - It is recommended completing the course units in the following order 1, 2, 3, 4, [Additional Topics]. 5(Optional)
 * **Offering this course as a stand alone computer science course** - It is recommended completing the course units in the following order - 1, 2, 3, 4, 5, 6, 7, 8
 
-## [Unit 1 - Introduction to Python](units/1_unit/unit_1.md)
+## [Unit 1 - Introduction to Python]({{ '/docs/lesson_plans/units/1_unit/unit_1.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -25,7 +25,7 @@ As you implement this curriculum into your program, there are some things to con
 | [1.05: Quiz & Debugging] | Demonstrate their understanding of key concepts covered up to this point. Define and identify: debugging, syntax errors. Analyze and respond to error messages. | N/A |
 | [1.06: MadLibs] | Apply basic Python knowledge about inputs/outputs and variables to create a game of madlibs. Practice good debugging skills. | Mad Libs |
 
-## [Unit 2 - Data Types and Conditionals](units/2_unit/unit2_md.md)
+## [Unit 2 - Data Types and Conditionals]({{ '/docs/lesson_plans/units/2_unit/unit2_md.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -37,7 +37,7 @@ As you implement this curriculum into your program, there are some things to con
 | [2.06: Game Loop] | Define and identify: while loop. Use a while loop to simulate game play. | Tic-Tac-Toe Revisited |
 | [2.07: Text Game] | Use knowledge of lists, Booleans, conditionals, and while loops to create a text-based adventure game. | Zork - Text Monster Game |
 
-## [Unit 3 - Functions](units/3_unit/unit_3.md)
+## [Unit 3 - Functions]({{ '/docs/lesson_plans/units/3_unit/unit_3.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -47,7 +47,7 @@ As you implement this curriculum into your program, there are some things to con
 | [3.04: Debugging and Scope] | Define and identify: scope, aliasing, stack trace. Understand that changing a list in a function updates the list outside of the function. Understand that updating variables in a function does not affect the variable outside of the function. Understand global variables. Draw a simple stack trace. | Aliasing & Scope |
 | [3.05: Oregon Trail] | Use project planning skills to complete a longer-term project. Create functions to organize a project. Apply skills learned in units 1-3 to create a functioning program. | Oregon Trail |
 
-## [Unit 4 - Nested Loops and Lists](units/4_unit/unit4.md)
+## [Unit 4 - Nested Loops and Lists]({{ '/docs/lesson_plans/units/4_unit/unit4.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -58,7 +58,7 @@ As you implement this curriculum into your program, there are some things to con
 | [4.05: Debugging and Quiz] | Read and understand longer programs involving loops. Demonstrate knowledge of looping, lists, and nested loops/lists. Debug programs involving for loops and lists. | Debugging Practice |
 | [4.06: Tic-Tac-Toe] | Use project planning skills to complete a larger project. Utilize loops, lists, and nested loops/lists to create a Tic-Tac-Toe game. | Tic-Tac-Toe |
 
-## [Unit 5 (Optional) - Music Programming](units/5_unit/unit5.md)
+## [Unit 5 (Optional) - Music Programming]({{ '/docs/lesson_plans/units/5_unit/unit5.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -68,7 +68,7 @@ As you implement this curriculum into your program, there are some things to con
 | [5.04: EarSketch User-Defined Functions] | Define and identify: abstraction, section, A-B-A form. Create and apply user-defined functions to create songs with complicated form. | User-Defined Functions |
 | [5.05: EarSketch Project] | Create a complete song in EarSketch with multiple parts. Utilize EarSketch's features and functions. | EarSketch Song |
 
-## [Unit 6 - Dictionaries](units/6_unit/unit6.md)
+## [Unit 6 - Dictionaries]({{ '/docs/lesson_plans/units/6_unit/unit6.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -78,7 +78,7 @@ As you implement this curriculum into your program, there are some things to con
 | [6.04: Dictionaries Looping] | Use loops to traverse through key/value pairs in a dictionary | Dictionaries Looping |
 | [6.05: Guess Who] | Use dictionaries to create the game Guess Who | Buying an Umbrella |
 
-## [Unit 7 - Introduction to Object Oriented Programming](units/7_unit/unit7.md)
+## [Unit 7 - Introduction to Object Oriented Programming]({{ '/docs/lesson_plans/units/7_unit/unit7.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -88,7 +88,7 @@ As you implement this curriculum into your program, there are some things to con
 | [7.04: Inheritance] | Define and identify: inheritance, parent class, child class. Create a class that inherits from anther class. Overwrite methods of parent class in a child class. | Pokemon Child Classes |
 | [7.05: Pokemon] | Engage in class design before beginning coding. Apply what was learned with respect to classes, methods, and inheritance to create an implementation of Pokemon. | Pokemon |
 
-## [Unit 8: Final Project](units/8_unit/unit8.md)
+## [Unit 8: Final Project]({{ '/docs/lesson_plans/units/8_unit/unit8.html' | relative_url }})
 
 | Lesson | Objectives | Lab |
 | ------ | ---------- | --- |
@@ -103,59 +103,51 @@ As you implement this curriculum into your program, there are some things to con
 | ------    | ---------- | --- |
 | [01: Binary Day] | Define and identify: binary. Describe different representations of data. Represent decimal numbers in binary. | N/A |
 
-[1.01: Set Up]: /units/1_unit/01_lesson/lesson.md
-[1.02: Interactive Mode]: /units/1_unit/02_lesson/lesson.md
-[1.03: Script Mode and Variables]: /units/1_unit/03_lesson/lesson.md
-[1.04: Variables Input]: /units/1_unit/04_lesson/lesson.md
-[1.05: Quiz & Debugging]: /units/1_unit/05_lesson/lesson.md
-[1.06: MadLibs]:  /units/1_unit/06_lesson/lesson.md
-
-[2.01: Data Types & Casting]: /units/2_unit/01_lesson/lesson.md
-[2.02: Booleans & Expressions]: /units/2_unit/02_lesson/lesson.md
-[2.03: Conditionals]: /units/2_unit/03_lesson/lesson.md
-[2.04: Lists]: /units/2_unit/04_lesson/lesson.md
-[2.05: Lists 2]: /units/2_unit/05_lesson/lesson.md
-[2.06: Game Loop]: /units/2_unit/06_lesson/lesson.md
-[2.07: Text Game]: /units/2_unit/07_lesson/lesson.md
-
-[3.01: Built In Functions]: /units/3_unit/01_lesson/lesson.md
-[3.02: User-Defined Functions]: /units/3_unit/02_lesson/lesson.md
-[3.03: Return vs Print]: /units/3_unit/03_lesson/lesson.md
-[3.04: Debugging and Scope]: /units/3_unit/04_lesson/lesson.md
-[3.05: Oregon Trail]: /units/3_unit/05_lesson/lesson.md
-
-[4.01: Looping Basics]: /units/4_unit/01_lesson/lesson.md
-[4.02: For Loops]: /units/4_unit/02_lesson/lesson.md
-[4.03: Nested For Loops]: /units/4_unit/03_lesson/lesson.md
-[4.04: Nested Lists & Looping]: /units/4_unit/04_lesson/lesson.md
-[4.05: Debugging and Quiz]: /units/4_unit/05_lesson/lesson.md
-[4.06: Tic-Tac-Toe]: /units/4_unit/01_lesson/lesson.md
-
-[5.01: Earsketch Intro]: /units/5_unit/01_lesson/lesson.md
-[5.02: EarSketch Music]: /units/5_unit/02_lesson/lesson.md
-[5.03: Earsketch Control Flow]: /units/5_unit/03_lesson/lesson.md
-[5.04: EarSketch User-Defined Functions]: /units/5_unit/04_lesson/lesson.md
-[5.05: EarSketch Project]: /units/5_unit/05_lesson/lesson.md
-
-[6.01: Introduction to Dictionaries]: /units/6_unit/01_lesson/lesson.md
-[6.02: Dictionaries Methods]: /units/6_unit/02_lesson/lesson.md
-[6.03: Dictionaries of Lists]: /units/6_unit/03_lesson/lesson.md
-[6.04: Dictionaries Looping]: /units/6_unit/04_lesson/lesson.md
-[6.05: Guess Who]: /units/6_unit/05_lesson/lesson.md
-
-[7.01: User-Defined Types]: /units/7_unit/01_lesson/lesson.md
-[7.02: User-Defined Types, Part 2]: /units/7_unit/03_lesson/lesson.md
-[7.03: Methods]: /units/7_unit/03_lesson/lesson.md
-[7.04: Inheritance]: /units/7_unit/04_lesson/lesson.md
-[7.05: Pokemon]: /units/7_unit/05_lesson/lesson.md
-
-[8.01: Final Project Brainstorming and Evaluating]: /units/8_unit/01_lesson/lesson.md
-[8.02: Defining Requirements]: /units/8_unit/02_lesson/lesson.md
-[8.03: Building a Plan]: /units/8_unit/03_lesson/lesson.md
-[8.04: Project Implementation]: /units/8_unit/04_lesson/lesson.md
-
+[1.01: Set Up]: {{ '/docs/lesson_plans/units/1_unit/01_lesson/lesson.html' | relative_url }}
+[1.02: Interactive Mode]: {{ '/docs/lesson_plans/units/1_unit/02_lesson/lesson.html' | relative_url }}
+[1.03: Script Mode and Variables]: {{ '/docs/lesson_plans/units/1_unit/03_lesson/lesson.html' | relative_url }}
+[1.04: Variables Input]: {{ '/docs/lesson_plans/units/1_unit/04_lesson/lesson.html' | relative_url }}
+[1.05: Quiz & Debugging]: {{ '/docs/lesson_plans/units/1_unit/05_lesson/lesson.html' | relative_url }}
+[1.06: MadLibs]:  {{ '/docs/lesson_plans/units/1_unit/06_lesson/lesson.html' | relative_url }}
+[2.01: Data Types & Casting]: {{ '/docs/lesson_plans/units/2_unit/01_lesson/lesson.html' | relative_url }}
+[2.02: Booleans & Expressions]: {{ '/docs/lesson_plans/units/2_unit/02_lesson/lesson.html' | relative_url }}
+[2.03: Conditionals]: {{ '/docs/lesson_plans/units/2_unit/03_lesson/lesson.html' | relative_url }}
+[2.04: Lists]: {{ '/docs/lesson_plans/units/2_unit/04_lesson/lesson.html' | relative_url }}
+[2.05: Lists 2]: {{ '/docs/lesson_plans/units/2_unit/05_lesson/lesson.html' | relative_url }}
+[2.06: Game Loop]: {{ '/docs/lesson_plans/units/2_unit/06_lesson/lesson.html' | relative_url }}
+[2.07: Text Game]: {{ '/docs/lesson_plans/units/2_unit/07_lesson/lesson.html' | relative_url }}
+[3.01: Built In Functions]: {{ '/docs/lesson_plans/units/3_unit/01_lesson/lesson.html' | relative_url }}
+[3.02: User-Defined Functions]: {{ '/docs/lesson_plans/units/3_unit/02_lesson/lesson.html' | relative_url }}
+[3.03: Return vs Print]: {{ '/docs/lesson_plans/units/3_unit/03_lesson/lesson.html' | relative_url }}
+[3.04: Debugging and Scope]: {{ '/docs/lesson_plans/units/3_unit/04_lesson/lesson.html' | relative_url }}
+[3.05: Oregon Trail]: {{ '/docs/lesson_plans/units/3_unit/05_lesson/lesson.html' | relative_url }}
+[4.01: Looping Basics]: {{ '/docs/lesson_plans/units/4_unit/01_lesson/lesson.html' | relative_url }}
+[4.02: For Loops]: {{ '/docs/lesson_plans/units/4_unit/02_lesson/lesson.html' | relative_url }}
+[4.03: Nested For Loops]: {{ '/docs/lesson_plans/units/4_unit/03_lesson/lesson.html' | relative_url }}
+[4.04: Nested Lists & Looping]: {{ '/docs/lesson_plans/units/4_unit/04_lesson/lesson.html' | relative_url }}
+[4.05: Debugging and Quiz]: {{ '/docs/lesson_plans/units/4_unit/05_lesson/lesson.html' | relative_url }}
+[4.06: Tic-Tac-Toe]: {{ '/docs/lesson_plans/units/4_unit/01_lesson/lesson.html' | relative_url }}
+[5.01: Earsketch Intro]: {{ '/docs/lesson_plans/units/5_unit/01_lesson/lesson.html' | relative_url }}
+[5.02: EarSketch Music]: {{ '/docs/lesson_plans/units/5_unit/02_lesson/lesson.html' | relative_url }}
+[5.03: Earsketch Control Flow]: {{ '/docs/lesson_plans/units/5_unit/03_lesson/lesson.html' | relative_url }}
+[5.04: EarSketch User-Defined Functions]: {{ '/docs/lesson_plans/units/5_unit/04_lesson/lesson.html' | relative_url }}
+[5.05: EarSketch Project]: {{ '/docs/lesson_plans/units/5_unit/05_lesson/lesson.html' | relative_url }}
+[6.01: Introduction to Dictionaries]: {{ '/docs/lesson_plans/units/6_unit/01_lesson/lesson.html' | relative_url }}
+[6.02: Dictionaries Methods]: {{ '/docs/lesson_plans/units/6_unit/02_lesson/lesson.html' | relative_url }}
+[6.03: Dictionaries of Lists]: {{ '/docs/lesson_plans/units/6_unit/03_lesson/lesson.html' | relative_url }}
+[6.04: Dictionaries Looping]: {{ '/docs/lesson_plans/units/6_unit/04_lesson/lesson.html' | relative_url }}
+[6.05: Guess Who]: {{ '/docs/lesson_plans/units/6_unit/05_lesson/lesson.html' | relative_url }}
+[7.01: User-Defined Types]: {{ '/docs/lesson_plans/units/7_unit/01_lesson/lesson.html' | relative_url }}
+[7.02: User-Defined Types, Part 2]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
+[7.03: Methods]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
+[7.04: Inheritance]: {{ '/docs/lesson_plans/units/7_unit/04_lesson/lesson.html' | relative_url }}
+[7.05: Pokemon]: {{ '/docs/lesson_plans/units/7_unit/05_lesson/lesson.html' | relative_url }}
+[8.01: Final Project Brainstorming and Evaluating]: {{ '/docs/lesson_plans/units/8_unit/01_lesson/lesson.html' | relative_url }}
+[8.02: Defining Requirements]: {{ '/docs/lesson_plans/units/8_unit/02_lesson/lesson.html' | relative_url }}
+[8.03: Building a Plan]: {{ '/docs/lesson_plans/units/8_unit/03_lesson/lesson.html' | relative_url }}
+[8.04: Project Implementation]: {{ '/docs/lesson_plans/units/8_unit/04_lesson/lesson.html' | relative_url }}
 [Supplemental Culture Day Lessons]: supplemental/
-[01: Binary Day]: units/supplemental/01_lesson/lesson.md
+[01: Binary Day]: {{ '/docs/lesson_plans/units/supplemental/01_lesson/lesson.html' | relative_url }}
 [Additional Topics]: cert.md
 [Microsoft Technology Associate (MTA) certification]: https://www.microsoft.com/en-us/learning/exam-98-381.aspx
 [Advanced Placement Computer Science A]: https://tealsk12.gitbook.io/apcsa/

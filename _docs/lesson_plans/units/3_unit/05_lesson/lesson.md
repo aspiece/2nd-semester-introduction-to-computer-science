@@ -15,13 +15,13 @@ Students will be able to...
 
 * [Project Spec - Oregon Trail] ([printable project Spec]) ([editable project spec])
 * [Alternate Project Spec - Daily Planner] ([printable alternate project Spec]) ([editable alternate project spec])
-* [Oregon Trail Starter Code]((https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/05_lesson/Unit_3_Project_Oregon_Trail_Starter_Code.py)
+* [Oregon Trail Starter Code]((Unit_3_Project_Oregon_Trail_Starter_Code.py)
 )
 * Solution (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard](https://www.tealsk12.org/dashboard/))
 * Update the Project Spec as needed to meet your grading requirements
 * Try creating your own variation on the Oregon Trail code so you are familiar with the potential challenges and bugs your students will hit.
 * Review [4 Steps to Solve Any CS Problem]
-* [Editable Grading Rubric](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/07_lesson/rubric.docx)
+* [Editable Grading Rubric](../../2_unit/07_lesson/rubric.docx)
 
 ### Day 1 Pacing
 
@@ -77,7 +77,7 @@ Students will be able to...
 
 ### Objective Scoring Breakdown
 
-[Editable Grading Rubric](https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/2_unit/07_lesson/rubric.docx)
+[Editable Grading Rubric](../../2_unit/07_lesson/rubric.docx)
 
 | Points | Percentage| Objective | Lesson |
 | :---: | :---: | --- | --- |
@@ -101,9 +101,9 @@ You may need to adjust the points in order to fit your class. Treat the percenta
 [Alternate Project Spec - Daily Planner]:alternate_project.md
 [Oregon Trail - Example Code]:oregon_trail.py
 [TEALS Dashboard]:http:/www.tealsk12.org/dashboard
-[4 Steps to Solve Any CS Problem]:https://github.com/TEALS-IntroCS/2nd-semester-introduction-to-computer-science-principles/raw/master/units/4%20Steps%20to%20Solve%20Any%20CS%20Problem.pdf
+[4 Steps to Solve Any CS Problem]:../../4%20Steps%20to%20Solve%20Any%20CS%20Problem.pdf
 
-[printable project Spec]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/05_lesson/project.pdf
-[editable project spec]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/05_lesson/project.docx
-[printable alternate project Spec]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/05_lesson/alternate_project.pdf
-[editable alternate project spec]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/3_unit/05_lesson/alternate_project.docx
+[printable project Spec]: project.pdf
+[editable project spec]: project.docx
+[printable alternate project Spec]: alternate_project.pdf
+[editable alternate project spec]: alternate_project.docx

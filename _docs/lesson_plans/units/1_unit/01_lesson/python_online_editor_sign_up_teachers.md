@@ -17,5 +17,5 @@ There are two different ways for students to submit their work:
     
 2. Have students download their file and upload it to the school's Learning Management System (or however students normally hand in electronic files at the particular school)
 
-[Sign Up Guide Teachers Code]:https://TEALSK12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/units/1_unit/Trinket_Teacher.docx
-[Sign Up Guide Teachers Connect]:https://TEALSK12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/units/1_unit/Trinket_Teacher_Connect.docx
+[Sign Up Guide Teachers Code]:../Trinket_Teacher.docx
+[Sign Up Guide Teachers Connect]:../Trinket_Teacher_Connect.docx

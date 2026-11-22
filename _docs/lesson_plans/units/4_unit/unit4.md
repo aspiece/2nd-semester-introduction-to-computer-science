@@ -38,9 +38,9 @@ title: "Unit 4 - For Loops and Nesting"
 * Stack Trace
 * Nested List
 
-[4.01 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.01%20TEALS.pptx
-[4.02 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.02%20TEALS.pptx
-[4.03 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.03%20TEALS.pptx
-[4.04 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.04%20TEALS.pptx
-[4.05 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.05%20TEALS.pptx
-[4.06 Slide Deck]: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science/raw/master/units/4_unit/slidedecks/Intro%20Python%204.06%20TEALS.pptx
+[4.01 Slide Deck]: slidedecks/Intro%20Python%204.01%20TEALS.pptx
+[4.02 Slide Deck]: slidedecks/Intro%20Python%204.02%20TEALS.pptx
+[4.03 Slide Deck]: slidedecks/Intro%20Python%204.03%20TEALS.pptx
+[4.04 Slide Deck]: slidedecks/Intro%20Python%204.04%20TEALS.pptx
+[4.05 Slide Deck]: slidedecks/Intro%20Python%204.05%20TEALS.pptx
+[4.06 Slide Deck]: slidedecks/Intro%20Python%204.06%20TEALS.pptx
