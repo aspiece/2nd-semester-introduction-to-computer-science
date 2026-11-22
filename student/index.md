@@ -11,8 +11,8 @@ Pick your lesson. Every lesson has its own page and link you can bookmark or sha
 ## Unit 1: Text-based vs. Block-based Programming
 
 <div class="cards">
-  <a class="card" href="{{ '/student/1.01/' | relative_url }}"><span class="card-num">Lesson 1.01</span><strong>Set Up</strong></a>
-  <a class="card" href="{{ '/student/1.02/' | relative_url }}"><span class="card-num">Lesson 1.02</span><strong>Interactive Mode</strong></a>
+  <a class="card" href="{{ '/student/lesson-1-01/' | relative_url }}"><span class="card-num">Lesson 1.01</span><strong>Set Up</strong></a>
+  <a class="card" href="{{ '/student/lesson-1-02/' | relative_url }}"><span class="card-num">Lesson 1.02</span><strong>Interactive Mode</strong></a>
   <a class="card" href="{{ '/student/1.03/' | relative_url }}"><span class="card-num">Lesson 1.03</span><strong>Script Mode and Variables</strong></a>
   <a class="card" href="{{ '/student/1.04/' | relative_url }}"><span class="card-num">Lesson 1.04</span><strong>Variables and User Input</strong></a>
   <a class="card" href="{{ '/student/1.05/' | relative_url }}"><span class="card-num">Lesson 1.05</span><strong>Quiz & Debugging</strong></a>
