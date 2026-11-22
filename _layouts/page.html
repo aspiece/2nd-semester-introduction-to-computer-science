@@ -5,9 +5,16 @@ layout: default
   <aside class="sidebar" id="sidebar">{% include sidebar.html %}</aside>
   <div class="scrim" id="scrim" hidden></div>
   <main id="content" class="content">
+    <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
     <article class="prose" id="article">
       {{ content }}
+      {% for a in site.data.toc %}{% if a.url == page.url and a.children.size > 0 and a.children.first.url != page.url %}
+      <h2 class="no-rule">In this section</h2>
+      <div class="cards">{% for b in a.children %}
+        <a class="card" href="{{ b.url | relative_url }}"><strong>{{ b.title }}</strong>{% if b.children.size > 0 %}<span>{% for c in b.children %}{{ c.title }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}</a>{% endfor %}
+      </div>{% endif %}{% endfor %}
     </article>
+    <nav class="pager" id="pager" aria-label="Previous and next lesson"></nav>
     <p class="page-meta">
       <a href="{{ site.repo }}/edit/{{ site.branch }}/{{ page.path }}">Edit this page</a>
       <a href="{{ site.repo }}/issues/new?title=Question:%20{{ page.title | uri_escape }}">Report an issue</a>

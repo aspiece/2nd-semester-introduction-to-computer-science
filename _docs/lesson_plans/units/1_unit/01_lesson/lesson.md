@@ -18,8 +18,8 @@ Students will be able to...
 * Create an account on online IDE and update the student Sign Up Guide with your username
 * Update the student Sign Up Guide with file naming and turn-in conventions for your course
 * [Sign Up Guide](python_replit_sign_up.md) [Sign Up Guide (Word)], [Sign Up Guide (pdf)]: the IDE guide for students
-* [Sign Up Guide Teachers]: the IDE guide for teachers
-* [Python Code]: code to display and have students submit online
+* [Sign Up Guide Teachers]\: the IDE guide for teachers
+* [Python Code]\: code to display and have students submit online
 * Student Notebooks
 
 ## Pacing Guide

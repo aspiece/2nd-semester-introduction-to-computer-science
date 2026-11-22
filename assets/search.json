@@ -1,0 +1,4 @@
+---
+layout: null
+---
+[{% for d in site.docs %}{% unless forloop.first %},{% endunless %}{"title":{{ d.title | jsonify }},"url":"{{ d.url | relative_url }}","content":{{ d.content | strip_html | normalize_whitespace | truncate: 3000 | jsonify }}}{% endfor %}]
