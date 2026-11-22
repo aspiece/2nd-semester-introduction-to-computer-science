@@ -8,6 +8,7 @@ layout: default
     <article class="prose" id="article">
       {{ content }}
     </article>
+    <nav class="pager" id="pager" aria-label="Previous and next lesson"></nav>
     <p class="page-meta">
       <a href="{{ site.repo }}/edit/{{ site.branch }}/{{ page.path }}">Edit this page</a>
       <a href="{{ site.repo }}/issues/new?title=Question:%20{{ page.title | uri_escape }}">Report an issue</a>

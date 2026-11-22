@@ -1,0 +1,170 @@
+/* rouge: github (light) / monokai.sublime (dark) */
+:root:not([data-theme=dark]) .highlight table td{ padding: 5px; }
+:root:not([data-theme=dark]) .highlight table pre{ margin: 0; }
+:root:not([data-theme=dark]) .highlight,:root:not([data-theme=dark])  .highlight .w{
+:root:not([data-theme=dark]) .highlight .k,:root:not([data-theme=dark])  .highlight .kd,:root:not([data-theme=dark])  .highlight .kn,:root:not([data-theme=dark])  .highlight .kp,:root:not([data-theme=dark])  .highlight .kr,:root:not([data-theme=dark])  .highlight .kt,:root:not([data-theme=dark])  .highlight .kv{
+:root:not([data-theme=dark]) .highlight .gr{
+:root:not([data-theme=dark]) .highlight .gd{
+:root:not([data-theme=dark]) .highlight .nb{
+:root:not([data-theme=dark]) .highlight .nc{
+:root:not([data-theme=dark]) .highlight .no{
+:root:not([data-theme=dark]) .highlight .nn{
+:root:not([data-theme=dark]) .highlight .sr{
+:root:not([data-theme=dark]) .highlight .na{
+:root:not([data-theme=dark]) .highlight .nt{
+:root:not([data-theme=dark]) .highlight .gi{
+:root:not([data-theme=dark]) .highlight .ges{
+:root:not([data-theme=dark]) .highlight .kc{
+:root:not([data-theme=dark]) .highlight .l,:root:not([data-theme=dark])  .highlight .ld,:root:not([data-theme=dark])  .highlight .m,:root:not([data-theme=dark])  .highlight .mb,:root:not([data-theme=dark])  .highlight .mf,:root:not([data-theme=dark])  .highlight .mh,:root:not([data-theme=dark])  .highlight .mi,:root:not([data-theme=dark])  .highlight .il,:root:not([data-theme=dark])  .highlight .mo,:root:not([data-theme=dark])  .highlight .mx{
+:root:not([data-theme=dark]) .highlight .sb{
+:root:not([data-theme=dark]) .highlight .bp{
+:root:not([data-theme=dark]) .highlight .ne{
+:root:not([data-theme=dark]) .highlight .nl{
+:root:not([data-theme=dark]) .highlight .py{
+:root:not([data-theme=dark]) .highlight .nv,:root:not([data-theme=dark])  .highlight .vc,:root:not([data-theme=dark])  .highlight .vg,:root:not([data-theme=dark])  .highlight .vi,:root:not([data-theme=dark])  .highlight .vm{
+:root:not([data-theme=dark]) .highlight .o,:root:not([data-theme=dark])  .highlight .ow{
+:root:not([data-theme=dark]) .highlight .gh{
+:root:not([data-theme=dark]) .highlight .gu{
+:root:not([data-theme=dark]) .highlight .s,:root:not([data-theme=dark])  .highlight .sa,:root:not([data-theme=dark])  .highlight .sc,:root:not([data-theme=dark])  .highlight .dl,:root:not([data-theme=dark])  .highlight .sd,:root:not([data-theme=dark])  .highlight .s2,:root:not([data-theme=dark])  .highlight .se,:root:not([data-theme=dark])  .highlight .sh,:root:not([data-theme=dark])  .highlight .sx,:root:not([data-theme=dark])  .highlight .s1,:root:not([data-theme=dark])  .highlight .ss{
+:root:not([data-theme=dark]) .highlight .nd{
+:root:not([data-theme=dark]) .highlight .nf,:root:not([data-theme=dark])  .highlight .fm{
+:root:not([data-theme=dark]) .highlight .err{
+:root:not([data-theme=dark]) .highlight .c,:root:not([data-theme=dark])  .highlight .ch,:root:not([data-theme=dark])  .highlight .cd,:root:not([data-theme=dark])  .highlight .cm,:root:not([data-theme=dark])  .highlight .cp,:root:not([data-theme=dark])  .highlight .cpf,:root:not([data-theme=dark])  .highlight .c1,:root:not([data-theme=dark])  .highlight .cs{
+:root:not([data-theme=dark]) .highlight .gl{
+:root:not([data-theme=dark]) .highlight .gt{
+:root:not([data-theme=dark]) .highlight .ni{
+:root:not([data-theme=dark]) .highlight .si{
+:root:not([data-theme=dark]) .highlight .ge{
+:root:not([data-theme=dark]) .highlight .gs{
+:root[data-theme=dark] .highlight table td{ padding: 5px; }
+:root[data-theme=dark] .highlight table pre{ margin: 0; }
+:root[data-theme=dark] .highlight .gh{
+:root[data-theme=dark] .highlight .sr{
+:root[data-theme=dark] .highlight .go{
+:root[data-theme=dark] .highlight .gp{
+:root[data-theme=dark] .highlight .ge{
+:root[data-theme=dark] .highlight .ges{
+:root[data-theme=dark] .highlight .gs{
+:root[data-theme=dark] .highlight .gu{
+:root[data-theme=dark] .highlight .nb{
+:root[data-theme=dark] .highlight .cm{
+:root[data-theme=dark] .highlight .cp{
+:root[data-theme=dark] .highlight .c1{
+:root[data-theme=dark] .highlight .cs{
+:root[data-theme=dark] .highlight .c,:root[data-theme=dark]  .highlight .ch,:root[data-theme=dark]  .highlight .cd,:root[data-theme=dark]  .highlight .cpf{
+:root[data-theme=dark] .highlight .err{
+:root[data-theme=dark] .highlight .gr{
+:root[data-theme=dark] .highlight .gt{
+:root[data-theme=dark] .highlight .gd{
+:root[data-theme=dark] .highlight .gi{
+:root[data-theme=dark] .highlight .kc{
+:root[data-theme=dark] .highlight .kd{
+:root[data-theme=dark] .highlight .kr{
+:root[data-theme=dark] .highlight .no{
+:root[data-theme=dark] .highlight .kt{
+:root[data-theme=dark] .highlight .mf{
+:root[data-theme=dark] .highlight .mh{
+:root[data-theme=dark] .highlight .il{
+:root[data-theme=dark] .highlight .mi{
+:root[data-theme=dark] .highlight .mo{
+:root[data-theme=dark] .highlight .m,:root[data-theme=dark]  .highlight .mb,:root[data-theme=dark]  .highlight .mx{
+:root[data-theme=dark] .highlight .sc{
+:root[data-theme=dark] .highlight .se{
+:root[data-theme=dark] .highlight .ss{
+:root[data-theme=dark] .highlight .sd{
+:root[data-theme=dark] .highlight .s2{
+:root[data-theme=dark] .highlight .sb{
+:root[data-theme=dark] .highlight .sh{
+:root[data-theme=dark] .highlight .si{
+:root[data-theme=dark] .highlight .sx{
+:root[data-theme=dark] .highlight .s1{
+:root[data-theme=dark] .highlight .s,:root[data-theme=dark]  .highlight .sa,:root[data-theme=dark]  .highlight .dl{
+:root[data-theme=dark] .highlight .na{
+:root[data-theme=dark] .highlight .nc{
+:root[data-theme=dark] .highlight .nd{
+:root[data-theme=dark] .highlight .ne{
+:root[data-theme=dark] .highlight .nf,:root[data-theme=dark]  .highlight .fm{
+:root[data-theme=dark] .highlight .vc{
+:root[data-theme=dark] .highlight .nn{
+:root[data-theme=dark] .highlight .nl{
+:root[data-theme=dark] .highlight .ni{
+:root[data-theme=dark] .highlight .bp{
+:root[data-theme=dark] .highlight .vg{
+:root[data-theme=dark] .highlight .vi{
+:root[data-theme=dark] .highlight .nv,:root[data-theme=dark]  .highlight .vm{
+:root[data-theme=dark] .highlight .w{
+:root[data-theme=dark] .highlight{
+:root[data-theme=dark] .highlight .n,:root[data-theme=dark]  .highlight .py,:root[data-theme=dark]  .highlight .nx{
+:root[data-theme=dark] .highlight .ow{
+:root[data-theme=dark] .highlight .nt{
+:root[data-theme=dark] .highlight .k,:root[data-theme=dark]  .highlight .kv{
+:root[data-theme=dark] .highlight .kn{
+:root[data-theme=dark] .highlight .kp{
+:root[data-theme=dark] .highlight .o{
+@media(prefers-color-scheme:dark){
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight table td{ padding: 5px; }
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight table pre{ margin: 0; }
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gh{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sr{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .go{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gp{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ge{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ges{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gs{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gu{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nb{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .cm{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .cp{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .c1{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .cs{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .c,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .ch,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .cd,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .cpf{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .err{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gr{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gt{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gd{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .gi{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kc{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kd{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kr{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .no{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kt{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .mf{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .mh{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .il{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .mi{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .mo{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .m,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .mb,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .mx{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sc{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .se{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ss{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sd{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .s2{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sb{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sh{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .si{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .sx{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .s1{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .s,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .sa,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .dl{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .na{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nc{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nd{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ne{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nf,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .fm{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .vc{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nn{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nl{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ni{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .bp{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .vg{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .vi{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nv,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .vm{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .w{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .n,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .py,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .nx{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .ow{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .nt{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .k,:root:not([data-theme=light]):not([data-theme=dark])  .highlight .kv{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kn{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .kp{
+:root:not([data-theme=light]):not([data-theme=dark]) .highlight .o{
+}

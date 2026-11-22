@@ -38,6 +38,37 @@ layout: null
     });
   }
 
+  // Previous/next links follow the sidebar order
+  var pager = $('#pager');
+  if (pager && sidebar && location.pathname.replace(/\/$/, '') !== '' ) {
+    var links = Array.prototype.slice.call(sidebar.querySelectorAll('a'));
+    var i = links.findIndex(function (a) { return a.classList.contains('active'); });
+    var mk = function (a, cls, label) {
+      return '<a class="' + cls + '" href="' + a.href + '"><small>' + label + '</small>' + a.textContent + '</a>';
+    };
+    if (i >= 0) pager.innerHTML = (i > 0 ? mk(links[i - 1], 'prev', '← Previous') : '') + (i < links.length - 1 ? mk(links[i + 1], 'next', 'Next →') : '');
+  }
+  if (pager && !pager.children.length) pager.remove();
+
+  var article0 = $('#article');
+  if (article0) {
+    article0.querySelectorAll('a[href]').forEach(function (a) {
+      var m = a.pathname.match(/\.(docx?|pdf|pptx?|xlsx|zip)$/i);
+      if (m) { var b = document.createElement('span'); b.className = 'file-badge ' + m[1].toLowerCase(); b.textContent = m[1]; a.after(b); }
+    });
+    article0.querySelectorAll('div.highlight').forEach(function (h) {
+      var btn = document.createElement('button');
+      btn.className = 'copy-btn'; btn.type = 'button'; btn.textContent = 'Copy';
+      btn.addEventListener('click', function () {
+        var text = h.querySelector('pre').innerText;
+        (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () {
+          btn.textContent = 'Copied!'; setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+        }, function () { btn.textContent = 'Press Ctrl+C'; });
+      });
+      h.appendChild(btn);
+    });
+  }
+
   var list = $('#toc-list'), article = $('#article');
   if (list && article) {
     var heads = article.querySelectorAll('h2, h3');
