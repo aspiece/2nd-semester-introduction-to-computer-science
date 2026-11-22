@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curriculum Component Diagnostic</title>
+<link rel="stylesheet" href="/2nd-semester-introduction-to-computer-science/assets/css/site.css">
+<link rel="stylesheet" href="/2nd-semester-introduction-to-computer-science/assets/css/syntax.css">
+</head>
+<body>
+<header class="topbar"><button id="menu-btn" class="icon-btn menu-btn" aria-expanded="false">☰</button><a class="brand" href="/2nd-semester-introduction-to-computer-science/">Curriculum Diagnostic</a><button id="theme-btn" class="icon-btn">◐</button></header>
+<div class="shell">
+<aside class="sidebar" id="sidebar"><nav class="sidebar-nav"><ul><li><a href="#test">Diagnostic link</a></li></ul></nav></aside>
+<div class="scrim" id="scrim" hidden></div>
+<main id="content" class="content">
+<article class="prose" id="article">
+<h1 id="test">Diagnostic 2: Full-site components</h1>
+<p id="html-result">PASS: HTML content is visible.</p>
+<p id="css-result">CSS test: if this page has a styled header and readable text, the shared CSS is rendering.</p>
+<p id="js-result">JavaScript test: waiting for script.</p>
+</article>
+<nav id="pager"></nav>
+</main>
+<aside class="toc"><ul id="toc-list"></ul></aside>
+</div>
+<button id="to-top" hidden>↑</button>
+<script src="/2nd-semester-introduction-to-computer-science/assets/js/site.js" defer></script>
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('js-result').textContent = 'PASS: Inline JavaScript and DOMContentLoaded executed.';
+});
+</script>
+</body>
+</html>
