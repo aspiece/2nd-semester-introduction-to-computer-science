@@ -69,6 +69,34 @@ layout: null
     });
   }
 
+  // Self-check quizzes: each .q has a list of options, data-answer (a, b, c...) and a .why explanation
+  document.querySelectorAll('.quiz .q').forEach(function (q) {
+    var items = q.querySelectorAll('ul > li'), ans = (q.getAttribute('data-answer') || '').toLowerCase();
+    var why = q.querySelector('.why'), tries = 0;
+    if (why) why.hidden = true;
+    var fb = document.createElement('p'); fb.className = 'quiz-fb'; fb.setAttribute('role', 'status');
+    items.forEach(function (li, i) {
+      var letter = String.fromCharCode(97 + i);
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'quiz-opt';
+      while (li.firstChild) b.appendChild(li.firstChild);
+      li.appendChild(b);
+      b.addEventListener('click', function () {
+        if (q.classList.contains('solved')) return;
+        tries++;
+        if (letter === ans) {
+          q.classList.add('solved'); b.classList.add('right');
+          fb.textContent = 'Correct!'; fb.className = 'quiz-fb ok';
+          if (why) why.hidden = false;
+        } else {
+          b.classList.add('wrong'); b.disabled = true;
+          fb.textContent = 'Not quite. Try again.'; fb.className = 'quiz-fb no';
+        }
+      });
+    });
+    q.appendChild(fb);
+  });
+
   // Breadcrumbs from the active sidebar branch
   var crumbs = $('#crumbs'), cur = sidebar && sidebar.querySelector('a.active');
   if (crumbs && cur) {

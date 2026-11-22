@@ -109,3 +109,13 @@ div.highlight{position:relative}
 .inline-monaco{min-height:60px}
 .inline-py .py-output{height:auto;min-height:40px;max-height:200px}
 @media print{.run-btn{display:none}}
+.quiz{margin:1.5em 0}
+.quiz .q{margin:1em 0;padding:4px 18px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg)}
+.quiz ul{list-style:none;padding:0;margin:.6em 0}
+.quiz-opt{display:block;width:100%;text-align:left;margin:6px 0;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:transparent;color:var(--fg);cursor:pointer;font:inherit}
+.quiz-opt:hover:not(:disabled){border-color:var(--accent)}
+.quiz-opt.right{background:#10b981;border-color:#10b981;color:#fff}
+.quiz-opt.wrong{border-color:#ef4444;color:var(--muted);text-decoration:line-through}
+.quiz-fb.ok{color:#10b981;font-weight:700}.quiz-fb.no{color:#ef4444}
+.quiz .why{margin:.4em 0 0;color:var(--muted)}
+.callout-check{--c:#06b6d4}
