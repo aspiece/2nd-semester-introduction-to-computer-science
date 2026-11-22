@@ -5,6 +5,28 @@ A 2nd semester follow-up to the [TEALS Intro CS course](https://tealsk12.gitbook
 * GitHub: https://github.com/TEALSK12/2nd-semester-introduction-to-computer-science
 * GitBook: https://tealsk12.gitbooks.io/2nd-semester-introduction-to-computer-science/content/
 
+## Changes from the original curriculum
+
+This repository is a fork of the TEALS curriculum. Lesson content is unchanged except where noted below.
+
+**Website**
+* New Jekyll theme with a sidebar, search with suggestions, dark mode, breadcrumbs, previous/next links, syntax highlighting with copy buttons, and colored callouts for Do Now, Lab, Project and Instructor's Notes.
+* Landing page with unit cards, a glossary, a printable syllabus, and a per-browser lesson progress tracker.
+* Automatic deployment to GitHub Pages.
+
+**Added materials** (generated to match the existing course style; review before classroom use)
+* Slide decks for Units 5, 7 and 8, which were missing upstream.
+* Unit 6 Project B starter code (`starter_code/`, including a 162-item `inventory.txt`) with printable PDF and DOCX copies.
+* Solutions remain protected on the TEALS Dashboard and are not included.
+
+**Content and link fixes**
+* Links to upstream GitHub and GitBook files now point to the files in this repository, and readings link to the local readings page.
+* About 40 spelling errors fixed, broken Unit 3 and Unit 8 links corrected, and stale duplicate pages removed.
+* Old Docsy theme files, demo pages and the CircleCI configuration removed.
+
+**Tooling**
+* `scripts/build_pages.py` and `scripts/check_links.py`, plus a `Checks` workflow for links, generated pages and spelling.
+
 ## Viewing and developing the site
 
 The curriculum is published with Jekyll at https://aspiece.github.io/2nd-semester-introduction-to-computer-science/.
