@@ -1,0 +1,99 @@
+---
+layout: minimal-home
+title: "Lesson 5.03: Earsketch Control Flow"
+permalink: /student/lesson-5-03/
+teacher_url: /docs/lesson_plans/units/5_unit/03_lesson/lesson.html
+unit: 5
+prev_url: /student/lesson-5-02/
+prev_title: "5.02"
+next_url: /student/lesson-5-04/
+next_title: "5.04"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **modulo**
+* Demonstrate looping and control structures
+* Demonstrate the use of looping concepts in music making via EarSketch
+* Demonstrate using control structures to create music
+
+## Reading
+
+* Associated Reading in EarSketch
+
+## Do Now
+
+1. Read through and participate in the following lessons in [EarSketch Editor]
+
+      * 2.4.0 [for loop](https://earsketch.gatech.edu/earsketch2/#?curriculum=2-4-0)
+      * 3.1.2 [Conditional Statements](https://earsketch.gatech.edu/earsketch2/#?curriculum=3-1-2)
+      * 3.3.0 [Procedure - modulo](https://earsketch.gatech.edu/earsketch2/#?curriculum=3-3-0)
+
+2. In your notebook, answer the following questions, based on the reading:
+    * Describe how using a `for` loop can be useful in using EarSketch to create a new beat.
+    * How can an `if` statement be used with the **modulo** operator in order to have a beat repeat *every other* measure?
+
+[EarSketch Editor]: http://earsketch.gatech.edu/earsketch2/
+
+## Lab
+
+1. Write a for loop that repeats the given rhythm every other measure from measures 1 to 8 (e.g. 1, 3, 5, etc.) on track 1.
+    * Audio loop constant: HIPHOP_STOMP_BEAT_001
+    * Rhythm: “0---0-0-00000+++”
+
+2. Create an EarSketch script using the following requirements. Include your name and a description in comments at the top of the file.
+
+    * Create a project with 4 tracks that is at least 16 measures in length.
+    * 2 tracks should be music tracks, containing fitmedia() function calls.
+    * The remaining two tracks should contain makeBeat() function calls.
+    * One track should use a for loop to repeat a rhythm (beat string) for every measure in the song.
+    * The other track should use a for loop to repeat a rhythm for every other measure in the song (e.g. 1, 3, 5, 7, 9, 11…).
+
+### Copyright Note
+
+The above is taken from the earsketch teaching resources.
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="b" markdown="1">
+**1. What does the modulo operator `%` give you?**
+
+- The result of dividing, including decimals
+- The remainder after division
+- The larger of two numbers
+- The number of times a loop runs
+
+<p class="why">Modulo returns what is left over after dividing, so <code>7 % 2</code> is 1.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**2. Inside a loop over measures, which condition is true only on every other measure?**
+
+- `measure % 2 == 1`
+- `measure % 1 == 0`
+- `measure + 2 == 0`
+- `measure % 2 == 2`
+
+<p class="why">Dividing by 2 leaves a remainder that alternates between 0 and 1, so testing it picks every other measure.</p>
+</div>
+
+<div class="q" data-answer="c" markdown="1">
+**3. Why use a `for` loop when building a beat across many measures?**
+
+- It makes each measure sound different
+- It is the only way to call `makeBeat()`
+- It repeats the same code for each measure instead of copying it by hand
+
+<p class="why">A loop runs the same steps once per measure, which saves typing and avoids mistakes.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/03_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/03_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
