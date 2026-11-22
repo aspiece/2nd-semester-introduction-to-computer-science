@@ -4,7 +4,7 @@ title: "Lesson 1.01: Set Up"
 permalink: /student/lesson-1-01/
 teacher_url: /docs/lesson_plans/units/1_unit/01_lesson/lesson.html
 unit: 1
-next_url: /student/1.02/
+next_url: /student/lesson-1-02/
 next_title: "1.02"
 ---
 {% raw %}## What you will learn
