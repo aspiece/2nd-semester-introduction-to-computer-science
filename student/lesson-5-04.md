@@ -1,0 +1,96 @@
+---
+layout: minimal-home
+title: "Lesson 5.04: EarSketch User-Defined Functions"
+permalink: /student/lesson-5-04/
+teacher_url: /docs/lesson_plans/units/5_unit/04_lesson/lesson.html
+unit: 5
+prev_url: /student/lesson-5-03/
+prev_title: "5.03"
+next_url: /student/lesson-5-05/
+next_title: "5.05"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **abstraction**, **section**, **A-B-A form**
+* Create and apply user-defined functions to create songs with complicated form
+
+## Reading
+
+* Associated Reading in EarSketch
+
+## Do Now
+
+1. Begin reading the following lessons of the EarSketch documentation in [Unit 2](http://earsketch.gatech.edu/category/unit-2).
+
+    * 2.1.0 [Sections and Form](https://earsketch.gatech.edu/earsketch2/#?curriculum=2-1-0)
+    * 2.1.1 [A-B-A form](https://earsketch.gatech.edu/earsketch2/#?curriculum=2-1-1)
+    * 2.1.2 [Custom Functions](https://earsketch.gatech.edu/earsketch2/#?curriculum=2-1-2)
+
+2. Answer the following questions, based on the reading:
+    * Why might it be useful to group sections of music into functions?
+    * Write the code for defining a `verse()` function that takes in 5 parameters: `drums`, `guitar`, `bass`, `startMeasure`, and `endMeasure`.
+
+## Lab
+
+Create a new EarSketch project that meets the requirements below. Include your name and project description at the top of the file.
+
+* Create two functions. Both functions should use `fitMedia()` and `makeBeat()` at least once.
+  * `sectionA()` function
+    * Use parameters for the audio clip variable(s), starting measures, and ending measures.
+    * This function should have at least 3 tracks.
+  * `sectionB()` function
+    * Use parameters for starting and ending measures.
+    * This function should have at least 2 tracks.
+* Call both functions in an alternating pattern at least three times (ABABAB)
+* Use comments to outline and describe your code.
+
+### Copyright Note
+
+The above is taken from the earsketch teaching resources.
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="c" markdown="1">
+**1. What does A-B-A form mean?**
+
+- A song with three tracks
+- A song that plays the same sound three times
+- A song with a section, a contrasting section, then the first section again
+- A song that is exactly three measures long
+
+<p class="why">A-B-A form returns to the opening section after a contrasting one.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**2. Why group the code for a section of music into a function?**
+
+- You can reuse it with different parameters by calling it by name
+- It makes the section play faster
+- It removes the need for variables
+- Python requires every section to be a function
+
+<p class="why">A function is an abstraction: it hides the details behind a name so you can call it again whenever the section returns.</p>
+</div>
+
+<div class="q" data-answer="d" markdown="1">
+**3. What is the purpose of parameters such as `startMeasure` and `endMeasure` in a section function?**
+
+- They set the tempo of the whole song
+- They name the function
+- They define which sounds exist
+- They let each call place the section at different measures
+
+<p class="why">Parameters let the same function produce its section at different places in the song.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/04_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/04_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
