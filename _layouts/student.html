@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="student">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="{{ '/student/' | relative_url }}">{{ site.title }}</a>
+    <span class="badge-view">Student view</span>
+    <nav class="topnav" aria-label="Main">
+      <a href="{{ '/student/' | relative_url }}">All lessons</a>
+      <a href="{{ '/glossary/' | relative_url }}">Glossary</a>
+      <a class="view-toggle" href="{{ page.teacher_url | relative_url }}">Switch to teacher view</a>
+    </nav>
+    <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+  </header>
+  <main id="content" class="content student-main">
+    <article class="prose" id="article">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+    {% if page.prev_url or page.next_url %}
+    <nav class="pager" aria-label="Previous and next lesson">
+      {% if page.prev_url %}<a class="prev" href="{{ page.prev_url | relative_url }}"><small>Previous</small>Lesson {{ page.prev_title }}</a>{% endif %}
+      {% if page.next_url %}<a class="next" href="{{ page.next_url | relative_url }}"><small>Next</small>Lesson {{ page.next_title }}</a>{% endif %}
+    </nav>
+    {% endif %}
+    {% include footer.html %}
+  </main>
+  <button id="to-top" class="to-top" aria-label="Back to top" hidden>↑</button>
+</body>
+</html>

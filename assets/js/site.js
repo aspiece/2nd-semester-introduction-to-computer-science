@@ -221,4 +221,10 @@ layout: null
     }
     render();
   }
+  // Teacher/student toggle: jump to the matching student lesson page
+  var viewToggle = $('#view-toggle');
+  if (viewToggle) {
+    var vm = location.pathname.match(/\/units\/(\d+)_unit\/0?(\d+)_lesson\//);
+    if (vm) viewToggle.setAttribute('href', viewToggle.getAttribute('href') + vm[1] + '.' + (vm[2].length < 2 ? '0' : '') + vm[2] + '/');
+  }
 })();

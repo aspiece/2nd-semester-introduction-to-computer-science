@@ -18,7 +18,8 @@ jobs:
       - name: Check generated pages are up to date
         run: |
           python3 scripts/build_pages.py
-          git diff --exit-code pages/glossary.md pages/syllabus.md
+          python3 scripts/build_student.py
+          git diff --exit-code pages/glossary.md pages/syllabus.md student
       - name: Spell check lessons
         run: |
           pip install codespell

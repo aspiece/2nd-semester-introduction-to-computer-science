@@ -86,3 +86,8 @@ a{color:var(--accent)}
 .btn-complete{display:block;margin:28px 0 8px;padding:9px 18px;border:1px solid var(--accent);border-radius:8px;background:transparent;color:var(--accent);font-weight:600;cursor:pointer}
 .btn-complete[aria-pressed=true]{background:#10b981;border-color:#10b981;color:#fff}
 @media print{.btn-complete,.progress,.filter-box{display:none}.glossary dt[hidden],.glossary dd[hidden]{display:none}}
+.view-toggle{padding:5px 12px;border:1px solid var(--accent);border-radius:999px;color:var(--accent)!important;font-weight:600;white-space:nowrap}
+.badge-view{padding:3px 10px;border-radius:999px;background:#10b981;color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.student-main{max-width:860px;margin:0 auto}
+.student .brand{white-space:nowrap}
+@media print{.view-toggle,.badge-view{display:none}}

@@ -11,6 +11,7 @@ This repository is a fork of the TEALS curriculum. Lesson content is unchanged e
 
 **Website**
 * New Jekyll theme with a sidebar, search with suggestions, dark mode, breadcrumbs, previous/next links, syntax highlighting with copy buttons, and colored callouts for Do Now, Lab, Project and Instructor's Notes.
+* Student view: one page and unique URL per lesson (`/student/7.01/`), without instructor notes, with a teacher/student toggle.
 * Landing page with unit cards, a glossary, a printable syllabus, and a per-browser lesson progress tracker.
 * Automatic deployment to GitHub Pages.
 
@@ -43,8 +44,11 @@ Then open http://localhost:4000. Lesson pages live in `_docs/lesson_plans/units/
 ### Maintenance scripts
 
 * `python3 scripts/build_pages.py` regenerates `pages/glossary.md` and `pages/syllabus.md` from the lesson plans. Run it after changing lesson learning objectives or unit pacing tables.
+* `python3 scripts/build_student.py` regenerates the student view in `student/` from the lesson files. Run it after editing any lesson, do now, lab, project or rubric.
 * `python3 scripts/check_links.py _site` checks internal links and anchors in a built site.
 * The `Checks` workflow runs these, plus a spell check, on every pull request.
+
+Every lesson also has a student view at `/student/<unit>.<lesson>/` (for example `/student/7.01/`) that shows only student material, with a button in each header to switch between teacher and student views.
 
 The site also has a glossary (`/glossary/`), a printable syllabus (`/syllabus/`) and a per-browser lesson progress tracker.
 
