@@ -1,0 +1,171 @@
+---
+layout: minimal-home
+title: "Lesson 4.04: Nested Lists & Looping"
+permalink: /student/lesson-4-04/
+teacher_url: /docs/lesson_plans/units/4_unit/04_lesson/lesson.html
+unit: 4
+prev_url: /student/lesson-4-03/
+prev_title: "4.03"
+next_url: /student/lesson-4-05/
+next_title: "4.05"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **nested list**
+* Use nested for loops to traverse through nested lists
+
+## Do Now
+
+### In your Console
+
+#### Type and run the following code
+
+```python
+# my_building is a representation of the apartments on each floor of my 3 story building
+my_building = [
+['apt1a', 'apt1b', 'apt1c'],
+['apt2a', 'apt2b', 'apt2c'],
+['apt3a', 'apt3b', 'apt3c']
+]
+print("first floor: " + str(my_building[0]))
+print("first floor, 3rd apartment: " + str(my_building[0][2]))
+```
+
+### In your Notebook
+
+#### Respond to the following
+
+1. Write down what was printed.
+2. How you would access the 2nd apartment of the 3rd floor (`apt3b`)?
+
+## Lab
+
+### Part 1
+
+The goal of this lab is to practice using and accessing items from lists of lists.
+
+You have a few errands to run and have created a few shopping list to help you remember what to buy. You stored your notes in a nested list, `shopping_cart`.
+This program will allow the user to ask for a specific item by it's index or update what items are in the cart. The user can request to `view list` to see the items in a specific shopping list.
+
+#### Shopping Cart
+
+```python
+shopping_cart = [
+['tooth paste', 'q-tips', 'milk'],
+['milk', 'candy', 'apples'],
+['planner', 'pencils', 'q-tips']
+]
+```
+
+#### User Inputs
+
+`update`
+
+* The program asks which shopping list the user wants to update, which position it should update, and the new value to update.
+
+`view item`
+
+* The program asks which shopping list the item is on and which position i occupies, then prints the items name.
+
+`view list`
+
+* The program asks which shopping list the user wants and prints all of the items associated with that shopping list.
+
+#### Functions
+
+`update_list`
+
+* Takes in an integer representing the index of the shopping list, an integer representing the index of the item to update, and a string representing the new value for that item. Does not alter the length of the list.
+
+`print_item`
+
+* Takes an int representing the index of the shopping list followed by an int representing the index of the item to print.
+
+`print_list`
+
+* Takes an int representing the index of the shopping list to print.
+* Feel free to add more functions as you see fit
+
+#### Example
+
+```python
+>>>What would you like to do? view list
+Which shopping list would you like to see? 1
+tooth paste, q-tips, gum
+```
+
+### Part 2
+
+In this part of the lab you will go through your shopping list program and perform a few different calculations.
+
+1. Create a function, `all_in_one`, that will put all the shopping lists into a single list using a for loop.
+2. Create a function, `count_q_tips`, which will go through all items of the list and keep a count of how many times `'q-tips'` occurs.
+3. In order to make the shopping lists more calcium rich, write a function, `drink_more_milk`, that adds `'milk'` to each of the lists (unless it's already there).
+4. You can't have milk without cookies. Write a function `if_you_give_a_moose_a_cookie`, that will go through every element of `shopping_cart` and update `'milk'` to be `'milk and cookies'`.
+
+### Bonus
+
+Write a function to reverse the order of the lists and items in `shopping_cart`.
+
+The list should look like the following when printed:
+
+```python
+shopping_cart = [
+['q-tips', 'pencils', 'planner'],
+['apples', 'candy', 'milk'],
+['milk', 'q-tips', 'tooth paste']
+]
+```
+
+#### Tip
+
+* Last item can be gotten by `my_list[-1]`
+* Second to last element: `my_list[-2]`
+* Third to last element: `my_list[-3]`
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="b" markdown="1">
+**1. What is a nested list?**
+
+- A list that is empty
+- A list whose items are themselves lists
+- A list sorted in order
+- A list that cannot change
+
+<p class="why">Nested lists are lists that contain other lists as items.</p>
+</div>
+
+<div class="q" data-answer="c" markdown="1">
+**2. Given `grid = [[1, 2], [3, 4], [5, 6]]`, what is `grid[2][0]`?**
+
+- 3
+- 2
+- 5
+- 6
+
+<p class="why"><code>grid[2]</code> is <code>[5, 6]</code>, and index 0 of that is 5.</p>
+</div>
+
+<div class="q" data-answer="b" markdown="1">
+**3. How do you visit every item in a nested list?**
+
+- Use one loop and `len` only
+- Loop over the outer list, and inside it loop over each inner list
+- Use `range(0)`
+- Print the list once
+
+<p class="why">Nested loops handle the two levels: one for the outer list, one for each inner list.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/4_unit/04_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/4_unit/04_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
