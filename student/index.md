@@ -1,5 +1,5 @@
 ---
-layout: student
+layout: minimal-home
 title: Student Home
 permalink: /student/
 teacher_url: /docs/lesson_plans/
