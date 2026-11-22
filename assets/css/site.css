@@ -46,3 +46,4 @@ a{color:var(--accent)}
  .sidebar.open{transform:none}
 }
 @media print{.topbar,.sidebar,.toc,.page-meta,.to-top{display:none}.shell{display:block}}
+.sidebar summary>a,.sidebar summary>span{display:inline}
