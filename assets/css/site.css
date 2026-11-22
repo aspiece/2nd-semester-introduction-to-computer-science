@@ -91,3 +91,21 @@ a{color:var(--accent)}
 .student-main{max-width:860px;margin:0 auto}
 .student .brand{white-space:nowrap}
 @media print{.view-toggle,.badge-view{display:none}}
+#py-editor{position:fixed;left:16px;bottom:16px;z-index:40;max-width:calc(100vw - 32px)}
+.py-toggle{padding:9px 16px;border:0;border-radius:999px;background:var(--accent);color:#fff;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.py-panel{width:min(720px,calc(100vw - 32px));margin-bottom:10px;border:1px solid var(--border);border-radius:10px;background:var(--bg);box-shadow:0 10px 30px rgba(0,0,0,.3);overflow:hidden;position:absolute;left:0;bottom:46px}
+.py-bar{display:flex;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--border);flex-wrap:wrap}
+.py-status{color:var(--muted);font-size:12px;margin-right:auto}
+.py-btn{padding:4px 10px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--fg);cursor:pointer}
+.py-run{background:#10b981;border-color:#10b981;color:#fff;font-weight:700}.py-run:disabled{opacity:.6}
+.py-monaco{height:260px}
+.py-output{margin:0;height:130px;overflow:auto;padding:8px 12px;background:#0f172a;color:#e2e8f0;font:13px ui-monospace,monospace;white-space:pre-wrap;border-radius:0}
+.py-output .err{color:#f87171}.py-output .in{color:#93c5fd}
+.py-note{margin:0;padding:6px 12px;font-size:12px;color:var(--muted)}
+@media print{#py-editor{display:none}}
+div.highlight{position:relative}
+.run-btn{position:absolute;top:6px;right:62px;padding:2px 10px;border:0;border-radius:6px;background:#10b981;color:#fff;font-size:12px;font-weight:700;cursor:pointer}
+.inline-py{border:1px solid var(--border);border-radius:8px;overflow:hidden;margin:0}
+.inline-monaco{min-height:60px}
+.inline-py .py-output{height:auto;min-height:40px;max-height:200px}
+@media print{.run-btn{display:none}}

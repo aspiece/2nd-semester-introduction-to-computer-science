@@ -48,6 +48,8 @@ Then open http://localhost:4000. Lesson pages live in `_docs/lesson_plans/units/
 
 Every lesson also has a student view at `/student/<unit>.<lesson>/` (for example `/student/7.01/`) that shows only student material, with a button in each header to switch between teacher and student views. The student pages in `student/` and the glossary and syllabus in `pages/` are ordinary files; edit them directly.
 
+Student pages include a Python editor (Monaco, the VS Code editor, running Python in the browser via Pyodide, loaded from jsDelivr). Every Python code block has a **Try it** button that makes it editable and runnable in place, and a floating **Python editor** panel is available on every student page. Modules in `assets/python/` (copied from the Unit 6 starter code) are importable; add files there and to `LIB_FILES` in `assets/js/editor.js` to make more libraries available. EarSketch is not supported.
+
 The site also has a glossary (`/glossary/`), a printable syllabus (`/syllabus/`) and a per-browser lesson progress tracker.
 
 ## About this curriculum
