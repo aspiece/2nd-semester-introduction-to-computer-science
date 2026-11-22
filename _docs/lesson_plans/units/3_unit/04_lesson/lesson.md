@@ -19,7 +19,7 @@ Students will be able to...
 * [Lab - Aliasing & Scope] ([printable lab document]) ([editable lab document])
 
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
-* [Associated Readings 3.4](https://tealsk12.gitbook.io/intro-cs-2/readings#3-4)
+* [Associated Readings 3.4](../../../../readings.md#34)
 
 ## Pacing Guide
 
@@ -77,7 +77,7 @@ Students will be able to...
 
 #### Stick Diagrams
 
-* Demonstrate how to draw the Stack Diagrams shown in the course book ([found in section 3.4](https://tealsk12.gitbook.io/intro-cs-2/readings#stack-diagrams)) and explain how they show the scope of variables as they related to functions.
+* Demonstrate how to draw the Stack Diagrams shown in the course book ([found in section 3.4](../../../../readings.md#stack-diagrams)) and explain how they show the scope of variables as they related to functions.
 * Point out the error messages that will occur if you use a variable out of its scope.
 
 #### Debugging

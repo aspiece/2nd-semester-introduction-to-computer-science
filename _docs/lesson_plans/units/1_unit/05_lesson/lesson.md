@@ -14,7 +14,7 @@ Students will be able to...
 ## Materials/Preparation
 
 * Quiz (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard])
-* [Associated Readings 1.3](https://tealsk12.gitbook.io/intro-cs-2/)
+* [Associated Readings 1.3](../../../../readings.md#13)
 * Take the quiz and create a scoring rubric
 * Look through [http://tinyurl.com/TEALS-Python-Errors] web tutorial and [example code] below to
   prepare students for analyzing and responding to errors

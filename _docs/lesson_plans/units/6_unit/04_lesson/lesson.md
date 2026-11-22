@@ -13,7 +13,7 @@ Students will be able to...
 
 * [Do Now]
 * [Lab - Dictionaries Looping] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 6.4](https://tealsk12.gitbook.io/intro-cs-2/readings#6-4)
+* [Associated Reading - section 6.4](../../../../readings.md#64)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide

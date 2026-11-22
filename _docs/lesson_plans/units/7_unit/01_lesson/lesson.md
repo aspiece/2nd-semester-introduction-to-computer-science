@@ -17,7 +17,7 @@ Students will be able to...
 * [Do Now]
 * [Example]
 * [Lab - Create a Color Class] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 7.1](https://tealsk12.gitbook.io/intro-cs-2/readings#7-1)
+* [Associated Reading - section 7.1](../../../../readings.md#71)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide
