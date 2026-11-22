@@ -15,7 +15,7 @@ Students will be able to...
 
 * [Project Spec - Oregon Trail] ([printable project Spec]) ([editable project spec])
 * [Alternate Project Spec - Daily Planner] ([printable alternate project Spec]) ([editable alternate project spec])
-* [Oregon Trail Starter Code]((Unit_3_Project_Oregon_Trail_Starter_Code.py)
+* [Oregon Trail Starter Code](Unit_3_Project_Oregon_Trail_Starter_Code.py)
 )
 * Solution (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard](https://www.tealsk12.org/dashboard/))
 * Update the Project Spec as needed to meet your grading requirements
