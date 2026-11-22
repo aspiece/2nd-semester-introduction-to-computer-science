@@ -16,7 +16,7 @@ Students will be able to...
 
 * [Do Now]
 * [Lab - Kangaroo Class] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 7.3](https://tealsk12.gitbook.io/intro-cs-2/readings#7-3)
+* [Associated Reading - section 7.3](../../../../readings.md#73)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide

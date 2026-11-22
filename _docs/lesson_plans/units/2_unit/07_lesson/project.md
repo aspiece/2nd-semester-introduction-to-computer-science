@@ -91,7 +91,7 @@ The above code has each floor being its own lists. Feel free to use a different 
 
 It will be useful to keep track of the user's position through a variable.
 
-```pythin
+```python
 user_room = 0
 user_floor = floor_1
 ```

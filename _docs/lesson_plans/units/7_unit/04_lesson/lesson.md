@@ -15,7 +15,7 @@ Students will be able to...
 
 * [Do Now]
 * [Lab - Pokemon Child Classes] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 7.4](https://tealsk12.gitbook.io/intro-cs-2/readings#7-4)
+* [Associated Reading - section 7.4](../../../../readings.md#74)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide
@@ -62,7 +62,7 @@ Students will be able to...
 
 * Go over students' questions. Ask what questions the students have and review instance, class, methods, init, str, etc
 
-## Accomodation/Differentiation
+## Accommodation/Differentiation
 
 In the Pokemon lab, students may need clarification regarding how to use `isinstance` and how to manipulate the `defend` method to meet the requirements of each child class. Consider demonstrating the creation of one child class for all students before having students work on the lab.
 

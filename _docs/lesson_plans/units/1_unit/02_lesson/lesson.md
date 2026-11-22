@@ -14,7 +14,7 @@ Students will be able to...
 ## Materials/Preparation
 
 * [Lab - Using the Interpreter] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 1.1](https://tealsk12.gitbook.io/intro-cs-2/readings#1-1)
+* [Associated Reading - section 1.1](../../../../readings.md#11)
 * Ensure all students are able to log into the system
 * Go through the lab so that you are familiar with the requirements/results and can assist students
 
@@ -94,7 +94,7 @@ Give students time to work on section 1,
 * Order of Operations is the same as what students have learned in math class.
 * Discuss why it might be helpful to have an interactive console. How is it different than snap?
 
-### Accomodation/Differentiation
+### Accommodation/Differentiation
 
 If students are moving quickly, have students practice higher order-of-operations problems. You can also have them practice assigning values to variables.
   

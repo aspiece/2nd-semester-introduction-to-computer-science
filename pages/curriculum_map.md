@@ -148,7 +148,7 @@ As you implement this curriculum into your program, there are some things to con
 [8.04: Project Implementation]: {{ '/docs/lesson_plans/units/8_unit/04_lesson/lesson.html' | relative_url }}
 [Supplemental Culture Day Lessons]: supplemental/
 [01: Binary Day]: {{ '/docs/lesson_plans/units/supplemental/01_lesson/lesson.html' | relative_url }}
-[Additional Topics]: cert.md
+[Additional Topics]: ../_docs/cert.md
 [Microsoft Technology Associate (MTA) certification]: https://www.microsoft.com/en-us/learning/exam-98-381.aspx
 [Advanced Placement Computer Science A]: https://tealsk12.gitbook.io/apcsa/
 

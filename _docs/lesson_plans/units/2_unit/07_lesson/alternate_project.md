@@ -40,7 +40,7 @@ What would you like to do? (add, remove, list, exit) list
 
 What would you like to do? (add, remove, list, exit) remove
 What would you like to remove? go to gym
-Sucessfully removed
+Successfully removed
 What would you like to do? (add, remove, list, exit) list
 ['buy food']
 
@@ -64,7 +64,7 @@ Goodbye
 
 ### Challenge
 
-This section contains additional components you can add to the project. These should only be attemped **after** the project has been completed.
+This section contains additional components you can add to the project. These should only be attempted **after** the project has been completed.
 
 * It is a bit inconvenient to have to type two commands to add or remove an element from the list. Modify the program so that tasks  can be added or removed from the TODO list with a single command like **add go to gym** or **remove go to gym**.
 
@@ -83,7 +83,7 @@ What would you like to do? (add, remove, undo, list, exit) list
 What would you like to do? (add, remove, undo, list, exit) remove bedroom
 This is not in the list!
 What would you like to do? (add, remove, undo, list, exit) remove clean bedroom
-Sucessfully removed
+Successfully removed
 What would you like to do? (add, remove, undo, list, exit) list
 ['go to gym']
 ```

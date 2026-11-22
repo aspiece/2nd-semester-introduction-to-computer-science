@@ -5,7 +5,7 @@ title: "Lab 2.06 - Tic-Tac-Toe Revisited"
 
 ## 1. In your Notebook
 
-### Predict what will be printed then type the program in your consol to confirm
+### Predict what will be printed then type the program in your console to confirm
 
 ### Example 1
 

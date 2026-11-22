@@ -16,7 +16,7 @@ Students will be able to...
 * [Do Now]
 * [Lab - Magic Genie] ([printable lab document]) ([editable lab document])
 
-* [Associated Readings 1.3](https://tealsk12.gitbook.io/intro-cs-2/readings#1-3)
+* [Associated Readings 1.3](../../../../readings.md#13)
 * Read through the Do Now, Lab, and lesson so that you are familiar with the requirements and can assist students
 * **Microsoft Learn - Comments**
 
@@ -72,7 +72,7 @@ Students will be able to...
 
 * Practice changing the argument to input function in class. (ex. How would you have the computer ask what month the students were born in?)
 * Python 3 is strongly typed.  'input' returns a string.
-* Demonstate by typing in the following:
+* Demonstrate by typing in the following:
 
 ```python
 n = input()
@@ -81,7 +81,7 @@ type(n)
 <class 'str'>
 ```
 
-* Demonstate casting string to int by typing in the following:
+* Demonstrate casting string to int by typing in the following:
 
 ```python
 n = int(input())
@@ -90,7 +90,7 @@ type(n)
 <class 'int'>
 ```
 
-* Because Python 3 is strongly typed, concatinating strings and numbers requires casting.  Demonstrate by typing the following:
+* Because Python 3 is strongly typed, concatenating strings and numbers requires casting.  Demonstrate by typing the following:
 
 ```python
 n = int(input())
@@ -129,7 +129,7 @@ You entered 9
 * Let students know about
 * Review concepts so far: **variables, interpreter, console, string, integer, float, run, output, variable swapping**
 
-### Accomodation/Differentiation
+### Accommodation/Differentiation
 
 Advanced students that are finished early can be paired with students who are struggling. Be careful to give clear guidance about how to effectively help another student, especially emphasizing that helping *never* involves using someone else's keyboard/mouse.
 

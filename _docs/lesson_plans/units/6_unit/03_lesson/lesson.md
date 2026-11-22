@@ -14,7 +14,7 @@ Students will be able to...
 
 * [Do Now]
 * [Lab - Dictionaries Storing Lists] ([printable lab document]) ([editable lab document])
-* [Associated Reading - section 6.3](https://tealsk12.gitbook.io/intro-cs-2/readings#6-3)
+* [Associated Reading - section 6.3](../../../../readings.md#63)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide

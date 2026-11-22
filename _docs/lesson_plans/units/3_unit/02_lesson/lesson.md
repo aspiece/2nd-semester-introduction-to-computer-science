@@ -17,7 +17,7 @@ Students will be able to...
 
 * Associated Reading - section 3.2 of Book
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
-* [Associated Readings 3.2](https://tealsk12.gitbook.io/intro-cs-2/readings#3-2)
+* [Associated Readings 3.2](../../../../readings.md#32)
 
 ## Pacing Guide
 

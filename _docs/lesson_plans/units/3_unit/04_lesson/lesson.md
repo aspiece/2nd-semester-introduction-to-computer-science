@@ -19,7 +19,7 @@ Students will be able to...
 * [Lab - Aliasing & Scope] ([printable lab document]) ([editable lab document])
 
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
-* [Associated Readings 3.4](https://tealsk12.gitbook.io/intro-cs-2/readings#3-4)
+* [Associated Readings 3.4](../../../../readings.md#34)
 
 ## Pacing Guide
 
@@ -61,7 +61,7 @@ Students will be able to...
 
 #### Global variables: variables defined outside of a function and used in many different functions
 
-* To modify global variables defined outside the function you must declare the varaible with the statement `global name_of_variable`.
+* To modify global variables defined outside the function you must declare the variable with the statement `global name_of_variable`.
 * Any variable created inside of a function is a local variable.
 * Variables in functions include the function parameters, the variables defined in the function and variables declared as global.
 * Local variables of functions can't be accessed from outside when the function call has finished.
@@ -77,7 +77,7 @@ Students will be able to...
 
 #### Stick Diagrams
 
-* Demonstrate how to draw the Stack Diagrams shown in the course book ([found in section 3.4](https://tealsk12.gitbook.io/intro-cs-2/readings#stack-diagrams)) and explain how they show the scope of variables as they related to functions.
+* Demonstrate how to draw the Stack Diagrams shown in the course book ([found in section 3.4](../../../../readings.md#stack-diagrams)) and explain how they show the scope of variables as they related to functions.
 * Point out the error messages that will occur if you use a variable out of its scope.
 
 #### Debugging

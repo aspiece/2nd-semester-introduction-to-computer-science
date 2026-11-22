@@ -169,4 +169,56 @@ layout: null
       return '<li><h4><a href="' + esc(d.url) + '">' + esc(d.title) + '</a></h4><small>' + esc(d.content.slice(0, 180)) + '…</small></li>';
     }).join('') || (q ? '<li>No results for “' + esc(q) + '”.</li>' : '');
   }
+  // Glossary filter
+  var filterBox = $('[data-filter]');
+  if (filterBox) filterBox.addEventListener('input', function () {
+    var q = filterBox.value.toLowerCase();
+    document.querySelectorAll(filterBox.getAttribute('data-filter') + ' dt').forEach(function (dt) {
+      var show = dt.textContent.toLowerCase().indexOf(q) !== -1;
+      dt.hidden = !show; dt.nextElementSibling.hidden = !show;
+    });
+  });
+
+  // Lesson progress, stored only in this browser
+  var lessonLinks = Array.prototype.filter.call(document.querySelectorAll('.sidebar-nav a'), function (a) {
+    return /\/lesson\.html$/.test(a.pathname);
+  });
+  if (lessonLinks.length) {
+    var KEY = 'lesson-progress';
+    var load = function () { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } };
+    var done = load();
+    var nav = $('.sidebar-nav');
+    var meter = document.createElement('div');
+    meter.className = 'progress';
+    meter.innerHTML = '<div class="progress-label"></div><div class="progress-bar"><span></span></div>';
+    nav.parentNode.insertBefore(meter, nav);
+    var render = function () {
+      var n = 0;
+      lessonLinks.forEach(function (a) {
+        var isDone = !!done[a.pathname];
+        a.classList.toggle('done', isDone);
+        if (isDone) n++;
+      });
+      meter.querySelector('.progress-label').textContent = n + ' of ' + lessonLinks.length + ' lessons complete';
+      meter.querySelector('span').style.width = (100 * n / lessonLinks.length) + '%';
+    };
+    var here = lessonLinks.filter(function (a) { return a.pathname === location.pathname; })[0];
+    var pager = $('#pager');
+    if (here && pager) {
+      var btn = document.createElement('button');
+      btn.className = 'btn-complete'; btn.type = 'button';
+      var label = function () {
+        btn.textContent = done[location.pathname] ? '✓ Completed (click to undo)' : 'Mark lesson complete';
+        btn.setAttribute('aria-pressed', done[location.pathname] ? 'true' : 'false');
+      };
+      btn.addEventListener('click', function () {
+        if (done[location.pathname]) delete done[location.pathname]; else done[location.pathname] = 1;
+        localStorage.setItem(KEY, JSON.stringify(done));
+        label(); render();
+      });
+      pager.parentNode.insertBefore(btn, pager);
+      label();
+    }
+    render();
+  }
 })();

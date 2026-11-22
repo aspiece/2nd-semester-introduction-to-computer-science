@@ -17,7 +17,7 @@ Students will be able to...
 * [Do Now]
 * [Lab - College Chooser] ([printable lab document]) ([editable lab document])
 * Solution (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard])
-* [Associated Readings 2.4](https://tealsk12.gitbook.io/intro-cs-2/readings#2-4)
+* [Associated Readings 2.4](../../../../readings.md#24)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ### **Video Explanation of Lists**

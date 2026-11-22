@@ -16,7 +16,7 @@ Students will be able to...
 * [Do Now]
 * [Lab - Can I or Can't I?] ([printable lab document]) ([editable lab document])
 
-* [Associated Readings 2.2](https://tealsk12.gitbook.io/intro-cs-2/readings#2-2)
+* [Associated Readings 2.2](../../../../readings.md#22)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students.
 
 ## Pacing Guide

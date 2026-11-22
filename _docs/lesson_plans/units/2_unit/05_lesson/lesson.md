@@ -15,7 +15,7 @@ Students will be able to...
 
 * [Do Now]
 * [Lab - Tic-Tac-Toe] ([printable lab document]) ([editable lab document])
-* [Associated Readings 2.5](https://tealsk12.gitbook.io/intro-cs-2/readings#2-5)
+* [Associated Readings 2.5](../../../../readings.md#25)
 * Read through the do now, lesson, and lab so that you are familiar with the requirements and can assist students
 
 ## Pacing Guide

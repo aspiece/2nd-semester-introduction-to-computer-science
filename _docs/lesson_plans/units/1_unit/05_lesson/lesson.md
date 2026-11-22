@@ -14,9 +14,9 @@ Students will be able to...
 ## Materials/Preparation
 
 * Quiz (access protected resources by clicking on "Additional Curriculum Materials" on the [TEALS Dashboard])
-* [Associated Readings 1.3](https://tealsk12.gitbook.io/intro-cs-2/)
+* [Associated Readings 1.3](../../../../readings.md#13)
 * Take the quiz and create a scoring rubric
-* Look through [http://tinyurl.com/TEALS-Python-Errors] web tutorial and [example code] below to
+* Look through [http://tinyurl.com/TEALS-Python-Errors] web tutorial and [example code] to
   prepare students for analyzing and responding to errors
 
 ## Pacing Guide
@@ -50,7 +50,7 @@ Students will be able to...
 
 * Remind students that when reading through code we go line by line, as if we are the interpreter.
 
-#### Demonstation
+#### Demonstration
 
 * Run the code, display the stack trace, and have students analyze the error message reported.
 * Explain that, much like in Snap, **debugging** is the process of tracking and fixing errors in your code.
@@ -59,7 +59,7 @@ Students will be able to...
 * Ask student why these errors are caused and how they find/fix this type of error? Suggest using the tab key to indent and the shift-tab to remove an indent as ways to avoid the error.
 * Direct students to work through and complete this web tutorial on [debugging]
 
-### Accomodation/Differentiation
+### Accommodation/Differentiation
 
 Make sure to provide extended time on the quiz for any students who need extra time
 
@@ -71,4 +71,4 @@ Make sure to provide extended time on the quiz for any students who need extra t
 
 [http://tinyurl.com/TEALS-Python-Errors]: http://interactivepython.org/runestone/static/thinkcspy/Debugging/KnowyourerrorMessages.html
 [debugging]: http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html
-[example code]: #code-example
+[example code]: code.py
