@@ -1,6 +1,7 @@
 ---
 layout: minimal-home
 quiz_enabled: true
+editor_enabled: true
 title: "Lesson 1.01: Set Up"
 permalink: /student/lesson-1-01/
 teacher_url: /docs/lesson_plans/units/1_unit/01_lesson/lesson.html
