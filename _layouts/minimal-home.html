@@ -30,6 +30,15 @@
     .quiz-opt.right { background: #dcfce7; border-color: #16a34a; }
     .quiz-opt.wrong { background: #fee2e2; border-color: #dc2626; }
     .quiz-opt:disabled { cursor: default; }
+    {% if page.editor_enabled %}
+    #py-editor{position:fixed;bottom:12px;left:12px;z-index:40;max-width:calc(100vw - 24px)}
+    .py-toggle{background:#1d4ed8;color:#fff;border:0;border-radius:24px;padding:12px 16px;cursor:pointer}
+    .py-panel{position:absolute;bottom:50px;left:0;width:min(720px,calc(100vw - 24px));padding:12px;background:white;border:1px solid #94a3b8;border-radius:10px;box-shadow:0 8px 24px #0003}
+    .py-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    .py-monaco{height:260px}.py-output{height:130px;overflow:auto;background:#0f172a;color:white;padding:10px;white-space:pre-wrap}
+    .py-note{font-size:12px}.inline-monaco{min-height:100px}.inline-py{border:1px solid #cbd5e1;padding:8px}
+    @media print{#py-editor{display:none}}
+    {% endif %}
   </style>
 </head>
 <body>
@@ -43,7 +52,7 @@
   </nav>
 </header>
 <main id="content">
-{{ content }}
+<article id="article">{{ content }}</article>
 {% if page.prev_url or page.next_url %}
 <nav aria-label="Lesson navigation" style="display:flex;justify-content:space-between;gap:16px;margin-top:32px;padding-top:16px;border-top:1px solid #cbd5e1">
 {% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">← Previous lesson {{ page.prev_title }}</a>{% else %}<span></span>{% endif %}
@@ -51,8 +60,21 @@
 </nav>
 {% endif %}
 </main>
-{% if page.quiz_enabled %}
+{% if page.unit or page.quiz_enabled %}
 <script src="{{ '/assets/js/lesson-quiz.js' | relative_url }}" defer></script>
+{% endif %}
+{% if page.editor_enabled %}
+<div id="py-editor" data-base="{{ site.baseurl }}">
+  <button id="py-toggle" class="py-toggle" aria-expanded="false" aria-controls="py-panel">▶ Python editor</button>
+  <section id="py-panel" class="py-panel" aria-label="Python editor" hidden>
+    <div class="py-bar"><strong>main.py</strong><span id="py-status" role="status">Not loaded</span>
+    <button id="py-run" type="button">Run ▶</button><button id="py-reset" type="button">Reset</button><button id="py-clear" type="button">Clear output</button></div>
+    <div id="py-monaco" class="py-monaco"></div>
+    <pre id="py-output" class="py-output" aria-live="polite"></pre>
+    <p class="py-note">Python runs in your browser. Code is saved on this device.</p>
+  </section>
+</div>
+<script src="{{ '/assets/js/editor.js' | relative_url }}" defer></script>
 {% endif %}
 </body>
 </html>
