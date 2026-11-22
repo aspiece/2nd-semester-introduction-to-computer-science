@@ -1,0 +1,117 @@
+---
+layout: minimal-home
+title: "Lesson 5.01: Earsketch Intro"
+permalink: /student/lesson-5-01/
+teacher_url: /docs/lesson_plans/units/5_unit/01_lesson/lesson.html
+unit: 5
+prev_url: /student/lesson-4-06/
+prev_title: "4.06"
+next_url: /student/lesson-5-02/
+next_title: "5.02"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **Digital Audio Workstation (DAW)**, **sound tab**, `fitMedia()`,
+* Demonstrate beats using the above functions
+* Demonstrate Looping through items in a list
+
+## Reading
+
+* Associated Reading in EarSketch
+
+## Do Now
+
+### Introduction to EarSketch
+
+EarSketch, created by Georgia Tech, is an online tool that allows you to learn Python and music technology side by side. By applying concepts already covered in this curriculum such as functions, loops, and conditionals, you will be able to use the EarSketch IDE to create unique and entertaining beats and songs!
+
+1. Read through and participate in the following lessons in [EarSketch Editor]
+
+    - 1.1.2 [Tools of the Trade: DAWs and APIs](https://earsketch.gatech.edu/earsketch2/#?curriculum=1-1-1)
+    - 1.1.3 [The EarSketch Workspace](https://earsketch.gatech.edu/earsketch2/#?curriculum=1-1-2)
+    - 1.1.5 [The DAW in Details](https://earsketch.gatech.edu/earsketch2/#?curriculum=1-1-5)
+    - 1.1.8 [Creating a New Script](https://earsketch.gatech.edu/earsketch2/#?curriculum=1-1-8)
+    - 1.1.9 [Composing in EarSketch - fitMedia()](https://earsketch.gatech.edu/earsketch2/#?curriculum=1-1-9)
+
+2. In your notebook, write down any terms or phrases that stand out to you to remember as you work through the lessons
+
+### Location of Lessons
+
+![Image of Earsketch Location]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/01_lesson/earsketch.png' | relative_url }}{% raw %})
+
+[EarSketch Editor]: http://earsketch.gatech.edu/earsketch2/
+
+## Lab
+
+Create a basic [EarSketch] project using the following requirements:
+
+* Open the Earsketch DAW and log in.
+* Click “Options – Save Script to Cloud” and set a name for your song.
+* In comments at the top of your code, include your name, the name of the song (e.g. “Lab 5.01”), and a brief, clear description of the project.
+* Set the tempo of the project to 140 BPM.
+* Make 4 different variables that will hold the following constants:
+
+  * DUBSTEP_BASS_WOBBLE_007
+  * DUBSTEP_PAD_003
+  * DUBSTEP_DRUMLOOP_MAIN_005
+  * DUBSTEP_LEAD_004
+
+* Make at least 4 tracks using the fitMedia() function. Each track should contain a different audio loop from the other tracks.
+* Each of the tracks should start or stop on different measures (e.g. track 1 starts on measure 1, track 2 starts on measure 4, and so on).
+* Define and use at least 4 variables using 4 different constants from the EarSketch Audio Loop Browser.
+* The project should have a total length of 12 measures.
+* Include descriptive comments throughout your script.
+* Copy and save the script to your online IDE for turn in.
+
+### Copyright Note
+
+The above is taken from the EarSketch teaching resources.
+
+[EarSketch]: http://earsketch.gatech.edu/earsketch2/
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="b" markdown="1">
+**1. What is a Digital Audio Workstation (DAW)?**
+
+- A function that repeats a sound
+- Software for arranging, layering, and editing audio on tracks
+- A file that stores one audio loop
+- A type of Python loop
+
+<p class="why">A DAW is the music-production environment where sounds are placed on tracks and combined into a song.</p>
+</div>
+
+<div class="q" data-answer="c" markdown="1">
+**2. What does `fitMedia()` do in EarSketch?**
+
+- Changes the tempo of the song
+- Deletes a track from the project
+- Places an audio clip on a track across a range of measures
+- Prints the name of a sound
+
+<p class="why"><code>fitMedia()</code> takes a sound, a track number, and start and end measures, and fills that span with the clip.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**3. Why is it helpful to store an audio constant in a variable?**
+
+- You can give it a readable name and reuse it in several places
+- It makes the sound play louder
+- It lets the sound play without a track
+- It is required before the DAW can open
+
+<p class="why">A variable gives the sound a meaningful name, so you can reuse it or change it in one place.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/01_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/5_unit/01_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
