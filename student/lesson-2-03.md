@@ -1,0 +1,159 @@
+---
+layout: minimal-home
+title: "Lesson 2.03: Conditionals"
+permalink: /student/lesson-2-03/
+teacher_url: /docs/lesson_plans/units/2_unit/03_lesson/lesson.html
+unit: 2
+prev_url: /student/lesson-2-02/
+prev_title: "2.02"
+next_url: /student/lesson-2-04/
+next_title: "2.04"
+---
+{% raw %}## What you will learn
+
+* Define and identify: **if, else, elif, conditionals, flow of control**
+* Create chaining if statements
+* Understand how conditional statements alter the flow of control of a program
+
+## Reading
+
+* [Associated Readings 2.3]({% endraw %}{{ '/docs/readings.html#23' | relative_url }}{% raw %})
+
+## Do Now
+
+In the console, create a schedule program. Given the hour of the day print out where you should be. If you're not doing anything else you should be "sleeping".
+
+```python
+ >>> What hour? 12pm
+ >>> You should be at lunch!
+ ```
+
+### In your Notebook
+
+#### Answer the following
+
+1. How did you accomplish this? Did you feel like something was missing in your program?  
+2. What if you wanted to add in a weekly functionality? For instance, maybe on Tuesday at 4pm you are at soccer practice, but on Thursday at 4pm you are at math club!
+3. How would you implement this in your program?
+
+## Lab
+
+### In your Notebook
+
+#### Follow the flow of execution in the following programs and predict what will happen for each one
+
+#### Example 1
+
+1. Follow the flow of execution in the following programs and predict what will happen for each one:
+
+#### Example 2
+
+```python
+    a = input("What... is your quest")
+    b = "to seek the holy grail"
+    if a != b:
+        print("Go On. Off you go")
+    else:
+        b = input("What...is the air-speed velocity of an unladen swallow?")
+        if b == "What do you mean? An African or European swallow?":
+            print("I don't know that...AHHH [Bridgekeeper was thrown over bridge]")
+        else:
+            print("[you were thrown over bridge]")
+```
+
+#### Example 3
+  
+```python
+    user_input = input("What is your favorite color"):
+    if user_input == 'blue':
+        print("Blueskadoo")
+    elif user_input == "red":
+        print("Roses are red!")
+    elif user_input == "yellow":
+        print("Mellow Yellow")
+    elif user_input == "green":
+        print("Green Machine")
+    elif user_input == "orange":
+        print("Orange you glad I didn't say banana.")
+    elif user_input == "black":
+        print("I see a red door and I want it painted black")
+    elif user_input == "purple":
+        print("And we'll never be royalllssss")
+    elif user_input == "pink":
+        print("Pinky- and the Brain")
+    else:
+        print("I don't recognize that color. Is it even...??")
+```
+
+### In your Console
+
+#### Translate this Snap! program into a Python program
+
+![triangle_program]({% endraw %}{{ '/docs/lesson_plans/units/2_unit/03_lesson/triangle_program.png' | relative_url }}{% raw %})
+
+#### Create a game show program
+
+* Declare 10 prizes (prize1, prize2, prize 3 at the top of your file)
+* User picks a number
+* The prize corresponding with that door is printed for the user.
+
+### Bonus
+
+Research lists in Python. Re-implement problem 3 using lists.
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="b" markdown="1">
+**1. What does this code print?**
+
+```python
+n = 7
+if n > 10:
+    print("big")
+elif n > 5:
+    print("medium")
+else:
+    print("small")
+```
+
+- big
+- medium
+- small
+- big and medium
+
+<p class="why">Python checks conditions in order and runs only the first true branch; <code>n &gt; 10</code> is false but <code>n &gt; 5</code> is true.</p>
+</div>
+
+<div class="q" data-answer="d" markdown="1">
+**2. When does the `else` block run?**
+
+- Every time, after the `if` block
+- Only when the `if` condition is true
+- Only when the program has an error
+- When none of the `if` or `elif` conditions above it were true
+
+<p class="why">The <code>else</code> block is the fallback that runs when no earlier condition matched.</p>
+</div>
+
+<div class="q" data-answer="a" markdown="1">
+**3. What is "flow of control"?**
+
+- The order in which a program's lines are executed, which conditionals can change
+- The speed at which a program runs
+- How many variables a program has
+- The way a program prints text
+
+<p class="why">Conditionals let the program choose which lines to run, changing the order of execution.</p>
+</div>
+
+</div>
+
+## Downloads
+
+* [Lab (PDF)]({% endraw %}{{ '/docs/lesson_plans/units/2_unit/03_lesson/lab.pdf' | relative_url }}{% raw %})
+* [Lab (editable Word)]({% endraw %}{{ '/docs/lesson_plans/units/2_unit/03_lesson/lab.docx' | relative_url }}{% raw %})
+{% endraw %}
