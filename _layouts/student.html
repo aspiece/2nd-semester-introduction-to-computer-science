@@ -28,6 +28,22 @@
     {% endif %}
     {% include footer.html %}
   </main>
+  <div id="py-editor" data-base="{{ site.baseurl }}">
+    <button id="py-toggle" class="py-toggle" aria-expanded="false" aria-controls="py-panel">▶ Python editor</button>
+    <section id="py-panel" class="py-panel" aria-label="Python editor" hidden>
+      <div class="py-bar">
+        <strong>main.py</strong>
+        <span id="py-status" class="py-status" role="status">Not loaded</span>
+        <button id="py-run" class="py-btn py-run" title="Run (Ctrl/Cmd+Enter)">Run ▶</button>
+        <button id="py-reset" class="py-btn">Reset</button>
+        <button id="py-clear" class="py-btn">Clear output</button>
+      </div>
+      <div id="py-monaco" class="py-monaco"></div>
+      <pre id="py-output" class="py-output" aria-live="polite"></pre>
+      <p class="py-note">Runs in your browser. Python standard library (<code>random</code>, <code>math</code>…) plus the Unit 6 modules <code>TEALS_utils</code>, <code>items</code>, <code>pages</code>, <code>criteria</code>, <code>dictionaries</code> and <code>inventory.txt</code>. EarSketch isn't available here. Your code is saved on this device.</p>
+    </section>
+  </div>
+  <script src="{{ '/assets/js/editor.js' | relative_url }}" defer></script>
   <button id="to-top" class="to-top" aria-label="Back to top" hidden>↑</button>
 </body>
 </html>
