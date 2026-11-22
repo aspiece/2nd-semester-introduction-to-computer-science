@@ -6,7 +6,7 @@ teacher_url: /docs/lesson_plans/units/1_unit/02_lesson/lesson.html
 unit: 1
 prev_url: /student/lesson-1-01/
 prev_title: "1.01"
-next_url: /student/1.03/
+next_url: /student/lesson-1-03/
 next_title: "1.03"
 ---
 {% raw %}## What you will learn
