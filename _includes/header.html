@@ -8,6 +8,7 @@
   <nav class="topnav" aria-label="Main">
     {% for link in site.data.navigation %}<a href="{{ site.baseurl }}/{{ link.url }}">{{ link.title }}</a>{% endfor %}
     <a href="{{ site.repo }}" rel="noopener">GitHub</a>
+    <a class="view-toggle" id="view-toggle" href="{{ '/student/' | relative_url }}">Switch to student view</a>
   </nav>
   <button class="icon-btn" id="theme-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
 </header>
