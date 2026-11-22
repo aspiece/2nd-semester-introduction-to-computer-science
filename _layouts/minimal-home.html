@@ -1,3 +1,5 @@
+{% assign clean_student_lesson = false %}
+{% if page.url contains '/student/lesson-' %}{% assign clean_student_lesson = true %}{% endif %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +32,7 @@
     .quiz-opt.right { background: #dcfce7; border-color: #16a34a; }
     .quiz-opt.wrong { background: #fee2e2; border-color: #dc2626; }
     .quiz-opt:disabled { cursor: default; }
-    {% if page.editor_enabled %}
+    {% if page.editor_enabled or clean_student_lesson %}
     #py-editor{position:fixed;bottom:12px;left:12px;z-index:40;max-width:calc(100vw - 24px)}
     .py-toggle{background:#1d4ed8;color:#fff;border:0;border-radius:24px;padding:12px 16px;cursor:pointer}
     .py-panel{position:absolute;bottom:50px;left:0;width:min(720px,calc(100vw - 24px));padding:12px;background:white;border:1px solid #94a3b8;border-radius:10px;box-shadow:0 8px 24px #0003}
@@ -63,7 +65,7 @@
 {% if page.unit or page.quiz_enabled %}
 <script src="{{ '/assets/js/lesson-quiz.js' | relative_url }}" defer></script>
 {% endif %}
-{% if page.editor_enabled %}
+{% if page.editor_enabled or clean_student_lesson %}
 <div id="py-editor" data-base="{{ site.baseurl }}">
   <button id="py-toggle" class="py-toggle" aria-expanded="false" aria-controls="py-panel">▶ Python editor</button>
   <section id="py-panel" class="py-panel" aria-label="Python editor" hidden>
