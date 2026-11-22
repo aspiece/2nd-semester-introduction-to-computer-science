@@ -1,0 +1,163 @@
+brand,size,material,auto,color,stars,price
+Samsonite,compact,polyester,Open and close,Clear,2,8.99
+GustBuster,compact,plastic,Open only,Yellow,0.5,9.04
+totes,golf,plastic,Open only,Green,4.5,9.84
+GustBuster,standard,polyester,Open only,Red,1.5,10.13
+Rainlax,standard,canvas,,Yellow,3.5,10.16
+Blunt,compact,nylon,Open and close,Yellow,4,10.95
+GustBuster,compact,polyester,Open and close,Pink,0.5,10.98
+Samsonite,compact,nylon,,Pink,3,11.29
+Samsonite,compact,polyester,,Black,4.5,12.19
+totes,standard,nylon,Open only,Red,3.5,13.26
+Repel,compact,plastic,,Clear,2,14.31
+Blunt,standard,plastic,,Red,3,14.79
+Repel,standard,plastic,,Red,2.5,15.91
+Blunt,compact,nylon,Open only,Black,2,16.02
+Samsonite,standard,canvas,Open only,Clear,5,16.59
+Rainlax,compact,canvas,Open only,Pink,4.5,17.77
+Blunt,compact,polyester,Open only,Blue,1.5,18.05
+totes,golf,plastic,Open only,Yellow,4,18.34
+Blunt,compact,plastic,Open only,Clear,0.5,18.37
+Repel,golf,canvas,Open and close,Pink,3,18.44
+Blunt,golf,plastic,Open and close,Clear,3.5,18.48
+Repel,compact,canvas,Open and close,Red,2,19.43
+Repel,golf,plastic,,Pink,1,19.74
+Samsonite,standard,plastic,,Blue,1,19.75
+Blunt,compact,nylon,Open only,Red,1.5,19.77
+GustBuster,compact,polyester,Open and close,Clear,2,20.44
+Repel,compact,plastic,Open and close,Clear,3.5,22.27
+Rainlax,golf,nylon,Open and close,Green,3.5,22.59
+Repel,golf,polyester,Open only,Green,1,22.87
+Rainlax,compact,nylon,,Green,3.5,22.96
+Repel,golf,nylon,Open and close,Black,3,23.25
+Blunt,golf,canvas,Open only,Black,1,23.45
+Blunt,golf,plastic,Open only,Yellow,5,23.83
+Rainlax,golf,nylon,Open only,Yellow,1,24.11
+Rainlax,compact,polyester,Open and close,Red,1.5,24.28
+Repel,standard,nylon,Open and close,Red,1,24.43
+Repel,compact,nylon,Open and close,Clear,2.5,24.43
+Rainlax,golf,canvas,,Clear,5,24.45
+Rainlax,compact,plastic,,Yellow,3.5,24.75
+Rainlax,standard,nylon,Open and close,Black,3,24.80
+Repel,compact,nylon,,Black,1,24.93
+GustBuster,golf,canvas,Open only,Pink,4,25.03
+Repel,compact,canvas,Open and close,Clear,4,25.38
+totes,standard,polyester,Open and close,Pink,4,25.81
+Repel,golf,canvas,,Red,3,26.19
+Repel,compact,nylon,Open and close,Blue,0.5,26.45
+GustBuster,compact,plastic,Open and close,Yellow,2,27.68
+Rainlax,compact,canvas,Open only,Blue,2,28.03
+Rainlax,standard,polyester,Open only,Yellow,2,28.17
+Repel,golf,polyester,Open only,Blue,3,28.86
+Rainlax,golf,nylon,Open and close,Black,1,29.19
+Repel,standard,canvas,Open and close,Pink,1.5,29.28
+totes,standard,polyester,,Green,1.5,29.34
+Repel,golf,nylon,Open only,Black,1.5,29.84
+GustBuster,golf,nylon,Open and close,Green,1.5,29.91
+GustBuster,compact,plastic,Open only,Green,2.5,30.08
+Repel,compact,polyester,Open and close,Green,2,30.43
+totes,golf,nylon,Open only,Pink,3.5,30.77
+Rainlax,golf,canvas,Open only,Green,4.5,30.80
+Repel,golf,polyester,Open and close,Blue,2.5,30.91
+Blunt,golf,nylon,,Green,2.5,31.00
+Samsonite,golf,nylon,Open and close,Clear,0.5,31.33
+GustBuster,standard,canvas,,Blue,2.5,31.45
+GustBuster,golf,plastic,Open only,Blue,1.5,31.81
+GustBuster,golf,plastic,Open and close,Clear,0.5,31.93
+Repel,compact,polyester,Open and close,Black,2.5,32.04
+Rainlax,compact,polyester,Open and close,Blue,1,32.79
+GustBuster,compact,nylon,,Yellow,3,32.89
+GustBuster,golf,nylon,Open and close,Green,2.5,33.35
+Rainlax,golf,canvas,Open only,Yellow,4,33.45
+GustBuster,standard,polyester,,Blue,4,33.71
+Repel,standard,plastic,Open only,Black,2,33.83
+totes,standard,canvas,Open only,Yellow,3,34.00
+Samsonite,standard,polyester,,Pink,4.5,34.81
+GustBuster,compact,canvas,,Clear,3.5,35.19
+totes,standard,polyester,,Clear,2,35.32
+totes,golf,plastic,Open only,Pink,3,35.33
+Samsonite,standard,plastic,,Black,2.5,35.37
+totes,standard,nylon,Open and close,Pink,0.5,35.45
+totes,golf,plastic,Open and close,Red,4.5,35.69
+Blunt,compact,polyester,,Green,2,35.83
+Rainlax,compact,nylon,,Pink,3.5,35.93
+totes,golf,plastic,Open and close,Clear,1.5,36.00
+Blunt,standard,nylon,,Pink,5,36.39
+Repel,golf,canvas,,Yellow,2.5,36.67
+GustBuster,standard,plastic,,Blue,0.5,37.29
+GustBuster,standard,canvas,,Blue,1,37.54
+Blunt,standard,polyester,Open and close,Clear,2,38.17
+Blunt,compact,nylon,,Pink,5,38.26
+Samsonite,golf,plastic,Open and close,Red,3,38.34
+GustBuster,compact,polyester,Open only,Yellow,3.5,38.56
+Samsonite,standard,canvas,,Blue,1.5,39.41
+totes,golf,polyester,Open and close,Blue,4.5,39.60
+Rainlax,compact,canvas,,Blue,4,39.83
+Samsonite,golf,plastic,Open and close,Blue,5,40.58
+totes,compact,plastic,,Pink,3.5,40.83
+totes,compact,canvas,Open only,Black,0.5,40.98
+Rainlax,standard,polyester,Open only,Green,2.5,41.02
+Samsonite,compact,canvas,,Black,4.5,41.98
+Blunt,standard,plastic,Open and close,Black,1,42.05
+totes,compact,polyester,Open and close,Black,1,42.56
+Rainlax,golf,plastic,Open and close,Green,3,42.69
+totes,standard,canvas,,Red,4,43.69
+Repel,compact,polyester,Open and close,Blue,2,43.75
+GustBuster,compact,nylon,Open and close,Clear,1,44.11
+totes,compact,nylon,Open only,Pink,5,44.17
+Samsonite,standard,nylon,Open and close,Blue,5,44.68
+GustBuster,golf,polyester,Open only,Clear,2,44.93
+GustBuster,compact,polyester,,Clear,3.5,45.16
+Rainlax,golf,plastic,,Red,1.5,45.17
+Repel,standard,canvas,Open only,Green,4,45.30
+Rainlax,standard,plastic,Open only,Blue,0.5,45.38
+Rainlax,compact,nylon,,Pink,4,46.12
+Rainlax,standard,polyester,,Blue,4,46.15
+Rainlax,golf,plastic,Open and close,Black,5,46.51
+Samsonite,golf,plastic,,Red,1,46.76
+Blunt,golf,nylon,Open only,Pink,0.5,47.41
+Repel,golf,polyester,Open only,Black,5,47.46
+Blunt,golf,canvas,Open and close,Red,5,47.80
+GustBuster,golf,polyester,,Blue,5,48.42
+Repel,compact,canvas,Open and close,Yellow,2.5,48.80
+Samsonite,compact,nylon,,Black,5,48.95
+Rainlax,standard,canvas,Open only,Blue,3.5,49.21
+Repel,golf,polyester,,Yellow,3,50.00
+Blunt,standard,polyester,Open and close,Clear,3,50.20
+Repel,compact,polyester,Open and close,Blue,1.5,50.46
+Blunt,golf,polyester,Open and close,Green,1.5,50.65
+GustBuster,compact,nylon,,Pink,4,51.67
+Repel,standard,nylon,,Yellow,5,52.18
+Blunt,standard,polyester,Open and close,Yellow,4.5,52.57
+Blunt,golf,polyester,,Clear,2.5,53.25
+Repel,standard,plastic,Open and close,Pink,1,53.32
+totes,golf,canvas,Open and close,Yellow,4.5,53.47
+Blunt,compact,canvas,Open only,Pink,3.5,54.63
+GustBuster,compact,canvas,Open only,Clear,4,54.66
+GustBuster,compact,canvas,,Black,2,54.81
+totes,golf,nylon,Open only,Green,0.5,54.82
+Blunt,golf,polyester,,Pink,4,55.39
+Blunt,golf,polyester,Open only,Green,4,55.48
+Blunt,golf,nylon,Open and close,Black,4.5,55.83
+GustBuster,compact,nylon,,Clear,3.5,55.98
+Samsonite,golf,polyester,,Pink,1,56.32
+Blunt,compact,canvas,Open only,Black,0.5,56.35
+Samsonite,standard,nylon,Open only,Green,3,56.51
+totes,golf,nylon,Open only,Blue,0.5,56.81
+totes,standard,canvas,Open only,Black,1,57.17
+Samsonite,compact,nylon,,Green,3.5,57.43
+Repel,compact,plastic,,Green,4,57.58
+Rainlax,golf,polyester,Open and close,Clear,4.5,57.94
+Repel,compact,polyester,Open only,Red,1,58.39
+Rainlax,compact,canvas,,Blue,4,58.86
+Rainlax,golf,nylon,Open and close,Clear,1.5,59.13
+Repel,standard,canvas,Open only,Black,4,59.38
+Samsonite,golf,nylon,Open and close,Clear,0.5,59.66
+Samsonite,standard,nylon,Open only,Green,4,60.00
+Blunt,standard,plastic,Open only,Yellow,0.5,61.68
+Rainlax,standard,nylon,Open and close,Clear,2.5,62.68
+GustBuster,golf,plastic,,Black,2.5,62.94
+Rainlax,golf,plastic,Open only,Yellow,4.5,63.55
+Blunt,golf,polyester,,Clear,1,65.93
+GustBuster,golf,plastic,Open and close,Green,1.5,66.93
+totes,golf,plastic,,Black,1.5,67.13

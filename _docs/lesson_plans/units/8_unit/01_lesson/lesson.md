@@ -48,7 +48,7 @@ Students will be able to...
 * Point out that this will involve more than just writing code
 * There will be planning, design, scheduling, and other project management tasks
 * Emphasize that students will be graded on not only the program they produce, but the process they used to design, plan, and implement it
-* Here are some [Project Ideas](projectideas.md)
+* Here are some [Project Ideas](project_ideas.md)
 
 ##### Demonstration
 
