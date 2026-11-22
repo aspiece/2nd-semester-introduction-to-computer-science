@@ -35,6 +35,14 @@
     <a href="{{ '/glossary/' | relative_url }}">Glossary</a>
   </nav>
 </header>
-<main id="content">{{ content }}</main>
+<main id="content">
+{{ content }}
+{% if page.prev_url or page.next_url %}
+<nav aria-label="Lesson navigation" style="display:flex;justify-content:space-between;gap:16px;margin-top:32px;padding-top:16px;border-top:1px solid #cbd5e1">
+{% if page.prev_url %}<a href="{{ page.prev_url | relative_url }}">← Previous lesson {{ page.prev_title }}</a>{% else %}<span></span>{% endif %}
+{% if page.next_url %}<a href="{{ page.next_url | relative_url }}">Next lesson {{ page.next_title }} →</a>{% endif %}
+</nav>
+{% endif %}
+</main>
 </body>
 </html>
