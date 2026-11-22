@@ -1,0 +1,63 @@
+---
+layout: minimal-home
+title: "Lesson 8.02: Defining Requirements"
+permalink: /student/lesson-8-02/
+teacher_url: /docs/lesson_plans/units/8_unit/02_lesson/lesson.html
+unit: 8
+prev_url: /student/lesson-8-01/
+prev_title: "8.01"
+next_url: /student/lesson-8-03/
+next_title: "8.03"
+---
+{% raw %}## What you will learn
+
+* Define key scenarios for a project and the features required to implement each scenario
+* Explain the importance of flow charting when designing an application
+
+## Do Now
+
+### Take out your pitches from last class
+
+Review the ideas and pick **one** to pursue for your final project.
+
+## Check your understanding
+
+Pick an answer for each question. You can try again until you get it right.
+
+<div class="quiz" markdown="1">
+
+<div class="q" data-answer="d" markdown="1">
+**1. What is a scenario in project planning?**
+
+- A line of code
+- A bug in the program
+- The name of the project
+- A situation describing how a user will use the app, which requires certain features
+
+<p class="why">Scenarios describe what users do, and each one tells you which features to build.</p>
+</div>
+
+<div class="q" data-answer="b" markdown="1">
+**2. Why is flow charting useful when designing an application?**
+
+- It makes the program run faster
+- It shows the steps and interactions of the program so you can spot gaps before coding
+- It replaces the need for testing
+- It is only needed for tiny programs
+
+<p class="why">A flow chart lets you see how the program moves between steps before you write code.</p>
+</div>
+
+<div class="q" data-answer="c" markdown="1">
+**3. How are scenarios and features related?**
+
+- They are the same thing
+- Features describe the user's story, and scenarios are code
+- Each scenario needs certain features to make it work
+- Features are chosen before any scenarios
+
+<p class="why">You define scenarios first, then list the features needed to support each.</p>
+</div>
+
+</div>
+{% endraw %}
