@@ -14,12 +14,12 @@ title: "Unit 8 - Final Project"
 
 1 Day = 50 minute class period
 
-| Lesson | Days |
-| ------ | -------------- |
-| 8.01: | 1 |
-| 8.02: | 1 |
-| 8.03: | 1 |
-| 8.04: | 15 |
+| Lesson | Days | Resources |
+| ------ | -------------- | --------- |
+| 8.01: | 1 | [8.01 Slide Deck] |
+| 8.02: | 1 | [8.02 Slide Deck] |
+| 8.03: | 1 | [8.03 Slide Deck] |
+| 8.04: | 15 | [8.04 Slide Deck] |
 | **Total Days** | 18 | |
 | **Total Minutes** | 900| |
 
@@ -47,3 +47,8 @@ title: "Unit 8 - Final Project"
 | Checkpoint 3 | 4  |
 | **Subtotal**    | 40  |
 | **Total** | **80** |
+
+[8.01 Slide Deck]: slidedecks/Intro%20Python%208.01%20TEALS.pptx
+[8.02 Slide Deck]: slidedecks/Intro%20Python%208.02%20TEALS.pptx
+[8.03 Slide Deck]: slidedecks/Intro%20Python%208.03%20TEALS.pptx
+[8.04 Slide Deck]: slidedecks/Intro%20Python%208.04%20TEALS.pptx
