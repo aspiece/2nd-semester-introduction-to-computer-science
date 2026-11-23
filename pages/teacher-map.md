@@ -14,7 +14,7 @@ A lightweight index of the eight-unit TEALS Python course. Teacher lesson source
 
 | Lesson | Teacher lesson | Slide deck |
 |---|---|---|
-| 1.01: Set Up | [Teacher lesson](https://github.com/aspiece/2nd-semester-introduction-to-computer-science/blob/master/_docs/lesson_plans/units/1_unit/01_lesson/lesson.md) | [PowerPoint]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.01%20TEALS.pptx' | relative_url }}) |
+| 1.01: Set Up | [Teacher lesson]({{ '/teacher/lesson-1-01/' | relative_url }}) | [PowerPoint]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.01%20TEALS.pptx' | relative_url }}) |
 | 1.02: Interactive Mode | [Teacher lesson](https://github.com/aspiece/2nd-semester-introduction-to-computer-science/blob/master/_docs/lesson_plans/units/1_unit/02_lesson/lesson.md) | [PowerPoint]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.02%20TEALS.pptx' | relative_url }}) |
 | 1.03: Script Mode and Variables | [Teacher lesson](https://github.com/aspiece/2nd-semester-introduction-to-computer-science/blob/master/_docs/lesson_plans/units/1_unit/03_lesson/lesson.md) | [PowerPoint]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.03%20TEALS.pptx' | relative_url }}) |
 | 1.04: Variables and User Input | [Teacher lesson](https://github.com/aspiece/2nd-semester-introduction-to-computer-science/blob/master/_docs/lesson_plans/units/1_unit/04_lesson/lesson.md) | [PowerPoint]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.04%20TEALS.pptx' | relative_url }}) |
