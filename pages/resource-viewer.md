@@ -68,29 +68,70 @@ layout: minimal-home
     note.textContent = 'PowerPoint preview uses Microsoft Office online viewing.';
   } else if (ext === 'pdf') {
     status.textContent = 'Loading PDF preview: ' + name;
+    var toolbar = document.createElement('div');
+    toolbar.style.cssText = 'display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0';
+    var previous = document.createElement('button');
+    previous.type = 'button';
+    previous.textContent = 'Previous page';
+    var next = document.createElement('button');
+    next.type = 'button';
+    next.textContent = 'Next page';
+    var counter = document.createElement('span');
+    counter.setAttribute('role', 'status');
+    toolbar.appendChild(previous);
+    toolbar.appendChild(counter);
+    toolbar.appendChild(next);
+    preview.appendChild(toolbar);
+    var canvas = document.createElement('canvas');
+    canvas.style.cssText = 'display:block;max-width:100%;height:auto;margin:12px auto;border:1px solid #cbd5e1;background:white';
+    preview.appendChild(canvas);
+    var pdfDocument, pageNumber = 1, rendering = false;
+    function renderPage(number) {
+      if (!pdfDocument || rendering) return;
+      rendering = true;
+      previous.disabled = true;
+      next.disabled = true;
+      pdfDocument.getPage(number).then(function (page) {
+        var initial = page.getViewport({scale: 1});
+        var width = Math.max(280, Math.min(preview.clientWidth || 800, 900));
+        var scale = Math.min(1.8, width / initial.width);
+        var viewport = page.getViewport({scale: scale});
+        canvas.width = Math.ceil(viewport.width);
+        canvas.height = Math.ceil(viewport.height);
+        canvas.setAttribute('aria-label', 'PDF page ' + number);
+        return page.render({canvasContext: canvas.getContext('2d'), viewport: viewport}).promise;
+      }).then(function () {
+        pageNumber = number;
+        counter.textContent = 'Page ' + pageNumber + ' of ' + pdfDocument.numPages;
+        status.textContent = name;
+        note.textContent = 'PDF preview loaded. Use the page controls to browse or download the complete original file.';
+      }).catch(function (error) {
+        fallback('PDF rendering error: ' + (error.message || String(error)));
+      }).finally(function () {
+        rendering = false;
+        previous.disabled = !pdfDocument || pageNumber <= 1;
+        next.disabled = !pdfDocument || pageNumber >= pdfDocument.numPages;
+      });
+    }
+    previous.addEventListener('click', function () { renderPage(pageNumber - 1); });
+    next.addEventListener('click', function () { renderPage(pageNumber + 1); });
     loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js')
       .then(function () {
+        if (!window.pdfjsLib) throw Error('PDF.js did not initialize');
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-        return pdfjsLib.getDocument(url).promise;
-      }).then(async function (pdf) {
-        status.textContent = name + ' — ' + pdf.numPages + ' pages';
-        note.textContent = 'PDF pages are rendered directly in the browser. Download Original File saves the complete PDF.';
-        for (var i = 1; i <= pdf.numPages; i++) {
-          var page = await pdf.getPage(i);
-          var width = Math.max(300, Math.min(preview.clientWidth || 800, 900));
-          var viewport = page.getViewport({scale: 1});
-          var scale = Math.min(2, width / viewport.width);
-          viewport = page.getViewport({scale: scale});
-          var canvas = document.createElement('canvas');
-          canvas.width = Math.ceil(viewport.width);
-          canvas.height = Math.ceil(viewport.height);
-          canvas.style.cssText = 'display:block;max-width:100%;height:auto;margin:12px auto;border:1px solid #cbd5e1;background:white';
-          canvas.setAttribute('aria-label', 'PDF page ' + i);
-          preview.appendChild(canvas);
-          await page.render({canvasContext: canvas.getContext('2d'), viewport: viewport}).promise;
-        }
-      }).catch(function () {
-        fallback('The built-in PDF preview could not load on this device.');
+        return fetch(url).then(function (response) {
+          if (!response.ok) throw Error('PDF request returned HTTP ' + response.status);
+          return response.arrayBuffer();
+        });
+      }).then(function (bytes) {
+        return pdfjsLib.getDocument({data: new Uint8Array(bytes), disableWorker: true}).promise;
+      }).then(function (pdf) {
+        pdfDocument = pdf;
+        renderPage(1);
+      }).catch(function (error) {
+        toolbar.style.display = 'none';
+        canvas.style.display = 'none';
+        fallback('PDF preview could not initialize: ' + (error.message || String(error)));
       });
   } else if (ext === 'docx') {
     status.textContent = 'Loading Word preview: ' + name;
