@@ -4,7 +4,7 @@ permalink: /teacher/lesson-1-02/
 layout: minimal-home
 ---
 
-[Teacher Curriculum Map]({{ '/teacher-map/' | relative_url }}) · [Student Lesson 1.02]({{ '/student/lesson-1-02/' | relative_url }}) · [Download original slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro%20Python%201.02%20TEALS.pptx' | relative_url }})
+[Teacher Curriculum Map]({{ '/teacher-map/' | relative_url }}) · [Student Lesson 1.02]({{ '/student/lesson-1-02/' | relative_url }}) · [Download original slides]({{ '/resource-viewer/?file=%2Fdocs%2Flesson_plans%2Funits%2F1_unit%2Fslidedecks%2FIntro%2520Python%25201.02%2520TEALS.pptx' | relative_url }})
 
 > Original TEALS teacher lesson (Lesson 1.02: Interactive Mode). Historical tool references and links may need updating before classroom use.
 
