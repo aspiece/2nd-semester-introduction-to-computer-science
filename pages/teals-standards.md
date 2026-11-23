@@ -145,7 +145,7 @@ Here you can find the curriculum standards to reference: [https://www.csteachers
 [6.05: Project]: {{ '/docs/lesson_plans/units/6_unit/05_lesson/lesson.html' | relative_url }}
 
 [7.01: User-Defined Types]: {{ '/docs/lesson_plans/units/7_unit/01_lesson/lesson.html' | relative_url }}
-[7.02: User-Defined Types, Part 2]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
+[7.02: User-Defined Types, Part 2]: {{ '/docs/lesson_plans/units/7_unit/02_lesson/lesson.html' | relative_url }}
 [7.03: Methods]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
 [7.04: Inheritance]: {{ '/docs/lesson_plans/units/7_unit/04_lesson/lesson.html' | relative_url }}
 [7.05: Project]: {{ '/docs/lesson_plans/units/7_unit/05_lesson/lesson.html' | relative_url }}
@@ -155,6 +155,6 @@ Here you can find the curriculum standards to reference: [https://www.csteachers
 [8.03: Building a Plan]: {{ '/docs/lesson_plans/units/8_unit/03_lesson/lesson.html' | relative_url }}
 [8.04: Project Implementation]: {{ '/docs/lesson_plans/units/8_unit/04_lesson/lesson.html' | relative_url }}
 
-[Supplemental Culture Day Lessons]: supplemental/
+[Supplemental Culture Day Lessons]: {{ '/docs/lesson_plans/units/supplemental/01_lesson/lesson.html' | relative_url }}
 [01: Binary Day]: {{ '/docs/lesson_plans/units/supplemental/01_lesson/lesson.html' | relative_url }}
 [02: Financial Calculator]: {{ '/docs/lesson_plans/units/supplemental/calculator_canada.html' | relative_url }}
