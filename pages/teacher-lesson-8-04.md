@@ -4,7 +4,7 @@ permalink: /teacher/lesson-8-04/
 layout: minimal-home
 ---
 
-[Teacher Curriculum Map]({{ '/teacher-map/' | relative_url }}) · [Student Lesson 8.04]({{ '/student/lesson-8-04/' | relative_url }}) · [Original slides]({{ '/docs/lesson_plans/units/8_unit/slidedecks/Intro%20Python%208.04%20TEALS.pptx' | relative_url }})
+[Teacher Curriculum Map]({{ '/teacher-map/' | relative_url }}) · [Student Lesson 8.04]({{ '/student/lesson-8-04/' | relative_url }}) · [Original slides]({{ '/resource-viewer/?file=%2Fdocs%2Flesson_plans%2Funits%2F8_unit%2Fslidedecks%2FIntro%2520Python%25208.04%2520TEALS.pptx' | relative_url }})
 
 > Historical TEALS lesson. Review outdated tools and external links before teaching.
 
