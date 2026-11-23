@@ -1,26 +1,47 @@
-"""Functions to help display a paginated list. You do not need to modify this file.
+# Functions related to the display of a paginated list with a 
+# fixed number of items per page. This code is part of the TEALS
+# Unit 6 project, "Buy an Umbrella".
 
-Pages are numbered starting at 0. Indexes refer to positions in a list.
-"""
-
-
-def first_index(page_number, page_size):
-    """Index of the first item on the given page."""
-    return page_number * page_size
-
-
-def last_index(page_number, page_size, total_items):
-    """Index just past the last item on the given page."""
-    return min(first_index(page_number, page_size) + page_size, total_items)
-
-
-def next_page_number(page_number, page_size, total_items):
-    """The next page, or the current page if already on the last one."""
-    if first_index(page_number + 1, page_size) < total_items:
-        return page_number + 1
-    return page_number
+# Returns the index of the first item on the named page of
+# a paginated list with a fixed number of items per page.
+# The lowest valid page number is 0 (not 1).
+# Returns None if there are not enough items to reach the 
+# page number requested.
+def first_index(num_items, page_number, items_per_page):
+  if page_number * items_per_page < num_items:
+    return page_number * items_per_page
+  else:
+    return None
 
 
-def previous_page_number(page_number):
-    """The previous page, or page 0 if already on the first one."""
-    return max(page_number - 1, 0)
+# Returns the index of the last item on the named page of
+# a paginated list with a fixed number of items per page.
+# Returns None if there are not enough items to reach the 
+# page number requested.
+def last_index(num_items, page_number, items_per_page):
+  if page_number * items_per_page < num_items:
+    return min(num_items, (page_number + 1) * items_per_page) - 1
+  else:
+    return None
+  
+  
+# Returns the next page number for a paginated display of a list.
+# This is usually one more than the current page number, but if you've
+# reached the end of the list, there is no "next page", in which case
+# we just return the current page number.
+def next_page_number(num_items, current_page_number, items_per_page):
+  if (current_page_number + 1) * items_per_page < num_items:
+    return current_page_number + 1
+  else:
+    return current_page_number
+  
+  
+# Returns the previous page number for a paginated display of a list.
+# This is usually one less then the current page number, but if you've
+# reached the beginning of the list, there is no "previous page", in which
+# case we just return the current page number (which is necessarily 0)
+def previous_page_number(current_page_number):
+  if current_page_number > 0:
+    return current_page_number - 1
+  else:
+    return 0

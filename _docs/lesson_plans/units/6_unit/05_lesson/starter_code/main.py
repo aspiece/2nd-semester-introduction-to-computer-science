@@ -1,25 +1,22 @@
-"""Umbrellas Unlimited: a text-based shopping site.
+# TEALS Unit 6 Project -- Buy an umbrella
 
-Run this file to start the program.
-"""
-
-import criteria
-import dictionaries
-import items
-import pages
+from criteria import criteria_to_string
+from criteria import filter_items
+from dictionaries import union_of_dictionaries
+from items import item_to_string
+from items import load_items
+from items import print_page
+from pages import first_index
+from pages import last_index
+from pages import next_page_number
+from pages import previous_page_number
 from TEALS_utils import get_valid_integer
 
-PAGE_SIZE = 5
-INVENTORY_FILE = "inventory.txt"
-
-WELCOME = """
-Welcome to Umbrellas Unlimited, your online market for water
+welcome_text = '''Welcome to Umbrellas Unlimited, your online market for water
 protection. We have over 100 umbrellas for sale. Happy shopping!
-"""
+'''
 
-HELP = """
-Use these commands to navigate our site:
-
+help_text = '''Use these commands to navigate our site:
   (n)ext          - view the next page of items
   (p)revious      - view the previous page of items
   (a)dd filter    - narrow your search by adding criteria
@@ -27,72 +24,96 @@ Use these commands to navigate our site:
   (m)odify filter - change your search criteria
   (b)uy           - purchase an umbrella from the list shown
   (q)uit          - exit our site
-"""
+'''
 
-PROMPT = "(b)uy, (n)ext, (p)revious, (a)dd, (r)emove, (m)odify, (h)elp or (q)uit? "
-
-
-def handle_purchase(shown_items):
-    """Ask which item to buy, describe it, and return True to end the program."""
-    print("handle_purchase() not implemented")
-    return False
+action_prompt = '(b)uy, (n)ext, (p)revious, (a)dd, (r)emove, '
+action_prompt += '(m)odify, (h)elp or (q)uit?'
 
 
-def handle_add_criterion(all_items, current_criteria):
-    """Ask for an attribute and a value, and add them to current_criteria."""
-    print("handle_add_criterion() not implemented")
+# Prompts the user for an item to buy, then prints out a short description
+# of the purchased item. A list of items is provided as input, as well as
+# the start and end indices of a range of items that may be
+# purchased. items[min_item] and items[max_item] may each be purchased.
+#
+# Returns nothing.
+def handle_purchase(items, page_number, items_per_page):
+  print('TODO(student): handle_purchase() not implemented yet!')
+    
+    
+# Prompts the user for an item attribute and a value to allow for that
+# attribute, then adds a new criterion to the input criteria dictionary.
+# Because dictioaries in Python are passed by reference, the input criteria
+# are mutated as a result of this function call.
+#
+# Returns nothing.
+def handle_add_criterion(criteria):
+  print('TODO(student): handle_add_criterion() not implemented yet!')
 
 
-def handle_remove_criterion(current_criteria):
-    """Ask which attribute to stop filtering on, and remove it."""
-    print("handle_remove_criterion() not implemented")
+# Shows the user the existing criteria that have been specificed and
+# prompts the user to select one to remove entirely. To remove just one
+# value from a criterion but leave others, use handle_modify_criterion()
+# rather than handle_remove_criterion().  Because dictioaries in Python are
+# passed by reference, the input criteria are mutated as a result of this
+# function call.
+#
+# Returns nothing
+def handle_remove_criterion(criteria):
+  print('TODO(student): handle_remove_criterion() not implemented yet!')
 
 
-def handle_modify_criterion(all_items, current_criteria):
-    """Choose an attribute, then toggle one of its values on or off."""
-    print("handle_modify_criterion() not implemented")
+# Shows the user the existing criteria that have been specificed and
+# prompts the user to select one to modify. Then prompts the user to select
+# a possible value for that attribute. The chosen value is flipped, either
+# from allowed to excluded, or from excluded to allowed, depending on its
+# current status. Because dictioaries in Python are passed by reference,
+# the input criteria are mutated as a result of this function call.
+#
+# Returns nothing.
+def handle_modify_criterion(criteria):
+  print('TODO(student): handle_modify_criterion() not implemented yet!')
 
+  
+## Main program      
+umbrellas = load_items('inventory.txt')
+umbrella_possibilities = union_of_dictionaries(umbrellas)
+umbrella_attributes = list(umbrella_possibilities.keys())
+items_per_page = 5
+page_number = 0
+current_criteria = {} 
 
-def main():
-    print(WELCOME)
-    print(HELP)
+print(welcome_text)
+print(help_text)
 
-    all_items = items.load_items(INVENTORY_FILE)
-    current_criteria = {}
+running = True
+while running:
+  if current_criteria:
+    print('Current filters: \n' +
+      criteria_to_string(current_criteria))
+  filtered_items = filter_items(current_criteria, umbrellas)
+  num_items = len(filtered_items)
+  print_page(filtered_items, page_number, items_per_page)
+
+  action = input('\n' + action_prompt)
+  if action == 'next' or action == 'n':
+    page_number = next_page_number(num_items, page_number, items_per_page)
+  elif action == 'previous' or action == 'p':
+    page_number = previous_page_number(page_number)
+  elif action == 'add' or action == 'a':
+    handle_add_criterion(current_criteria)
     page_number = 0
-
-    while True:
-        shown_items = criteria.filter_items(current_criteria, all_items)
-        if current_criteria:
-            print(criteria.criteria_to_string(current_criteria))
-        items.print_page(shown_items, page_number, PAGE_SIZE)
-
-        action = input(PROMPT).strip().lower()
-        if action in ("n", "next"):
-            page_number = pages.next_page_number(page_number, PAGE_SIZE, len(shown_items))
-        elif action in ("p", "previous"):
-            page_number = pages.previous_page_number(page_number)
-        elif action in ("a", "add"):
-            handle_add_criterion(all_items, current_criteria)
-            page_number = 0
-        elif action in ("r", "remove"):
-            handle_remove_criterion(current_criteria)
-            page_number = 0
-        elif action in ("m", "modify"):
-            handle_modify_criterion(all_items, current_criteria)
-            page_number = 0
-        elif action in ("b", "buy"):
-            if handle_purchase(shown_items):
-                break
-        elif action in ("h", "help"):
-            print(HELP)
-        elif action in ("q", "quit"):
-            break
-        else:
-            print("Sorry, I don't understand", repr(action))
-
-    print("Thanks for visiting Umbrellas Unlimited!")
-
-
-if __name__ == "__main__":
-    main()
+  elif action == 'remove' or action == 'r':
+    handle_remove_criterion(current_criteria)
+    page_number = 0
+  elif action == 'modify' or action == 'm':
+    handle_modify_criterion(current_criteria)
+    page_number = 0
+  elif action == 'buy' or action == 'b':
+    handle_purchase(filtered_items, page_number, items_per_page)
+    running = False
+  elif action == 'help' or action == 'h':
+    print(help_text)
+  elif action == 'quit' or action == 'q':
+    running = False
+  else:
+    print("Sorry, I don't know that that means.")
