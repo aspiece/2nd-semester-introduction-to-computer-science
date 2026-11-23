@@ -13,6 +13,93 @@ These original TEALS resources are copied into this repository and can be edited
 - [Master vocabulary]({{ '/vocabulary/' | relative_url }})
 - [Associated readings]({{ '/readings/' | relative_url }})
 
+## Lesson-by-lesson teaching links
+
+Use this index to open the teacher lesson plan and download its matching original TEALS slide deck.
+
+### Unit 1
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 1.01 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.01 TEALS.pptx' | relative_url }}) |
+| 1.02 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.02 TEALS.pptx' | relative_url }}) |
+| 1.03 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.03 TEALS.pptx' | relative_url }}) |
+| 1.04 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.04 TEALS.pptx' | relative_url }}) |
+| 1.05 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.05 TEALS.pptx' | relative_url }}) |
+| 1.06 | [Lesson plan]({{ '/docs/lesson_plans/units/1_unit/06_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/1_unit/slidedecks/Intro Python 1.06 TEALS.pptx' | relative_url }}) |
+
+### Unit 2
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 2.01 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.01 TEALS.pptx' | relative_url }}) |
+| 2.02 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.02 TEALS.pptx' | relative_url }}) |
+| 2.03 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.03 TEALS.pptx' | relative_url }}) |
+| 2.04 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.04 TEALS.pptx' | relative_url }}) |
+| 2.05 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.05 TEALS.pptx' | relative_url }}) |
+| 2.06 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/06_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.06 TEALS.pptx' | relative_url }}) |
+| 2.07 | [Lesson plan]({{ '/docs/lesson_plans/units/2_unit/07_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/2_unit/slidedecks/Intro Python 2.07 TEALS.pptx' | relative_url }}) |
+
+### Unit 3
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 3.01 | [Lesson plan]({{ '/docs/lesson_plans/units/3_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/3_unit/slidedecks/Intro Python 3.01 TEALS.pptx' | relative_url }}) |
+| 3.02 | [Lesson plan]({{ '/docs/lesson_plans/units/3_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/3_unit/slidedecks/Intro Python 3.02 TEALS.pptx' | relative_url }}) |
+| 3.03 | [Lesson plan]({{ '/docs/lesson_plans/units/3_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/3_unit/slidedecks/Intro Python 3.03 TEALS.pptx' | relative_url }}) |
+| 3.04 | [Lesson plan]({{ '/docs/lesson_plans/units/3_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/3_unit/slidedecks/Intro Python 3.04 TEALS.pptx' | relative_url }}) |
+| 3.05 | [Lesson plan]({{ '/docs/lesson_plans/units/3_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/3_unit/slidedecks/Intro Python 3.05 TEALS.pptx' | relative_url }}) |
+
+### Unit 4
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 4.01 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.01 TEALS.pptx' | relative_url }}) |
+| 4.02 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.02 TEALS.pptx' | relative_url }}) |
+| 4.03 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.03 TEALS.pptx' | relative_url }}) |
+| 4.04 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.04 TEALS.pptx' | relative_url }}) |
+| 4.05 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.05 TEALS.pptx' | relative_url }}) |
+| 4.06 | [Lesson plan]({{ '/docs/lesson_plans/units/4_unit/06_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/4_unit/slidedecks/Intro Python 4.06 TEALS.pptx' | relative_url }}) |
+
+### Unit 5
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 5.01 | [Lesson plan]({{ '/docs/lesson_plans/units/5_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/5_unit/slidedecks/Intro Python 5.01 TEALS.pptx' | relative_url }}) |
+| 5.02 | [Lesson plan]({{ '/docs/lesson_plans/units/5_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/5_unit/slidedecks/Intro Python 5.02 TEALS.pptx' | relative_url }}) |
+| 5.03 | [Lesson plan]({{ '/docs/lesson_plans/units/5_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/5_unit/slidedecks/Intro Python 5.03 TEALS.pptx' | relative_url }}) |
+| 5.04 | [Lesson plan]({{ '/docs/lesson_plans/units/5_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/5_unit/slidedecks/Intro Python 5.04 TEALS.pptx' | relative_url }}) |
+| 5.05 | [Lesson plan]({{ '/docs/lesson_plans/units/5_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/5_unit/slidedecks/Intro Python 5.05 TEALS.pptx' | relative_url }}) |
+
+### Unit 6
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 6.01 | [Lesson plan]({{ '/docs/lesson_plans/units/6_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/6_unit/slidedecks/Intro Python 6.01 TEALS.pptx' | relative_url }}) |
+| 6.02 | [Lesson plan]({{ '/docs/lesson_plans/units/6_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/6_unit/slidedecks/Intro Python 6.02 TEALS.pptx' | relative_url }}) |
+| 6.03 | [Lesson plan]({{ '/docs/lesson_plans/units/6_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/6_unit/slidedecks/Intro Python 6.03 TEALS.pptx' | relative_url }}) |
+| 6.04 | [Lesson plan]({{ '/docs/lesson_plans/units/6_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/6_unit/slidedecks/Intro Python 6.04 TEALS.pptx' | relative_url }}) |
+| 6.05 | [Lesson plan]({{ '/docs/lesson_plans/units/6_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/6_unit/slidedecks/Intro Python 6.05 TEALS.pptx' | relative_url }}) |
+
+### Unit 7
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 7.01 | [Lesson plan]({{ '/docs/lesson_plans/units/7_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/7_unit/slidedecks/Intro Python 7.01 TEALS.pptx' | relative_url }}) |
+| 7.02 | [Lesson plan]({{ '/docs/lesson_plans/units/7_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/7_unit/slidedecks/Intro Python 7.02 TEALS.pptx' | relative_url }}) |
+| 7.03 | [Lesson plan]({{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/7_unit/slidedecks/Intro Python 7.03 TEALS.pptx' | relative_url }}) |
+| 7.04 | [Lesson plan]({{ '/docs/lesson_plans/units/7_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/7_unit/slidedecks/Intro Python 7.04 TEALS.pptx' | relative_url }}) |
+| 7.05 | [Lesson plan]({{ '/docs/lesson_plans/units/7_unit/05_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/7_unit/slidedecks/Intro Python 7.05 TEALS.pptx' | relative_url }}) |
+
+### Unit 8
+
+| Lesson | Teacher lesson | Original PowerPoint |
+|---|---|---|
+| 8.01 | [Lesson plan]({{ '/docs/lesson_plans/units/8_unit/01_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/8_unit/slidedecks/Intro Python 8.01 TEALS.pptx' | relative_url }}) |
+| 8.02 | [Lesson plan]({{ '/docs/lesson_plans/units/8_unit/02_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/8_unit/slidedecks/Intro Python 8.02 TEALS.pptx' | relative_url }}) |
+| 8.03 | [Lesson plan]({{ '/docs/lesson_plans/units/8_unit/03_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/8_unit/slidedecks/Intro Python 8.03 TEALS.pptx' | relative_url }}) |
+| 8.04 | [Lesson plan]({{ '/docs/lesson_plans/units/8_unit/04_lesson/lesson.html' | relative_url }}) | [Download slides]({{ '/docs/lesson_plans/units/8_unit/slidedecks/Intro Python 8.04 TEALS.pptx' | relative_url }}) |
+
 ## Lesson slide decks
 
 ### Unit 1
