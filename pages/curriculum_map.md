@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: minimal-home
 title: Lesson Plans
 permalink: /docs/lesson_plans/
 ---
 
 # 2nd Semester - Introduction to Computer Science Curriculum Map
+
+[Teacher Resource Library: lesson plans and 43 downloadable slide decks]({{ '/teacher-resources/' | relative_url }}) · [Standards Mapping]({{ '/standards/' | relative_url }}) · [Master Vocabulary]({{ '/vocabulary/' | relative_url }})
 
 ## Unit Order Considerations
 
@@ -138,7 +140,7 @@ As you implement this curriculum into your program, there are some things to con
 [6.04: Dictionaries Looping]: {{ '/docs/lesson_plans/units/6_unit/04_lesson/lesson.html' | relative_url }}
 [6.05: Guess Who]: {{ '/docs/lesson_plans/units/6_unit/05_lesson/lesson.html' | relative_url }}
 [7.01: User-Defined Types]: {{ '/docs/lesson_plans/units/7_unit/01_lesson/lesson.html' | relative_url }}
-[7.02: User-Defined Types, Part 2]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
+[7.02: User-Defined Types, Part 2]: {{ '/docs/lesson_plans/units/7_unit/02_lesson/lesson.html' | relative_url }}
 [7.03: Methods]: {{ '/docs/lesson_plans/units/7_unit/03_lesson/lesson.html' | relative_url }}
 [7.04: Inheritance]: {{ '/docs/lesson_plans/units/7_unit/04_lesson/lesson.html' | relative_url }}
 [7.05: Pokemon]: {{ '/docs/lesson_plans/units/7_unit/05_lesson/lesson.html' | relative_url }}
